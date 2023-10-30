@@ -16,7 +16,7 @@ jobs:
       - name: Create and publish the GDS artifact
         uses: TinyTapeout/tt-gds-action/custom_gds@tt05
         with: 
-          top_module: tt_um_example
+          top_module: tt_um_htfab_cell_tester
           gds_path: signoff/gds/tt_um_htfab_cell_tester.gds
           lef_path: signoff/lef/tt_um_htfab_cell_tester.lef
           verilog_path: signoff/verilog/gl/tt_um_htfab_cell_tester.v
