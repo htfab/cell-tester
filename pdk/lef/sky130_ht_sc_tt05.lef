@@ -566,7 +566,7 @@ MACRO sky130_ht_sc_tt05__dfrtp_1
   PIN CLK
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 6.740 ;
+    ANTENNADIFFAREA 6.441 ;
     PORT
       LAYER li1 ;
         RECT 1.495 0.295 1.825 0.425 ;
@@ -578,7 +578,7 @@ MACRO sky130_ht_sc_tt05__dfrtp_1
   PIN D
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 6.740 ;
+    ANTENNADIFFAREA 6.441 ;
     PORT
       LAYER li1 ;
         RECT 3.335 0.295 4.125 0.425 ;
@@ -593,7 +593,7 @@ MACRO sky130_ht_sc_tt05__dfrtp_1
   PIN RESET_B
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 6.740 ;
+    ANTENNADIFFAREA 6.441 ;
     PORT
       LAYER li1 ;
         RECT 5.175 0.295 6.425 0.425 ;
@@ -614,7 +614,7 @@ MACRO sky130_ht_sc_tt05__dfrtp_1
   PIN Q
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 6.740 ;
+    ANTENNADIFFAREA 6.441 ;
     PORT
       LAYER li1 ;
         RECT 7.935 0.295 8.725 0.425 ;

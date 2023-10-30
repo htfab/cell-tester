@@ -2,7 +2,7 @@
 
 import skygen
 
-lib = libgen.StdLib(libname='sky130_ht_sc_tt05')
+lib = skygen.StdLib(libname='sky130_ht_sc_tt05')
 
 lib.add_cell(
     cellname = 'mux2i_2',
@@ -103,7 +103,7 @@ lib.add_cell(
 lib.add_cell(
     cellname = 'dfrtp_1',
     widthblocks = 23,
-    columns = 23,
+    columns = 22,
     spacepre = 'ccccccccccccccccccccccc',
     spacepost = 'ccccccccccccccccccccccc',
     diffbridges = 'hhhhhhhhhhhhhhhhhhhhhhh',
