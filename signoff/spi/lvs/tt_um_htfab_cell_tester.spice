@@ -1,0 +1,2952 @@
+* NGSPICE file created from tt_um_htfab_cell_tester.ext - technology: sky130A
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_1 abstract view
+.subckt sky130_fd_sc_hd__fill_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_4 abstract view
+.subckt sky130_fd_sc_hd__decap_4 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_1 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_4 abstract view
+.subckt sky130_fd_sc_hd__buf_4 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_2 abstract view
+.subckt sky130_fd_sc_hd__fill_2 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_ef_sc_hd__decap_12 abstract view
+.subckt sky130_ef_sc_hd__decap_12 VGND VPWR VPB VNB
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_4 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_4 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_3 abstract view
+.subckt sky130_fd_sc_hd__decap_3 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__sdfxtp_4 abstract view
+.subckt sky130_fd_sc_hd__sdfxtp_4 CLK D SCD SCE VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__diode_2 abstract view
+.subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_1 abstract view
+.subckt sky130_fd_sc_hd__buf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfxtp_4 abstract view
+.subckt sky130_fd_sc_hd__dfxtp_4 CLK D VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfrbp_2 abstract view
+.subckt sky130_fd_sc_hd__dfrbp_2 CLK D RESET_B VGND VNB VPB VPWR Q Q_N
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_6 abstract view
+.subckt sky130_fd_sc_hd__decap_6 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2i_2 abstract view
+.subckt sky130_fd_sc_hd__mux2i_2 A0 A1 S VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_ht_sc_tt05__mux2i_2 abstract view
+.subckt sky130_ht_sc_tt05__mux2i_2 VNB VPB VGND VPWR A0 A1 S Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__maj3_2 abstract view
+.subckt sky130_fd_sc_hd__maj3_2 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_8 abstract view
+.subckt sky130_fd_sc_hd__decap_8 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_ht_sc_tt05__maj3_2 abstract view
+.subckt sky130_ht_sc_tt05__maj3_2 VNB VPB VGND VPWR A B C X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21o_1 abstract view
+.subckt sky130_fd_sc_hd__a21o_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_2 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_2 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dlrtp_1 abstract view
+.subckt sky130_fd_sc_hd__dlrtp_1 D GATE RESET_B VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__conb_1 abstract view
+.subckt sky130_fd_sc_hd__conb_1 VGND VNB VPB VPWR HI LO
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2_1 abstract view
+.subckt sky130_fd_sc_hd__mux2_1 A0 A1 S VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_ht_sc_tt05__dlrtp_1 abstract view
+.subckt sky130_ht_sc_tt05__dlrtp_1 VNB VPB VGND VPWR GATE D RESET_B Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux4_1 abstract view
+.subckt sky130_fd_sc_hd__mux4_1 A0 A1 A2 A3 S0 S1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_2 abstract view
+.subckt sky130_fd_sc_hd__buf_2 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfrtp_1 abstract view
+.subckt sky130_fd_sc_hd__dfrtp_1 CLK D RESET_B VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_ht_sc_tt05__dfrtp_1 abstract view
+.subckt sky130_ht_sc_tt05__dfrtp_1 VNB VPB VGND VPWR CLK D RESET_B Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__inv_2 abstract view
+.subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2_4 abstract view
+.subckt sky130_fd_sc_hd__nand2_4 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__inv_4 abstract view
+.subckt sky130_fd_sc_hd__inv_4 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dlclkp_4 abstract view
+.subckt sky130_fd_sc_hd__dlclkp_4 CLK GATE VGND VNB VPB VPWR GCLK
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and2_1 abstract view
+.subckt sky130_fd_sc_hd__and2_1 A B VGND VNB VPB VPWR X
+.ends
+
+.subckt tt_um_htfab_cell_tester VGND VPWR clk ena rst_n ui_in[0] ui_in[1] ui_in[2]
++ ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3]
++ uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[7]
++ uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
++ uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
++ uio_oe[0] uio_oe[6] uio_oe[5] uio_oe[4]
+XTAP_TAPCELL_ROW_17_180 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_17_255 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_9_137 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_23_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_14_161 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[15\].bits\[2\].rs_cbuf net38 VGND VGND VPWR VPWR ct.oc.capture_buffer\[122\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_6_118 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_197 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[35\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[282\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_28_242 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[29\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[239\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[6\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[50\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[12\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[12\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_25_223 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_37_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_0_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_16_309 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.ic.frame\[3\].cc_clkbuf ct.ic.trig_chain\[3\] VGND VGND VPWR VPWR ct.ic.trig_chain\[4\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_22_204 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_8_Left_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_16_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[7\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[7\] sky130_fd_sc_hd__buf_4
+Xfanout7 ct.cw.target\[7\] VGND VGND VPWR VPWR net7 sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_34_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[33\].bits\[0\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[272\]
++ ct.oc.capture_buffer\[264\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[264\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[25\].bits\[4\].rs_cbuf net25 VGND VGND VPWR VPWR ct.oc.capture_buffer\[204\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[40\].bits\[4\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[332\]
++ ct.oc.capture_buffer\[324\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[324\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[10\].bits\[1\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[89\]
++ ct.oc.capture_buffer\[81\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[81\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[34\].bits\[2\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[282\]
++ ct.oc.capture_buffer\[274\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[274\]
++ sky130_fd_sc_hd__sdfxtp_4
+XANTENNA_5 ct.ic.trig_chain\[2\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[28\].bits\[0\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[232\]
++ ct.oc.capture_buffer\[224\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[224\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[3\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[99\]
++ ct.oc.capture_buffer\[91\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[91\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[41\].bits\[6\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[342\]
++ ct.oc.capture_buffer\[334\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[334\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].bits\[4\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[292\]
++ ct.oc.capture_buffer\[284\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[284\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[5\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[109\]
++ ct.oc.capture_buffer\[101\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[101\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[2\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[242\]
++ ct.oc.capture_buffer\[234\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[234\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_35_234 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_35_278 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[36\].bits\[6\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[302\]
++ ct.oc.capture_buffer\[294\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[294\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_26_234 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[13\].bits\[7\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[119\]
++ ct.oc.capture_buffer\[111\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[111\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[18\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[144\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_17_181 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[1\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[65\]
++ ct.oc.capture_buffer\[57\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[57\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_37_Left_76 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[38\].bits\[0\].rs_cbuf net46 VGND VGND VPWR VPWR ct.oc.capture_buffer\[304\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[8\].bits\[3\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[75\]
++ ct.oc.capture_buffer\[67\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[67\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_13_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_14_162 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[21\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[169\]
++ sky130_fd_sc_hd__buf_1
+XTAP_TAPCELL_ROW_6_119 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[15\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[126\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_37_287 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[9\].bits\[5\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[85\]
++ ct.oc.capture_buffer\[77\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[77\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_20_198 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[9\].bits\[0\].rs_cbuf net50 VGND VGND VPWR VPWR ct.oc.capture_buffer\[72\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_13_281 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[41\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[329\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_28_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[2\].cc_clkbuf ct.ic.trig_chain\[2\] VGND VGND VPWR VPWR ct.ic.trig_chain\[3\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[35\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[286\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_11_229 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_6_234 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_10_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_12_Right_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_21_Right_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[6\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[54\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[16\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[16\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_25_224 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_30_Right_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_24_Left_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_22_205 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[28\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[226\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[11\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[91\]
++ sky130_fd_sc_hd__clkbuf_1
+Xfanout8 net9 VGND VGND VPWR VPWR net8 sky130_fd_sc_hd__clkbuf_4
+Xct.ic.frame\[2\].bits\[0\].cc_flop ct.ic.trig_chain\[3\] ct.ic.data_chain\[9\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[6\] sky130_fd_sc_hd__dfxtp_4
+XFILLER_0_27_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[31\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[251\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_15_173 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_6 ct.oc.capture_buffer\[39\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[2\].bits\[3\].rs_cbuf net29 VGND VGND VPWR VPWR ct.oc.capture_buffer\[19\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ro.count\[5\].cc_div_flop ct.ro.counter_n\[4\] ct.ro.counter_n\[5\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[5\] ct.ro.counter_n\[5\] sky130_fd_sc_hd__dfrbp_2
+XPHY_EDGE_ROW_6_Right_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_4_321 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XPHY_EDGE_ROW_11_Left_50 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[18\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[148\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_32_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[30\].bits\[2\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[250\]
++ ct.oc.capture_buffer\[242\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[242\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[0\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[200\]
++ ct.oc.capture_buffer\[192\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[192\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[1\].cc_clkbuf ct.ic.trig_chain\[1\] VGND VGND VPWR VPWR ct.ic.trig_chain\[2\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[31\].bits\[4\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[260\]
++ ct.oc.capture_buffer\[252\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[252\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[9\].bits\[1\].cc_flop ct.ic.trig_chain\[10\] ct.ic.data_chain\[31\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[28\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[38\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[308\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[25\].bits\[2\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[210\]
++ ct.oc.capture_buffer\[202\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[202\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_13_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_14_163 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[21\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[173\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[19\].bits\[0\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[160\]
++ ct.oc.capture_buffer\[152\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[152\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[19\].cc_clkbuf ct.oc.trig_chain\[19\] VGND VGND VPWR VPWR ct.oc.trig_chain\[20\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_37_288 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[32\].bits\[6\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[270\]
++ ct.oc.capture_buffer\[262\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[262\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].bits\[4\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[220\]
++ ct.oc.capture_buffer\[212\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[212\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[9\].bits\[4\].rs_cbuf net26 VGND VGND VPWR VPWR ct.oc.capture_buffer\[76\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_11_144 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[41\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[333\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[27\].bits\[6\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[230\]
++ ct.oc.capture_buffer\[222\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[222\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[3\].bits\[1\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[33\]
++ ct.oc.capture_buffer\[25\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[25\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_25_225 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[4\].bits\[3\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[43\]
++ ct.oc.capture_buffer\[35\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[35\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_5_290 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[14\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[113\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[5\].bits\[5\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[53\]
++ ct.oc.capture_buffer\[45\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[45\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_0_80 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_22_206 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_30_250 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[6\].bits\[7\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[63\]
++ ct.oc.capture_buffer\[55\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[55\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[31\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[31\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[34\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[273\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[28\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[230\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[11\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[95\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_24_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xfanout9 ct.cw.target\[7\] VGND VGND VPWR VPWR net9 sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[5\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[41\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_1_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[31\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[255\]
++ sky130_fd_sc_hd__clkbuf_1
+XANTENNA_7 ct.oc.data_chain\[162\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+XFILLER_0_21_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[2\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[23\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_32_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ic.frame\[0\].cc_clkbuf ct.ic.trig_chain\[0\] VGND VGND VPWR VPWR ct.ic.trig_chain\[1\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_26_247 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_1_325 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[18\].cc_clkbuf ct.oc.trig_chain\[18\] VGND VGND VPWR VPWR ct.oc.trig_chain\[19\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_4_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[24\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[195\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_17_214 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_23_217 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_14_164 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_22_283 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_37_289 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_11_145 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[20\].bits\[0\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[168\]
++ ct.oc.capture_buffer\[160\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[160\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_10_253 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[21\].bits\[2\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[178\]
++ ct.oc.capture_buffer\[170\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[170\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[160\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[15\].bits\[0\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[128\]
++ ct.oc.capture_buffer\[120\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[120\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_36_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_3_217 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[14\].bits\[5\].rs_cbuf net19 VGND VGND VPWR VPWR ct.oc.capture_buffer\[117\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.cw.cc_test_0 ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\] VGND VGND VPWR
++ VPWR ct.cw.target\[0\] sky130_fd_sc_hd__mux2i_2
+XTAP_TAPCELL_ROW_0_81 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[22\].bits\[4\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[188\]
++ ct.oc.capture_buffer\[180\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[180\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[1\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[321\]
++ ct.oc.capture_buffer\[313\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[313\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_22_207 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_30_251 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_34_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[16\].bits\[2\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[138\]
++ ct.oc.capture_buffer\[130\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[130\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_30_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[5\].bits\[2\].cc_flop ct.ic.trig_chain\[6\] ct.ic.data_chain\[20\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[17\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[40\].bits\[0\].rs_cbuf net46 VGND VGND VPWR VPWR ct.oc.capture_buffer\[320\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[34\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[277\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[23\].bits\[6\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[198\]
++ ct.oc.capture_buffer\[190\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[190\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[35\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[17\].bits\[4\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[148\]
++ ct.oc.capture_buffer\[140\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[140\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_12_315 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[0\].bits\[3\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[11\]
++ ct.oc.capture_buffer\[3\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[3\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[5\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[45\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[18\].bits\[6\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[158\]
++ ct.oc.capture_buffer\[150\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[150\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[1\].bits\[5\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[21\]
++ ct.oc.capture_buffer\[13\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[13\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xcw.cc_test_0 ui_in[0] ui_in[1] ui_in[2] VGND VGND VPWR VPWR uo_out[0] sky130_fd_sc_hd__mux2i_2
+XANTENNA_8 ct.oc.trig_chain\[22\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[2\].bits\[7\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[31\]
++ ct.oc.capture_buffer\[23\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[23\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[17\].cc_clkbuf ct.oc.trig_chain\[17\] VGND VGND VPWR VPWR ct.oc.trig_chain\[18\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[27\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[217\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_32_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[10\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[82\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[30\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[242\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[24\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[199\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_7_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_281 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_8_130 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[1\].bits\[2\].rs_cbuf net35 VGND VGND VPWR VPWR ct.oc.capture_buffer\[10\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_14_165 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_22_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_1_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_9_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_5_111 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_11_146 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_6_248 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[17\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[139\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[8\].bits\[0\].cc_flop ct.ic.trig_chain\[9\] ct.ic.data_chain\[27\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[24\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[37\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[299\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[164\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_0_82 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_87 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.cw.cc_test_1 VGND VPWR VGND VPWR ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\]
++ ct.cw.target\[1\] sky130_ht_sc_tt05__mux2i_2
+XTAP_TAPCELL_ROW_22_208 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[8\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[67\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_30_252 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_2_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[40\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[324\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[39\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[39\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[16\].cc_clkbuf ct.oc.trig_chain\[16\] VGND VGND VPWR VPWR ct.oc.trig_chain\[17\]
++ sky130_fd_sc_hd__clkbuf_4
+XPHY_EDGE_ROW_28_Left_67 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[40\].bits\[1\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[329\]
++ ct.oc.capture_buffer\[321\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[321\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[0\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[96\]
++ ct.oc.capture_buffer\[88\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[88\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[41\].bits\[3\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[339\]
++ ct.oc.capture_buffer\[331\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[331\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xcw.cc_test_1 VGND VPWR VGND VPWR ui_in[0] ui_in[1] ui_in[2] uo_out[1] sky130_ht_sc_tt05__mux2i_2
+Xct.oc.frame\[35\].bits\[1\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[289\]
++ ct.oc.capture_buffer\[281\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[281\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[104\]
++ sky130_fd_sc_hd__clkbuf_1
+XANTENNA_9 ct.oc.data_chain\[162\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[42\].bits\[5\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[349\]
++ ct.oc.capture_buffer\[341\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[341\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[2\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[106\]
++ ct.oc.capture_buffer\[98\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[98\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_29_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[36\].bits\[3\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[299\]
++ ct.oc.capture_buffer\[291\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[291\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[33\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[264\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_25_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[13\].bits\[4\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[116\]
++ ct.oc.capture_buffer\[108\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[108\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[27\].bits\[5\].rs_cbuf net19 VGND VGND VPWR VPWR ct.oc.capture_buffer\[221\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[43\].bits\[7\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[7\]
++ ct.oc.capture_buffer\[351\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[351\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[5\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[309\]
++ ct.oc.capture_buffer\[301\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[301\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[10\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[86\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_19_Right_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[4\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[32\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[14\].bits\[6\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[126\]
++ ct.oc.capture_buffer\[118\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[118\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_28_Right_28 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_37_Right_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[38\].bits\[7\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[319\]
++ ct.oc.capture_buffer\[311\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[311\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[30\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[246\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_17_249 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XPHY_EDGE_ROW_15_Left_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[8\].bits\[0\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[72\]
++ ct.oc.capture_buffer\[64\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[64\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_8_131 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[9\].bits\[2\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[82\]
++ ct.oc.capture_buffer\[74\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[74\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_31_252 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[1\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[14\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_5_112 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_0_Left_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_11_147 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[23\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[186\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[17\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[143\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_10_200 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[15\].cc_clkbuf ct.oc.trig_chain\[15\] VGND VGND VPWR VPWR ct.oc.trig_chain\[16\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[43\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[346\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[37\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[303\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_36_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.cw.cc_test_2 ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\] VGND VGND VPWR
++ VPWR ct.cw.target\[2\] sky130_fd_sc_hd__maj3_2
+XTAP_TAPCELL_ROW_0_83 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_22_209 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_15_325 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_30_253 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[8\].bits\[7\].rs_cbuf ct.cw.target\[7\] VGND VGND VPWR VPWR ct.oc.capture_buffer\[71\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_3_Left_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_27_ ct.oc.data_chain\[7\] VGND VGND VPWR VPWR uio_out[7] sky130_fd_sc_hd__clkbuf_4
+Xct.ro.count\[2\].cc_div_flop ct.ro.counter_n\[1\] ct.ro.counter_n\[2\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[2\] ct.ro.counter_n\[2\] sky130_fd_sc_hd__dfrbp_2
+XFILLER_0_38_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_38_203 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xcw.cc_test_2 ui_in[0] ui_in[1] ui_in[2] VGND VGND VPWR VPWR uo_out[2] sky130_fd_sc_hd__maj3_2
+Xct.oc.frame\[13\].bits\[4\].rs_cbuf net26 VGND VGND VPWR VPWR ct.oc.capture_buffer\[108\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_21_125 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_16_89 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ic.frame\[4\].bits\[1\].cc_flop ct.ic.trig_chain\[5\] ct.ic.data_chain\[16\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[13\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[21\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[21\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[33\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[268\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_18_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_9_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_1_317 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xct.oc.frame\[4\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[36\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[31\].bits\[1\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[257\]
++ ct.oc.capture_buffer\[249\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[249\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_8_132 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_7_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[32\].bits\[3\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[267\]
++ ct.oc.capture_buffer\[259\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[259\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].bits\[1\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[217\]
++ ct.oc.capture_buffer\[209\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[209\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_32_Left_71 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[26\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[208\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[33\].bits\[5\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[277\]
++ ct.oc.capture_buffer\[269\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[269\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_13_220 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[27\].bits\[3\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[227\]
++ ct.oc.capture_buffer\[219\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[219\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_5_113 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[14\].cc_clkbuf ct.oc.trig_chain\[14\] VGND VGND VPWR VPWR ct.oc.trig_chain\[15\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[10\].bits\[6\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[94\]
++ ct.oc.capture_buffer\[86\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[86\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_28_237 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_8_280 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[34\].bits\[7\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[287\]
++ ct.oc.capture_buffer\[279\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[279\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_36_281 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_11_148 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[28\].bits\[5\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[237\]
++ ct.oc.capture_buffer\[229\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[229\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[4\].bits\[0\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[40\]
++ ct.oc.capture_buffer\[32\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[32\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[23\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[190\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_4_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_10_245 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+Xct.oc.frame\[29\].bits\[7\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[247\]
++ ct.oc.capture_buffer\[239\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[239\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[5\].bits\[2\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[50\]
++ ct.oc.capture_buffer\[42\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[42\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_18_323 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[0\].bits\[1\].rs_cbuf net41 VGND VGND VPWR VPWR ct.oc.capture_buffer\[1\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[43\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[350\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_24_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[6\].bits\[4\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[60\]
++ ct.oc.capture_buffer\[52\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[52\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.cw.cc_test_3 VGND VPWR VGND VPWR ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\]
++ ct.cw.target\[3\] sky130_ht_sc_tt05__maj3_2
+XTAP_TAPCELL_ROW_0_84 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[6\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[70\]
++ ct.oc.capture_buffer\[62\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[62\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_30_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[16\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[130\]
++ sky130_fd_sc_hd__clkbuf_1
+X_26_ ct.oc.data_chain\[6\] VGND VGND VPWR VPWR uio_out[6] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_15_101 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[36\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[290\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_15_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xcw.cc_test_3 VGND VPWR VGND VPWR ui_in[0] ui_in[1] ui_in[2] uo_out[3] sky130_ht_sc_tt05__maj3_2
+XFILLER_0_29_204 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[7\].bits\[2\].rs_cbuf net35 VGND VGND VPWR VPWR ct.oc.capture_buffer\[58\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[25\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[25\] sky130_fd_sc_hd__buf_4
+X_09_ ui_in[4] _00_ _03_ VGND VGND VPWR VPWR ct.ic.trig_chain\[0\] sky130_fd_sc_hd__a21o_1
+XPHY_EDGE_ROW_1_Right_1 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[13\].cc_clkbuf ct.oc.trig_chain\[13\] VGND VGND VPWR VPWR ct.oc.trig_chain\[14\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_30_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[26\].bits\[4\].rs_cbuf net25 VGND VGND VPWR VPWR ct.oc.capture_buffer\[212\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_5_114 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_28_238 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_36_282 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[0\].bits\[2\].cc_flop ct.ic.trig_chain\[1\] ct.ic.data_chain\[5\] VGND
++ VGND VPWR VPWR ct.cw.source\[2\] sky130_fd_sc_hd__dfxtp_4
+XFILLER_0_10_235 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[22\].bits\[1\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[185\]
++ ct.oc.capture_buffer\[177\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[177\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[0\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[5\]
++ sky130_fd_sc_hd__clkbuf_1
+Xfanout50 ct.cw.target\[0\] VGND VGND VPWR VPWR net50 sky130_fd_sc_hd__clkbuf_2
+XTAP_TAPCELL_ROW_0_85 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[152\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.cw.cc_test_4 ct.cw.source\[1\] ct.cw.source\[0\] ct.cw.source\[2\] VGND VGND VPWR
++ VPWR ct.cw.target\[4\] sky130_fd_sc_hd__dlrtp_1
+Xct.oc.frame\[23\].bits\[3\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[195\]
++ ct.oc.capture_buffer\[187\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[187\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_15_305 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[30\].bits\[7\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[255\]
++ ct.oc.capture_buffer\[247\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[247\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[17\].bits\[1\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[145\]
++ ct.oc.capture_buffer\[137\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[137\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_38_300 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[24\].bits\[5\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[205\]
++ ct.oc.capture_buffer\[197\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[197\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[0\].bits\[0\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[8\]
++ ct.oc.capture_buffer\[0\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[0\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_21_200 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[39\].bits\[0\].rs_cbuf net46 VGND VGND VPWR VPWR ct.oc.capture_buffer\[312\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[18\].bits\[3\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[155\]
++ ct.oc.capture_buffer\[147\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[147\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[22\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[177\]
++ sky130_fd_sc_hd__buf_1
+Xtt_um_htfab_cell_tester_60 VGND VGND VPWR VPWR uio_oe[4] tt_um_htfab_cell_tester_60/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[25\].bits\[7\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[215\]
++ ct.oc.capture_buffer\[207\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[207\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[16\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[134\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[1\].bits\[2\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[18\]
++ ct.oc.capture_buffer\[10\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[10\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[19\].bits\[5\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[165\]
++ ct.oc.capture_buffer\[157\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[157\]
++ sky130_fd_sc_hd__sdfxtp_4
+X_25_ ct.oc.data_chain\[5\] VGND VGND VPWR VPWR uio_out[5] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_15_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[2\].bits\[4\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[28\]
++ ct.oc.capture_buffer\[20\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[20\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[42\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[337\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[36\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[294\]
++ sky130_fd_sc_hd__clkbuf_1
+Xcw.cc_test_4 ui_in[1] ui_in[0] ui_in[2] VGND VGND VPWR VPWR uo_out[4] sky130_fd_sc_hd__dlrtp_1
+Xct.oc.frame\[3\].bits\[6\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[38\]
++ ct.oc.capture_buffer\[30\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[30\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[7\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[62\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_32_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[12\].cc_clkbuf ct.oc.trig_chain\[12\] VGND VGND VPWR VPWR ct.oc.trig_chain\[13\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[29\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[29\] sky130_fd_sc_hd__buf_4
+X_08_ _01_ _02_ net4 VGND VGND VPWR VPWR _03_ sky130_fd_sc_hd__mux2_1
+XFILLER_0_34_241 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_17_177 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[29\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[234\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_15_Right_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[40\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[40\] sky130_fd_sc_hd__buf_4
+XFILLER_0_23_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_24_Right_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[12\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[99\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_16_285 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_33_Right_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ic.frame\[3\].bits\[0\].cc_flop ct.ic.trig_chain\[4\] ct.ic.data_chain\[12\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[9\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[32\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[259\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_19_Left_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_13_288 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_5_115 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_28_239 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_36_283 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[3\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[27\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[2\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[2\] sky130_fd_sc_hd__buf_4
+Xfanout51 net52 VGND VGND VPWR VPWR net51 sky130_fd_sc_hd__clkbuf_4
+Xfanout40 net44 VGND VGND VPWR VPWR net40 sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_24_220 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_0_86 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[156\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.cw.cc_test_5 VGND VPWR VGND VPWR ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\]
++ ct.cw.target\[5\] sky130_ht_sc_tt05__dlrtp_1
+XFILLER_0_27_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_2_277 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_38_301 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_201 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[39\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[316\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_33_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xtt_um_htfab_cell_tester_61 VGND VGND VPWR VPWR uio_oe[5] tt_um_htfab_cell_tester_61/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[22\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[181\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].bits\[0\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[336\]
++ ct.oc.capture_buffer\[328\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[328\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].cc_clkbuf ct.oc.trig_chain\[11\] VGND VGND VPWR VPWR ct.oc.trig_chain\[12\]
++ sky130_fd_sc_hd__clkbuf_4
+X_24_ ct.oc.data_chain\[4\] VGND VGND VPWR VPWR uio_out[4] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_7_325 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_15_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[42\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[341\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[42\].bits\[2\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[346\]
++ ct.oc.capture_buffer\[338\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[338\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xcw.cc_test_5 VGND VPWR VGND VPWR ui_in[0] ui_in[1] ui_in[2] uo_out[5] sky130_ht_sc_tt05__dlrtp_1
+XPHY_EDGE_ROW_7_Left_46 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[36\].bits\[0\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[296\]
++ ct.oc.capture_buffer\[288\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[288\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[43\].bits\[4\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[4\]
++ ct.oc.capture_buffer\[348\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[348\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[1\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[113\]
++ ct.oc.capture_buffer\[105\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[105\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_4_306 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[20\].bits\[5\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[173\]
++ ct.oc.capture_buffer\[165\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[165\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[2\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[306\]
++ ct.oc.capture_buffer\[298\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[298\]
++ sky130_fd_sc_hd__sdfxtp_4
+X_07_ ct.ro.counter\[4\] ct.ro.counter\[5\] ct.ro.counter\[6\] ct.ro.counter\[7\]
++ net2 net3 VGND VGND VPWR VPWR _02_ sky130_fd_sc_hd__mux4_1
+Xct.oc.frame\[14\].bits\[3\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[123\]
++ ct.oc.capture_buffer\[115\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[115\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_11_150 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[21\].bits\[7\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[183\]
++ ct.oc.capture_buffer\[175\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[175\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[4\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[316\]
++ ct.oc.capture_buffer\[308\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[308\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[15\].bits\[1\].rs_cbuf net44 VGND VGND VPWR VPWR ct.oc.capture_buffer\[121\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[15\].bits\[5\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[133\]
++ ct.oc.capture_buffer\[125\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[125\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_26_209 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_253 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[39\].bits\[6\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[326\]
++ ct.oc.capture_buffer\[318\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[318\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_17_178 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[35\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[281\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[16\].bits\[7\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[143\]
++ ct.oc.capture_buffer\[135\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[135\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_25_220 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[29\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[238\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_16_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[12\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[103\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[6\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[49\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[11\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[11\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[32\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[263\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_9_228 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_36_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_36_284 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_5_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[3\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[31\]
++ sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_36_Left_75 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_20_Left_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_24_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_10_140 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_33_265 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[6\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[6\] sky130_fd_sc_hd__buf_4
+Xfanout30 net31 VGND VGND VPWR VPWR net30 sky130_fd_sc_hd__buf_2
+Xfanout41 net44 VGND VGND VPWR VPWR net41 sky130_fd_sc_hd__clkbuf_2
+Xfanout52 net55 VGND VGND VPWR VPWR net52 sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[10\].cc_clkbuf ct.oc.trig_chain\[10\] VGND VGND VPWR VPWR ct.oc.trig_chain\[11\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_0_87 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[25\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[203\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.cw.cc_test_6 ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\] VGND VGND VPWR
++ VPWR ct.cw.target\[6\] sky130_fd_sc_hd__dfrtp_1
+Xct.oc.frame\[29\].cc_clkbuf ct.oc.trig_chain\[29\] VGND VGND VPWR VPWR ct.oc.trig_chain\[30\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_38_302 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_202 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xtt_um_htfab_cell_tester_62 VGND VGND VPWR VPWR uio_oe[6] tt_um_htfab_cell_tester_62/LO
++ sky130_fd_sc_hd__conb_1
+XFILLER_0_24_115 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_23_ ct.oc.data_chain\[3\] VGND VGND VPWR VPWR uio_out[3] sky130_fd_sc_hd__buf_2
+XPHY_EDGE_ROW_23_Left_62 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xcw.cc_test_6 ui_in[0] ui_in[1] ui_in[2] VGND VGND VPWR VPWR uo_out[6] sky130_fd_sc_hd__dfrtp_1
+X_06_ ct.ro.counter\[0\] ct.ro.counter\[1\] ct.ro.counter\[2\] ct.ro.counter\[3\]
++ net2 net3 VGND VGND VPWR VPWR _01_ sky130_fd_sc_hd__mux4_1
+Xct.oc.frame\[21\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[168\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[15\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[125\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_17_179 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[41\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[328\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_25_210 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ic.frame\[6\].bits\[2\].cc_flop ct.ic.trig_chain\[7\] ct.ic.data_chain\[23\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[20\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[35\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[285\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_0_321 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+Xct.oc.frame\[32\].bits\[0\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[264\]
++ ct.oc.capture_buffer\[256\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[256\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_25_298 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_5_Right_5 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[33\].bits\[2\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[274\]
++ ct.oc.capture_buffer\[266\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[266\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_7_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[27\].bits\[0\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[224\]
++ ct.oc.capture_buffer\[216\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[216\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[15\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[15\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[10\].bits\[3\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[91\]
++ ct.oc.capture_buffer\[83\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[83\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[6\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[53\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[40\].bits\[6\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[334\]
++ ct.oc.capture_buffer\[326\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[326\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[34\].bits\[4\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[284\]
++ ct.oc.capture_buffer\[276\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[276\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[28\].bits\[2\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[234\]
++ ct.oc.capture_buffer\[226\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[226\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[5\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[101\]
++ ct.oc.capture_buffer\[93\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[93\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_13_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_36_285 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[35\].bits\[6\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[294\]
++ ct.oc.capture_buffer\[286\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[286\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[4\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[244\]
++ ct.oc.capture_buffer\[236\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[236\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[7\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[111\]
++ ct.oc.capture_buffer\[103\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[103\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[28\].cc_clkbuf ct.oc.trig_chain\[28\] VGND VGND VPWR VPWR ct.oc.trig_chain\[29\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[28\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[225\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_10_141 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[6\].bits\[1\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[57\]
++ ct.oc.capture_buffer\[49\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[49\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[90\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_33_266 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout42 net43 VGND VGND VPWR VPWR net42 sky130_fd_sc_hd__clkbuf_4
+Xfanout53 net54 VGND VGND VPWR VPWR net53 sky130_fd_sc_hd__clkbuf_4
+Xfanout20 ct.cw.target\[5\] VGND VGND VPWR VPWR net20 sky130_fd_sc_hd__clkbuf_2
+Xct.oc.frame\[7\].bits\[3\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[67\]
++ ct.oc.capture_buffer\[59\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[59\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xfanout31 net32 VGND VGND VPWR VPWR net31 sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[31\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[250\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_10_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.cw.cc_test_7 VGND VPWR VGND VPWR ct.cw.source\[0\] ct.cw.source\[1\] ct.cw.source\[2\]
++ ct.cw.target\[7\] sky130_ht_sc_tt05__dfrtp_1
+Xct.oc.frame\[25\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[207\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_0_88 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[8\].bits\[5\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[77\]
++ ct.oc.capture_buffer\[69\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[69\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].bits\[2\].rs_cbuf net35 VGND VGND VPWR VPWR ct.oc.capture_buffer\[18\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_21_203 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xtt_um_htfab_cell_tester_63 VGND VGND VPWR VPWR uio_oe[7] tt_um_htfab_cell_tester_63/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[9\].bits\[7\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[87\]
++ ct.oc.capture_buffer\[79\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[79\]
++ sky130_fd_sc_hd__sdfxtp_4
+X_22_ ct.oc.data_chain\[2\] VGND VGND VPWR VPWR uio_out[2] sky130_fd_sc_hd__clkbuf_4
+Xcw.cc_test_7 VGND VPWR VGND VPWR ui_in[0] ui_in[1] ui_in[2] uo_out[7] sky130_ht_sc_tt05__dfrtp_1
+Xct.oc.frame\[18\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[147\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[9\].bits\[0\].cc_flop ct.ic.trig_chain\[10\] ct.ic.data_chain\[30\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[27\] sky130_fd_sc_hd__dfxtp_4
+X_05_ net54 VGND VGND VPWR VPWR _00_ sky130_fd_sc_hd__inv_2
+XFILLER_0_7_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[38\].bits\[3\].rs_cbuf net32 VGND VGND VPWR VPWR ct.oc.capture_buffer\[307\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_11_174 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[21\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[172\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[9\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[75\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[332\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[27\].cc_clkbuf ct.oc.trig_chain\[27\] VGND VGND VPWR VPWR ct.oc.trig_chain\[28\]
++ sky130_fd_sc_hd__clkbuf_4
+XPHY_EDGE_ROW_11_Right_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ic.frame\[10\].bits\[2\].cc_flop ct.ic.trig_chain\[11\] ct.ic.data_chain\[35\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[32\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[19\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[19\] sky130_fd_sc_hd__buf_4
+XPHY_EDGE_ROW_20_Right_20 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ro.count\[7\].cc_div_flop ct.ro.counter_n\[6\] ct.ro.counter_n\[7\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[7\] ct.ro.counter_n\[7\] sky130_fd_sc_hd__dfrbp_2
+Xct.oc.frame\[14\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[112\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_21_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_36_286 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_8_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[30\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[30\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_10_142 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[34\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[272\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[28\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[229\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_94 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_18_306 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[11\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[94\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_33_267 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[23\].bits\[0\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[192\]
++ ct.oc.capture_buffer\[184\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[184\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[5\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[40\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[30\].bits\[4\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[252\]
++ ct.oc.capture_buffer\[244\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[244\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xfanout10 net12 VGND VGND VPWR VPWR net10 sky130_fd_sc_hd__buf_2
+Xfanout21 net23 VGND VGND VPWR VPWR net21 sky130_fd_sc_hd__buf_2
+Xfanout54 net55 VGND VGND VPWR VPWR net54 sky130_fd_sc_hd__buf_4
+Xfanout32 ct.cw.target\[3\] VGND VGND VPWR VPWR net32 sky130_fd_sc_hd__clkbuf_2
+Xfanout43 net44 VGND VGND VPWR VPWR net43 sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[24\].bits\[2\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[202\]
++ ct.oc.capture_buffer\[194\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[194\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_0_78 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[31\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[254\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[18\].bits\[0\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[152\]
++ ct.oc.capture_buffer\[144\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[144\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[31\].bits\[6\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[262\]
++ ct.oc.capture_buffer\[254\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[254\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_30_248 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[25\].bits\[4\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[212\]
++ ct.oc.capture_buffer\[204\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[204\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[22\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_18_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[19\].bits\[2\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[162\]
++ ct.oc.capture_buffer\[154\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[154\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].bits\[6\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[222\]
++ ct.oc.capture_buffer\[214\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[214\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].bits\[1\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[25\]
++ ct.oc.capture_buffer\[17\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[17\]
++ sky130_fd_sc_hd__sdfxtp_4
+X_21_ ct.oc.data_chain\[1\] VGND VGND VPWR VPWR uio_out[1] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_7_317 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_15_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[3\].bits\[3\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[35\]
++ ct.oc.capture_buffer\[27\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[27\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[194\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[18\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[151\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[4\].bits\[5\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[45\]
++ ct.oc.capture_buffer\[37\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[37\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_16_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_4_309 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_20_131 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[5\].bits\[7\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[55\]
++ ct.oc.capture_buffer\[47\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[47\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[311\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[26\].cc_clkbuf ct.oc.trig_chain\[26\] VGND VGND VPWR VPWR ct.oc.trig_chain\[27\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[9\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[79\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_8_127 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_16_245 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_31_204 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[14\].bits\[4\].rs_cbuf net25 VGND VGND VPWR VPWR ct.oc.capture_buffer\[116\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[5\].bits\[1\].cc_flop ct.ic.trig_chain\[6\] ct.ic.data_chain\[19\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[16\] sky130_fd_sc_hd__dfxtp_4
+XTAP_TAPCELL_ROW_27_232 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[34\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[34\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[34\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[276\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_10_143 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[11\].cc_clkbuf ct.ic.trig_chain\[11\] VGND VGND VPWR VPWR ct.ic.trig_chain\[12\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_5_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_33_268 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout33 net35 VGND VGND VPWR VPWR net33 sky130_fd_sc_hd__buf_2
+Xfanout55 net1 VGND VGND VPWR VPWR net55 sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[5\].bits\[4\].rs_cbuf ct.cw.target\[4\] VGND VGND VPWR VPWR ct.oc.capture_buffer\[44\]
++ sky130_fd_sc_hd__clkbuf_1
+Xfanout11 net12 VGND VGND VPWR VPWR net11 sky130_fd_sc_hd__clkbuf_2
+Xfanout22 net23 VGND VGND VPWR VPWR net22 sky130_fd_sc_hd__clkbuf_2
+Xfanout44 ct.cw.target\[1\] VGND VGND VPWR VPWR net44 sky130_fd_sc_hd__buf_2
+XFILLER_0_3_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_0_79 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_35_28 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_30_249 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[27\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[216\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[10\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[81\]
++ sky130_fd_sc_hd__clkbuf_1
+X_20_ ct.oc.data_chain\[0\] VGND VGND VPWR VPWR uio_out[0] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_11_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_11_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[43\].bits\[1\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[1\]
++ ct.oc.capture_buffer\[345\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[345\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[2\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[170\]
++ ct.oc.capture_buffer\[162\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[162\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xinput1 ui_in[3] VGND VGND VPWR VPWR net1 sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[25\].cc_clkbuf ct.oc.trig_chain\[25\] VGND VGND VPWR VPWR ct.oc.trig_chain\[26\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[30\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[241\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[14\].bits\[0\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[120\]
++ ct.oc.capture_buffer\[112\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[112\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[198\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[4\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[180\]
++ ct.oc.capture_buffer\[172\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[172\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[1\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[313\]
++ ct.oc.capture_buffer\[305\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[305\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_20_165 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_27_Left_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[15\].bits\[2\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[130\]
++ ct.oc.capture_buffer\[122\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[122\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[1\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[9\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[22\].bits\[6\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[190\]
++ ct.oc.capture_buffer\[182\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[182\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[3\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[323\]
++ ct.oc.capture_buffer\[315\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[315\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[16\].bits\[4\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[140\]
++ ct.oc.capture_buffer\[132\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[132\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_19_190 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[17\].bits\[6\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[150\]
++ ct.oc.capture_buffer\[142\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[142\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_25_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[0\].bits\[5\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[13\]
++ ct.oc.capture_buffer\[5\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[5\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_16_171 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_33_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_8_128 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[17\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[138\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[1\].bits\[7\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[23\]
++ ct.oc.capture_buffer\[15\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[15\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[10\].cc_clkbuf ct.ic.trig_chain\[10\] VGND VGND VPWR VPWR ct.ic.trig_chain\[11\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[37\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[298\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_9_Right_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[20\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[163\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_14_Left_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[8\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[66\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_27_233 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[40\].bits\[3\].rs_cbuf net29 VGND VGND VPWR VPWR ct.oc.capture_buffer\[323\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_4_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[38\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[38\] sky130_fd_sc_hd__buf_4
+XFILLER_0_5_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_33_269 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout34 net38 VGND VGND VPWR VPWR net34 sky130_fd_sc_hd__clkbuf_4
+Xfanout12 ct.cw.target\[6\] VGND VGND VPWR VPWR net12 sky130_fd_sc_hd__clkbuf_4
+Xfanout23 ct.cw.target\[4\] VGND VGND VPWR VPWR net23 sky130_fd_sc_hd__clkbuf_4
+Xfanout45 net50 VGND VGND VPWR VPWR net45 sky130_fd_sc_hd__buf_2
+Xct.oc.frame\[24\].cc_clkbuf ct.oc.trig_chain\[24\] VGND VGND VPWR VPWR ct.oc.trig_chain\[25\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_25_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_25_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[27\].bits\[4\].rs_cbuf net25 VGND VGND VPWR VPWR ct.oc.capture_buffer\[220\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[10\].bits\[5\].rs_cbuf net20 VGND VGND VPWR VPWR ct.oc.capture_buffer\[85\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_23_163 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_1_90 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[1\].bits\[2\].cc_flop ct.ic.trig_chain\[2\] ct.ic.data_chain\[8\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[5\] sky130_fd_sc_hd__dfxtp_4
+Xinput2 ui_in[5] VGND VGND VPWR VPWR net2 sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[30\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[245\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_2_Left_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[1\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[13\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_37_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_19_191 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[10\].bits\[0\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[88\]
++ ct.oc.capture_buffer\[80\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[80\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[40\].bits\[3\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[331\]
++ ct.oc.capture_buffer\[323\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[323\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[23\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[185\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_16_172 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_8_129 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[34\].bits\[1\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[281\]
++ ct.oc.capture_buffer\[273\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[273\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[17\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[142\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].bits\[5\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[341\]
++ ct.oc.capture_buffer\[333\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[333\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[2\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[98\]
++ ct.oc.capture_buffer\[90\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[90\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].bits\[3\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[291\]
++ ct.oc.capture_buffer\[283\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[283\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[43\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[345\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[12\].bits\[4\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[108\]
++ ct.oc.capture_buffer\[100\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[100\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[1\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[241\]
++ ct.oc.capture_buffer\[233\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[233\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[302\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[42\].bits\[7\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[351\]
++ ct.oc.capture_buffer\[343\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[343\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[167\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[36\].bits\[5\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[301\]
++ ct.oc.capture_buffer\[293\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[293\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_4_110 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_12_283 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[13\].bits\[6\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[118\]
++ ct.oc.capture_buffer\[110\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[110\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_27_234 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[8\].bits\[6\].rs_cbuf ct.cw.target\[6\] VGND VGND VPWR VPWR ct.oc.capture_buffer\[70\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[37\].bits\[7\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[311\]
++ ct.oc.capture_buffer\[303\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[303\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[40\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[327\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[7\].bits\[0\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[64\]
++ ct.oc.capture_buffer\[56\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[56\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_31_Left_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[23\].cc_clkbuf ct.oc.trig_chain\[23\] VGND VGND VPWR VPWR ct.oc.trig_chain\[24\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_14_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[8\].bits\[2\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[74\]
++ ct.oc.capture_buffer\[66\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[66\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xfanout13 net14 VGND VGND VPWR VPWR net13 sky130_fd_sc_hd__clkbuf_4
+Xfanout24 net25 VGND VGND VPWR VPWR net24 sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_24_215 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout35 net38 VGND VGND VPWR VPWR net35 sky130_fd_sc_hd__clkbuf_2
+Xfanout46 net47 VGND VGND VPWR VPWR net46 sky130_fd_sc_hd__clkbuf_2
+Xct.oc.frame\[9\].bits\[4\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[84\]
++ ct.oc.capture_buffer\[76\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[76\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[107\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[4\].bits\[0\].cc_flop ct.ic.trig_chain\[5\] ct.ic.data_chain\[15\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[12\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[20\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[20\] sky130_fd_sc_hd__buf_4
+Xtt_um_htfab_cell_tester_56 VGND VGND VPWR VPWR uio_oe[0] tt_um_htfab_cell_tester_56/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[33\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[267\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_32_175 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_1_91 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_18_Right_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[4\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[35\]
++ sky130_fd_sc_hd__clkbuf_1
+Xinput3 ui_in[6] VGND VGND VPWR VPWR net3 sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_27_Right_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_36_Right_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_11_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_2_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_19_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_19_192 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_33_281 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_16_173 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[23\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[189\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_16_259 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ro.count\[4\].cc_div_flop ct.ro.counter_n\[3\] ct.ro.counter_n\[4\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[4\] ct.ro.counter_n\[4\] sky130_fd_sc_hd__dfrbp_2
+XPHY_EDGE_ROW_0_Right_0 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_30_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[0\].bits\[0\].rs_cbuf net46 VGND VGND VPWR VPWR ct.oc.capture_buffer\[0\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[43\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[349\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[22\].cc_clkbuf ct.oc.trig_chain\[22\] VGND VGND VPWR VPWR ct.oc.trig_chain\[23\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_28_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_8_245 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_12_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_27_235 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[30\].bits\[1\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[249\]
++ ct.oc.capture_buffer\[241\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[241\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[16\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[129\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[31\].bits\[3\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[259\]
++ ct.oc.capture_buffer\[251\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[251\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_12_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_24_216 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout47 net50 VGND VGND VPWR VPWR net47 sky130_fd_sc_hd__clkbuf_4
+Xfanout36 net37 VGND VGND VPWR VPWR net36 sky130_fd_sc_hd__clkbuf_4
+Xfanout25 net26 VGND VGND VPWR VPWR net25 sky130_fd_sc_hd__clkbuf_2
+Xfanout14 ct.cw.target\[6\] VGND VGND VPWR VPWR net14 sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_32_260 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[25\].bits\[1\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[209\]
++ ct.oc.capture_buffer\[201\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[201\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[36\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[289\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[32\].bits\[5\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[269\]
++ ct.oc.capture_buffer\[261\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[261\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[111\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[26\].bits\[3\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[219\]
++ ct.oc.capture_buffer\[211\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[211\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_5_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[33\].bits\[7\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[279\]
++ ct.oc.capture_buffer\[271\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[271\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[7\].bits\[1\].rs_cbuf net41 VGND VGND VPWR VPWR ct.oc.capture_buffer\[57\]
++ sky130_fd_sc_hd__clkbuf_1
+Xtt_um_htfab_cell_tester_57 VGND VGND VPWR VPWR uio_oe[1] tt_um_htfab_cell_tester_57/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[27\].bits\[5\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[229\]
++ ct.oc.capture_buffer\[221\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[221\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[24\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[3\].bits\[0\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[32\]
++ ct.oc.capture_buffer\[24\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[24\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[33\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[271\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[28\].bits\[7\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[239\]
++ ct.oc.capture_buffer\[231\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[231\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[4\].bits\[2\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[42\]
++ ct.oc.capture_buffer\[34\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[34\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_1_92 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xinput4 ui_in[7] VGND VGND VPWR VPWR net4 sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[4\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[39\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_36_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_321 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+Xct.oc.frame\[5\].bits\[4\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[52\]
++ ct.oc.capture_buffer\[44\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[44\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_37_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[6\].bits\[6\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[62\]
++ ct.oc.capture_buffer\[54\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[54\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_3_324 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[26\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[211\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_19_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_20 ct.cw.target\[6\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[21\].cc_clkbuf ct.oc.trig_chain\[21\] VGND VGND VPWR VPWR ct.oc.trig_chain\[22\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.ic.frame\[0\].bits\[1\].cc_flop ct.ic.trig_chain\[1\] ct.ic.data_chain\[4\] VGND
++ VGND VPWR VPWR ct.cw.source\[1\] sky130_fd_sc_hd__dfxtp_4
+XTAP_TAPCELL_ROW_16_174 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_33_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[0\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[4\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_13_155 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_27_236 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_35_280 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[22\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[176\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[16\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[133\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_18_Left_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xfanout15 net17 VGND VGND VPWR VPWR net15 sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_24_217 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout37 net38 VGND VGND VPWR VPWR net37 sky130_fd_sc_hd__clkbuf_4
+Xfanout26 ct.cw.target\[4\] VGND VGND VPWR VPWR net26 sky130_fd_sc_hd__clkbuf_2
+Xfanout48 net49 VGND VGND VPWR VPWR net48 sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_32_261 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[42\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[336\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[7\].bits\[2\].cc_flop ct.ic.trig_chain\[8\] ct.ic.data_chain\[26\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[23\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[36\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[293\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_27_119 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[7\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[61\]
++ sky130_fd_sc_hd__clkbuf_1
+Xtt_um_htfab_cell_tester_58 VGND VGND VPWR VPWR uio_oe[2] tt_um_htfab_cell_tester_58/LO
++ sky130_fd_sc_hd__conb_1
+Xct.oc.frame\[28\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[28\] sky130_fd_sc_hd__buf_4
+XFILLER_0_32_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_1_93 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[21\].bits\[1\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[177\]
++ ct.oc.capture_buffer\[169\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[169\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[233\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].cc_clkbuf ct.oc.trig_chain\[20\] VGND VGND VPWR VPWR ct.oc.trig_chain\[21\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[22\].bits\[3\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[187\]
++ ct.oc.capture_buffer\[179\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[179\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[0\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[320\]
++ ct.oc.capture_buffer\[312\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[312\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[98\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[39\].cc_clkbuf ct.oc.trig_chain\[39\] VGND VGND VPWR VPWR ct.oc.trig_chain\[40\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[16\].bits\[1\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[137\]
++ ct.oc.capture_buffer\[129\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[129\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[23\].bits\[5\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[197\]
++ ct.oc.capture_buffer\[189\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[189\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_11_125 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_11_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[32\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[258\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[17\].bits\[3\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[147\]
++ ct.oc.capture_buffer\[139\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[139\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[215\]
++ sky130_fd_sc_hd__clkbuf_1
+XANTENNA_10 ct.oc.capture_buffer\[170\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_21 ct.oc.capture_buffer\[39\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[0\].bits\[2\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[10\]
++ ct.oc.capture_buffer\[2\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[2\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[7\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[207\]
++ ct.oc.capture_buffer\[199\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[199\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_6_Left_45 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[18\].bits\[5\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[157\]
++ ct.oc.capture_buffer\[149\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[149\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[3\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[26\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[1\].bits\[4\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[20\]
++ ct.oc.capture_buffer\[12\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[12\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_16_175 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_33_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[19\].bits\[7\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[167\]
++ ct.oc.capture_buffer\[159\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[159\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_35_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[2\].bits\[6\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[30\]
++ ct.oc.capture_buffer\[22\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[22\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[1\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[1\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_13_156 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[155\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[39\].bits\[3\].rs_cbuf net29 VGND VGND VPWR VPWR ct.oc.capture_buffer\[315\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[22\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[180\]
++ sky130_fd_sc_hd__clkbuf_1
+Xfanout27 net32 VGND VGND VPWR VPWR net27 sky130_fd_sc_hd__clkbuf_4
+Xfanout16 net17 VGND VGND VPWR VPWR net16 sky130_fd_sc_hd__clkbuf_2
+XTAP_TAPCELL_ROW_24_218 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout38 ct.cw.target\[2\] VGND VGND VPWR VPWR net38 sky130_fd_sc_hd__buf_2
+Xfanout49 net50 VGND VGND VPWR VPWR net49 sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_32_262 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[42\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[340\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_35_Left_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xtt_um_htfab_cell_tester_59 VGND VGND VPWR VPWR uio_oe[3] tt_um_htfab_cell_tester_59/LO
++ sky130_fd_sc_hd__conb_1
+Xct.ic.frame\[11\].bits\[2\].cc_flop ct.ic.trig_chain\[12\] ui_in[2] VGND VGND VPWR
++ VPWR ct.ic.data_chain\[35\] sky130_fd_sc_hd__dfxtp_4
+XFILLER_0_17_175 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[38\].cc_clkbuf ct.oc.trig_chain\[38\] VGND VGND VPWR VPWR ct.oc.trig_chain\[39\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[15\].bits\[0\].rs_cbuf net50 VGND VGND VPWR VPWR ct.oc.capture_buffer\[120\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[35\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[280\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[29\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[237\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_14_Right_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[43\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[43\] sky130_fd_sc_hd__buf_4
+XPHY_EDGE_ROW_23_Right_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[12\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[102\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[6\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[48\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_32_Right_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[10\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[10\] sky130_fd_sc_hd__buf_4
+XPHY_EDGE_ROW_22_Left_61 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_11 ct.oc.data_chain\[298\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[32\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[262\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_6_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[40\].bits\[0\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[328\]
++ ct.oc.capture_buffer\[320\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[320\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[3\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[30\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[41\].bits\[2\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[338\]
++ ct.oc.capture_buffer\[330\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[330\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_16_176 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[35\].bits\[0\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[288\]
++ ct.oc.capture_buffer\[280\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[280\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_28_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[42\].bits\[4\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[348\]
++ ct.oc.capture_buffer\[340\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[340\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[1\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[105\]
++ ct.oc.capture_buffer\[97\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[97\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_7_122 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[36\].bits\[2\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[298\]
++ ct.oc.capture_buffer\[290\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[290\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[5\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[5\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_13_157 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[13\].bits\[3\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[115\]
++ ct.oc.capture_buffer\[107\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[107\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[43\].bits\[6\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[6\]
++ ct.oc.capture_buffer\[350\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[350\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[25\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[202\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].bits\[7\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[175\]
++ ct.oc.capture_buffer\[167\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[167\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[4\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[308\]
++ ct.oc.capture_buffer\[300\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[300\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[19\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[159\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[14\].bits\[5\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[125\]
++ ct.oc.capture_buffer\[117\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[117\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_4_Right_4 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[38\].bits\[6\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[318\]
++ ct.oc.capture_buffer\[310\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[310\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_7_281 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_10_138 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[15\].bits\[7\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[135\]
++ ct.oc.capture_buffer\[127\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[127\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[319\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[9\].bits\[1\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[81\]
++ ct.oc.capture_buffer\[73\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[73\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_24_219 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xfanout28 net32 VGND VGND VPWR VPWR net28 sky130_fd_sc_hd__buf_2
+Xfanout17 ct.cw.target\[5\] VGND VGND VPWR VPWR net17 sky130_fd_sc_hd__clkbuf_4
+Xfanout39 net41 VGND VGND VPWR VPWR net39 sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_32_263 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[37\].cc_clkbuf ct.oc.trig_chain\[37\] VGND VGND VPWR VPWR ct.oc.trig_chain\[38\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_35_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ro.cc_ring_osc_0 ct.ro.ring\[0\] rst_n VGND VGND VPWR VPWR ct.ro.ring\[1\] sky130_fd_sc_hd__nand2_4
+XFILLER_0_10_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_1_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_20_319 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[15\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[124\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_11_319 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_23_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ic.frame\[6\].bits\[1\].cc_flop ct.ic.trig_chain\[7\] ct.ic.data_chain\[22\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[19\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[35\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[284\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_22_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_28_227 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[14\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[14\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[6\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[52\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_2_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_12 ct.oc.capture_buffer\[275\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.ro.count\[1\].cc_div_flop ct.ro.counter_n\[0\] ct.ro.counter_n\[1\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[1\] ct.ro.counter_n\[1\] sky130_fd_sc_hd__dfrbp_2
+XFILLER_0_17_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_3_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[28\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[224\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[11\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[89\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_7_123 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_13_158 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[9\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[9\] sky130_fd_sc_hd__buf_4
+XFILLER_0_21_211 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[31\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[249\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_8_249 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[25\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[206\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[36\].cc_clkbuf ct.oc.trig_chain\[36\] VGND VGND VPWR VPWR ct.oc.trig_chain\[37\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_10_139 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[2\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[17\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[31\].bits\[0\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[256\]
++ ct.oc.capture_buffer\[248\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[248\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_30_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[32\].bits\[2\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[266\]
++ ct.oc.capture_buffer\[258\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[258\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xfanout18 net19 VGND VGND VPWR VPWR net18 sky130_fd_sc_hd__buf_2
+Xfanout29 net32 VGND VGND VPWR VPWR net29 sky130_fd_sc_hd__clkbuf_2
+XTAP_TAPCELL_ROW_32_264 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[26\].bits\[0\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[216\]
++ ct.oc.capture_buffer\[208\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[208\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[33\].bits\[4\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[276\]
++ ct.oc.capture_buffer\[268\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[268\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[27\].bits\[2\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[226\]
++ ct.oc.capture_buffer\[218\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[218\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[10\].bits\[5\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[93\]
++ ct.oc.capture_buffer\[85\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[85\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[18\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[146\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_26_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[34\].bits\[6\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[286\]
++ ct.oc.capture_buffer\[278\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[278\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ro.cc_ring_osc_1 ct.ro.ring\[1\] VGND VGND VPWR VPWR ct.ro.ring\[2\] sky130_fd_sc_hd__inv_4
+Xct.oc.frame\[28\].bits\[4\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[236\]
++ ct.oc.capture_buffer\[228\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[228\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[7\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[103\]
++ ct.oc.capture_buffer\[95\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[95\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[306\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[29\].bits\[6\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[246\]
++ ct.oc.capture_buffer\[238\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[238\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[21\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[171\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[5\].bits\[1\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[49\]
++ ct.oc.capture_buffer\[41\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[41\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[9\].bits\[2\].rs_cbuf net38 VGND VGND VPWR VPWR ct.oc.capture_buffer\[74\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_6_303 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[41\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[331\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[6\].bits\[3\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[59\]
++ ct.oc.capture_buffer\[51\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[51\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[7\].bits\[5\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[69\]
++ ct.oc.capture_buffer\[61\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[61\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_36_283 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[18\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[18\] sky130_fd_sc_hd__buf_4
+Xct.ic.frame\[10\].bits\[1\].cc_flop ct.ic.trig_chain\[11\] ct.ic.data_chain\[34\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[31\] sky130_fd_sc_hd__dfxtp_4
+XANTENNA_13 ct.oc.capture_buffer\[39\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[8\].bits\[7\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[79\]
++ ct.oc.capture_buffer\[71\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[71\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_0_309 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_33_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_24_253 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[35\].cc_clkbuf ct.oc.trig_chain\[35\] VGND VGND VPWR VPWR ct.oc.trig_chain\[36\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[28\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[228\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[11\].bits\[5\].rs_cbuf net20 VGND VGND VPWR VPWR ct.oc.capture_buffer\[93\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_30_256 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_7_124 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_38_292 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[2\].bits\[2\].cc_flop ct.ic.trig_chain\[3\] ct.ic.data_chain\[11\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[8\] sky130_fd_sc_hd__dfxtp_4
+XTAP_TAPCELL_ROW_13_159 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[31\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[253\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_8_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_4_105 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_33_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[2\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[21\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_38_175 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xfanout19 net20 VGND VGND VPWR VPWR net19 sky130_fd_sc_hd__clkbuf_2
+XFILLER_0_29_120 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_32_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_20_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_23_210 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[24\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[193\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[18\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[150\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_1_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ro.cc_ring_osc_2 ct.ro.ring\[2\] VGND VGND VPWR VPWR ct.ro.ring\[0\] sky130_fd_sc_hd__inv_4
+XFILLER_0_5_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[38\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[310\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[175\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[22\].bits\[0\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[184\]
++ ct.oc.capture_buffer\[176\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[176\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_36_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_14_126 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[9\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[78\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[23\].bits\[2\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[194\]
++ ct.oc.capture_buffer\[186\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[186\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[41\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[335\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[17\].bits\[0\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[144\]
++ ct.oc.capture_buffer\[136\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[136\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[30\].bits\[6\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[254\]
++ ct.oc.capture_buffer\[246\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[246\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[34\].cc_clkbuf ct.oc.trig_chain\[34\] VGND VGND VPWR VPWR ct.oc.trig_chain\[35\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[24\].bits\[4\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[204\]
++ ct.oc.capture_buffer\[196\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[196\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_10_Right_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[18\].bits\[2\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[154\]
++ ct.oc.capture_buffer\[146\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[146\]
++ sky130_fd_sc_hd__sdfxtp_4
+XANTENNA_14 ct.oc.trig_chain\[22\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+XFILLER_0_19_207 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[25\].bits\[6\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[214\]
++ ct.oc.capture_buffer\[206\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[206\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_27_273 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[1\].bits\[1\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[17\]
++ ct.oc.capture_buffer\[9\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[9\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_10_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[19\].bits\[4\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[164\]
++ ct.oc.capture_buffer\[156\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[156\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[14\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[115\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_18_240 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_18_251 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[2\].bits\[3\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[27\]
++ ct.oc.capture_buffer\[19\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[19\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_26_Left_65 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ic.frame\[5\].bits\[0\].cc_flop ct.ic.trig_chain\[6\] ct.ic.data_chain\[18\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[15\] sky130_fd_sc_hd__dfxtp_4
+XPHY_EDGE_ROW_10_Left_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[33\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[33\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[34\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[275\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[3\].bits\[5\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[37\]
++ ct.oc.capture_buffer\[29\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[29\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_7_125 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_38_293 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[5\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[43\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[4\].bits\[7\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[47\]
++ ct.oc.capture_buffer\[39\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[39\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_21_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_4_106 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_26_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_26_230 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[10\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[80\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_8_Right_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_29_143 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_13_Left_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_23_211 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[30\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[240\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[24\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[197\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_5_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_1_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_17_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[1\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[8\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[33\].cc_clkbuf ct.oc.trig_chain\[33\] VGND VGND VPWR VPWR ct.oc.trig_chain\[34\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[17\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[137\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_19_188 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_6_168 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_15 ct.oc.trig_chain\[23\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[37\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[297\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_19_219 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[20\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[162\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[14\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[119\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_33_222 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[42\].bits\[1\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[345\]
++ ct.oc.capture_buffer\[337\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[337\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_1_Left_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[8\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[65\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[40\].bits\[2\].rs_cbuf net35 VGND VGND VPWR VPWR ct.oc.capture_buffer\[322\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[34\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[279\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[37\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[37\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[13\].bits\[0\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[112\]
++ ct.oc.capture_buffer\[104\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[104\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[43\].bits\[3\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[3\]
++ ct.oc.capture_buffer\[347\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[347\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[4\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[172\]
++ ct.oc.capture_buffer\[164\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[164\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_7_126 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[37\].bits\[1\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[305\]
++ ct.oc.capture_buffer\[297\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[297\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_38_294 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[14\].bits\[2\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[122\]
++ ct.oc.capture_buffer\[114\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[114\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[5\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[47\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[6\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[182\]
++ ct.oc.capture_buffer\[174\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[174\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[3\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[315\]
++ ct.oc.capture_buffer\[307\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[307\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_28_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_12_150 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[15\].bits\[4\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[132\]
++ ct.oc.capture_buffer\[124\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[124\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_4_107 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[39\].bits\[5\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[325\]
++ ct.oc.capture_buffer\[317\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[317\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[16\].bits\[6\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[142\]
++ ct.oc.capture_buffer\[134\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[134\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_26_231 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[27\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[219\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_29_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[10\].bits\[4\].rs_cbuf net26 VGND VGND VPWR VPWR ct.oc.capture_buffer\[84\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[0\].bits\[7\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[15\]
++ ct.oc.capture_buffer\[7\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[7\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_4_277 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[32\].cc_clkbuf ct.oc.trig_chain\[32\] VGND VGND VPWR VPWR ct.oc.trig_chain\[33\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_23_212 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[1\].bits\[1\].cc_flop ct.ic.trig_chain\[2\] ct.ic.data_chain\[7\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[4\] sky130_fd_sc_hd__dfxtp_4
+XFILLER_0_8_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[30\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[244\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_26_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_5_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_9_325 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[1\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[12\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ro.cc_clock_inv ct.ro.counter\[0\] VGND VGND VPWR VPWR ct.ro.counter_n\[0\] sky130_fd_sc_hd__inv_4
+XFILLER_0_10_312 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_14_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[23\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[184\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[17\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[141\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_19_189 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[8\].bits\[2\].cc_flop ct.ic.trig_chain\[9\] ct.ic.data_chain\[29\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[26\] sky130_fd_sc_hd__dfxtp_4
+XANTENNA_16 ct.oc.trig_chain\[23\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[43\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[344\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[37\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[301\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[166\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[8\].bits\[5\].rs_cbuf ct.cw.target\[5\] VGND VGND VPWR VPWR ct.oc.capture_buffer\[69\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[40\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[326\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_15_170 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_23_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_38_295 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_12_151 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_4_108 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[13\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[106\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[31\].cc_clkbuf ct.oc.trig_chain\[31\] VGND VGND VPWR VPWR ct.oc.trig_chain\[32\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_35_276 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_11_281 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xct.oc.frame\[33\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[266\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_26_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[27\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[223\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[33\].bits\[1\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[273\]
++ ct.oc.capture_buffer\[265\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[265\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_29_178 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[40\].bits\[5\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[333\]
++ ct.oc.capture_buffer\[325\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[325\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[10\].bits\[2\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[90\]
++ ct.oc.capture_buffer\[82\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[82\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_31_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[34\].bits\[3\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[283\]
++ ct.oc.capture_buffer\[275\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[275\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[4\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[34\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_23_213 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[28\].bits\[1\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[233\]
++ ct.oc.capture_buffer\[225\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[225\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[4\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[100\]
++ ct.oc.capture_buffer\[92\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[92\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[41\].bits\[7\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[343\]
++ ct.oc.capture_buffer\[335\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[335\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].bits\[5\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[293\]
++ ct.oc.capture_buffer\[285\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[285\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[3\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[243\]
++ ct.oc.capture_buffer\[235\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[235\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[6\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[110\]
++ ct.oc.capture_buffer\[102\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[102\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[36\].bits\[7\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[303\]
++ ct.oc.capture_buffer\[295\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[295\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[6\].bits\[0\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[56\]
++ ct.oc.capture_buffer\[48\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[48\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_1_89 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_6_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[7\].bits\[2\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[66\]
++ ct.oc.capture_buffer\[58\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[58\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_10_324 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_22_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[23\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[188\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[8\].bits\[4\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[76\]
++ ct.oc.capture_buffer\[68\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[68\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[9\].bits\[6\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[86\]
++ ct.oc.capture_buffer\[78\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[78\]
++ sky130_fd_sc_hd__sdfxtp_4
+XANTENNA_17 net7 VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[43\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[348\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_10_121 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_37_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ro.cc_clock_gate ct.ro.ring\[0\] ct.ro.gate VGND VGND VPWR VPWR ct.ro.counter\[0\]
++ sky130_fd_sc_hd__dlclkp_4
+XFILLER_0_24_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[30\].cc_clkbuf ct.oc.trig_chain\[30\] VGND VGND VPWR VPWR ct.oc.trig_chain\[31\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_15_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[16\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[128\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_30_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_38_296 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[36\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[288\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_12_152 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_4_109 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[13\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[110\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_35_277 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[0\].rs_cbuf net46 VGND VGND VPWR VPWR ct.oc.capture_buffer\[56\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_38_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[23\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[23\] sky130_fd_sc_hd__buf_4
+XFILLER_0_26_319 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[33\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[270\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_29_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_29_124 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_24_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_23_214 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[4\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[38\]
++ sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_17_Right_17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_31_300 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_26_Right_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ro.count\[6\].cc_div_flop ct.ro.counter_n\[5\] ct.ro.counter_n\[6\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[6\] ct.ro.counter_n\[6\] sky130_fd_sc_hd__dfrbp_2
+XPHY_EDGE_ROW_35_Right_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_15_73 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_13_322 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XPHY_EDGE_ROW_17_Left_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[26\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[210\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[30\].bits\[3\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[251\]
++ ct.oc.capture_buffer\[243\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[243\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[1\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[201\]
++ ct.oc.capture_buffer\[193\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[193\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_9_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[0\].bits\[0\].cc_flop ct.ic.trig_chain\[1\] ct.ic.data_chain\[3\] VGND
++ VGND VPWR VPWR ct.cw.source\[0\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[31\].bits\[5\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[261\]
++ ct.oc.capture_buffer\[253\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[253\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_6_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[25\].bits\[3\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[211\]
++ ct.oc.capture_buffer\[203\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[203\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[32\].bits\[7\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[271\]
++ ct.oc.capture_buffer\[263\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[263\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[19\].bits\[1\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[161\]
++ ct.oc.capture_buffer\[153\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[153\]
++ sky130_fd_sc_hd__sdfxtp_4
+XANTENNA_18 ct.cw.target\[5\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[0\].bits\[3\].rs_cbuf net29 VGND VGND VPWR VPWR ct.oc.capture_buffer\[3\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[26\].bits\[5\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[221\]
++ ct.oc.capture_buffer\[213\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[213\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_12_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[2\].bits\[0\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[24\]
++ ct.oc.capture_buffer\[16\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[16\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_18_211 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_18_277 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[27\].bits\[7\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[231\]
++ ct.oc.capture_buffer\[223\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[223\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[3\].bits\[2\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[34\]
++ ct.oc.capture_buffer\[26\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[26\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_24_203 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[4\].bits\[4\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[44\]
++ ct.oc.capture_buffer\[36\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[36\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_2_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[16\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[132\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_38_306 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_38_297 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[5\].bits\[6\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[54\]
++ ct.oc.capture_buffer\[46\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[46\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_5_Left_44 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.ic.frame\[7\].bits\[1\].cc_flop ct.ic.trig_chain\[8\] ct.ic.data_chain\[25\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[22\] sky130_fd_sc_hd__dfxtp_4
+XTAP_TAPCELL_ROW_12_153 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[36\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[292\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_35_278 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[60\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_38_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[27\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[27\] sky130_fd_sc_hd__buf_4
+XTAP_TAPCELL_ROW_32_259 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_17_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_0_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[29\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[232\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[12\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[97\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_9_317 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_15_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_17_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[32\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[257\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_6_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[26\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[214\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_34_Left_73 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_6_309 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[3\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[25\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[0\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[0\] sky130_fd_sc_hd__buf_4
+XANTENNA_19 ct.oc.capture_buffer\[249\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[0\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[7\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_2_312 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[19\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[154\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[43\].bits\[0\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[0\]
++ ct.oc.capture_buffer\[344\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[344\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[1\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[169\]
++ ct.oc.capture_buffer\[161\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[161\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[9\].cc_clkbuf ct.oc.trig_chain\[9\] VGND VGND VPWR VPWR ct.oc.trig_chain\[10\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[39\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[314\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_21_Left_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[22\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[179\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[3\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[179\]
++ ct.oc.capture_buffer\[171\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[171\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[0\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[312\]
++ ct.oc.capture_buffer\[304\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[304\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_38_298 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[15\].bits\[1\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[129\]
++ ct.oc.capture_buffer\[121\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[121\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[22\].bits\[5\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[189\]
++ ct.oc.capture_buffer\[181\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[181\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[2\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[322\]
++ ct.oc.capture_buffer\[314\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[314\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_29_243 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_12_154 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[16\].bits\[3\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[139\]
++ ct.oc.capture_buffer\[131\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[131\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[42\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[339\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[23\].bits\[7\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[199\]
++ ct.oc.capture_buffer\[191\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[191\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_18_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_18_96 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_35_279 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_7_289 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[17\].bits\[5\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[149\]
++ ct.oc.capture_buffer\[141\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[141\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_3_100 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[11\].bits\[1\].cc_flop ct.ic.trig_chain\[12\] ui_in[1] VGND VGND VPWR
++ VPWR ct.ic.data_chain\[34\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[0\].bits\[4\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[12\]
++ ct.oc.capture_buffer\[4\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[4\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[18\].bits\[7\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[159\]
++ ct.oc.capture_buffer\[151\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[151\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[1\].bits\[6\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[22\]
++ ct.oc.capture_buffer\[14\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[14\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_3_Right_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_16_321 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+Xct.oc.frame\[29\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[236\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[42\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[42\] sky130_fd_sc_hd__buf_4
+XFILLER_0_34_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[12\].bits\[5\].rs_cbuf net20 VGND VGND VPWR VPWR ct.oc.capture_buffer\[101\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_31_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[3\].bits\[2\].cc_flop ct.ic.trig_chain\[4\] ct.ic.data_chain\[14\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[11\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[32\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[261\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[3\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[29\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_26_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_5_321 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_36_202 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[8\].cc_clkbuf ct.oc.trig_chain\[8\] VGND VGND VPWR VPWR ct.oc.trig_chain\[9\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[4\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[4\] sky130_fd_sc_hd__buf_4
+XFILLER_0_2_324 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[25\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[201\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_18_182 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[158\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_33_249 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[39\].bits\[6\].rs_cbuf net11 VGND VGND VPWR VPWR ct.oc.capture_buffer\[318\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_15_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[22\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[183\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_3_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_38_299 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_199 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_6_120 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_29_244 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[42\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[343\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_18_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_7_279 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_3_101 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[40\].bits\[2\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[330\]
++ ct.oc.capture_buffer\[322\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[322\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[34\].bits\[0\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[280\]
++ ct.oc.capture_buffer\[272\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[272\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[15\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[123\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].bits\[4\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[340\]
++ ct.oc.capture_buffer\[332\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[332\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[1\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[97\]
++ ct.oc.capture_buffer\[89\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[89\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].bits\[2\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[290\]
++ ct.oc.capture_buffer\[282\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[282\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[0\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[240\]
++ ct.oc.capture_buffer\[232\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[232\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[12\].bits\[3\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[107\]
++ ct.oc.capture_buffer\[99\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[99\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[6\].bits\[0\].cc_flop ct.ic.trig_chain\[7\] ct.ic.data_chain\[21\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[18\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[42\].bits\[6\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[350\]
++ ct.oc.capture_buffer\[342\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[342\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[36\].bits\[4\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[300\]
++ ct.oc.capture_buffer\[292\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[292\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[35\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[283\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_19_160 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_22_325 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_34_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[13\].bits\[5\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[117\]
++ ct.oc.capture_buffer\[109\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[109\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_13_Right_13 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_22_Right_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[37\].bits\[6\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[310\]
++ ct.oc.capture_buffer\[302\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[302\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[6\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[51\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_22_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[13\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[13\] sky130_fd_sc_hd__buf_4
+XPHY_EDGE_ROW_31_Right_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[14\].bits\[7\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[127\]
++ ct.oc.capture_buffer\[119\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[119\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[7\].cc_clkbuf ct.oc.trig_chain\[7\] VGND VGND VPWR VPWR ct.oc.trig_chain\[8\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[8\].bits\[1\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[73\]
++ ct.oc.capture_buffer\[65\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[65\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[9\].bits\[3\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[83\]
++ ct.oc.capture_buffer\[75\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[75\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[88\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[8\].rs_mbuf net55 VGND VGND VPWR VPWR ct.oc.mode_buffer\[8\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[31\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[248\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[25\].bits\[5\].rs_cbuf net19 VGND VGND VPWR VPWR ct.oc.capture_buffer\[205\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_18_183 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_18_203 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_18_247 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xct.oc.frame\[2\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[16\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_6_121 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_29_245 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[18\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[145\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_3_102 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_9_Left_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_26_226 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_34_270 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[38\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[305\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[170\]
++ sky130_fd_sc_hd__buf_1
+Xct.ro.count\[3\].cc_div_flop ct.ro.counter_n\[2\] ct.ro.counter_n\[3\] rst_n VGND
++ VGND VPWR VPWR ct.ro.counter\[3\] ct.ro.counter_n\[3\] sky130_fd_sc_hd__dfrbp_2
+Xct.oc.frame\[15\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[127\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_29_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_9_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[9\].bits\[1\].rs_cbuf net44 VGND VGND VPWR VPWR ct.oc.capture_buffer\[73\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_28_150 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_31_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[6\].cc_clkbuf ct.oc.trig_chain\[6\] VGND VGND VPWR VPWR ct.oc.trig_chain\[7\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[41\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[330\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[35\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[287\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_13_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[10\].bits\[0\].cc_flop ct.ic.trig_chain\[11\] ct.ic.data_chain\[33\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[30\] sky130_fd_sc_hd__dfxtp_4
+XFILLER_0_15_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[17\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[17\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[6\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[55\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[30\].bits\[0\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[248\]
++ ct.oc.capture_buffer\[240\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[240\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[31\].bits\[2\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[258\]
++ ct.oc.capture_buffer\[250\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[250\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[25\].bits\[0\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[208\]
++ ct.oc.capture_buffer\[200\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[200\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[32\].bits\[4\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[268\]
++ ct.oc.capture_buffer\[260\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[260\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].bits\[2\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[218\]
++ ct.oc.capture_buffer\[210\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[210\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[28\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[227\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_38_Left_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_4_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[11\].bits\[4\].rs_cbuf net26 VGND VGND VPWR VPWR ct.oc.capture_buffer\[92\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[33\].bits\[6\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[278\]
++ ct.oc.capture_buffer\[270\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[270\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[27\].bits\[4\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[228\]
++ ct.oc.capture_buffer\[220\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[220\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[10\].bits\[7\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[95\]
++ ct.oc.capture_buffer\[87\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[87\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[2\].bits\[1\].cc_flop ct.ic.trig_chain\[3\] ct.ic.data_chain\[10\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[7\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[31\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[252\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_18_184 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[28\].bits\[6\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[238\]
++ ct.oc.capture_buffer\[230\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[230\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[4\].bits\[1\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[41\]
++ ct.oc.capture_buffer\[33\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[33\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[43\].cc_clkbuf ct.oc.trig_chain\[43\] VGND VGND VPWR VPWR ct.oc.trig_chain\[44\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_24_207 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[2\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[20\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[5\].bits\[3\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[51\]
++ ct.oc.capture_buffer\[43\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[43\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_3_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[6\].bits\[5\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[61\]
++ ct.oc.capture_buffer\[53\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[53\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_29_246 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_37_290 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[7\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[71\]
++ ct.oc.capture_buffer\[63\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[63\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_25_Left_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[24\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[192\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_34_76 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[18\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[149\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[5\].cc_clkbuf ct.oc.trig_chain\[5\] VGND VGND VPWR VPWR ct.oc.trig_chain\[6\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_3_103 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_26_227 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_34_271 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[9\].bits\[2\].cc_flop ct.ic.trig_chain\[10\] ct.ic.data_chain\[32\]
++ VGND VGND VPWR VPWR ct.ic.data_chain\[29\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[38\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[309\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[21\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[174\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_0_44 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[9\].bits\[5\].rs_cbuf net20 VGND VGND VPWR VPWR ct.oc.capture_buffer\[77\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_3_295 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[41\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[334\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_19_173 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XPHY_EDGE_ROW_7_Right_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_12_Left_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[14\].bits\[2\].rs_cbuf net37 VGND VGND VPWR VPWR ct.oc.capture_buffer\[114\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[34\].bits\[2\].rs_cbuf net34 VGND VGND VPWR VPWR ct.oc.capture_buffer\[274\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[42\].cc_clkbuf ct.oc.trig_chain\[42\] VGND VGND VPWR VPWR ct.oc.trig_chain\[43\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[32\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[32\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[28\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[231\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[5\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[42\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_2_94 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_18_185 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[21\].bits\[0\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[176\]
++ ct.oc.capture_buffer\[168\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[168\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[22\].bits\[2\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[186\]
++ ct.oc.capture_buffer\[178\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[178\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_15_166 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[4\].cc_clkbuf ct.oc.trig_chain\[4\] VGND VGND VPWR VPWR ct.oc.trig_chain\[5\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[16\].bits\[0\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[136\]
++ ct.oc.capture_buffer\[128\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[128\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[23\].bits\[4\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[196\]
++ ct.oc.capture_buffer\[188\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[188\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_29_247 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_37_300 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_37_291 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[17\].bits\[2\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[146\]
++ ct.oc.capture_buffer\[138\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[138\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[6\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[206\]
++ ct.oc.capture_buffer\[198\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[198\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[0\].bits\[1\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[9\]
++ ct.oc.capture_buffer\[1\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[1\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[196\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[18\].bits\[4\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[156\]
++ ct.oc.capture_buffer\[148\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[148\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_11_255 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_38_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_3_104 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_26_228 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[1\].bits\[3\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[19\]
++ ct.oc.capture_buffer\[11\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[11\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_34_272 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[6\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[166\]
++ ct.oc.capture_buffer\[158\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[158\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].bits\[5\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[29\]
++ ct.oc.capture_buffer\[21\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[21\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_9_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[3\].bits\[7\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[39\]
++ ct.oc.capture_buffer\[31\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[31\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[17\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[136\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].cc_clkbuf ct.oc.trig_chain\[41\] VGND VGND VPWR VPWR ct.oc.trig_chain\[42\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[37\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[296\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[161\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[14\].bits\[6\].rs_cbuf net14 VGND VGND VPWR VPWR ct.oc.capture_buffer\[118\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[8\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[64\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_6_88 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_20_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[40\].bits\[1\].rs_cbuf net41 VGND VGND VPWR VPWR ct.oc.capture_buffer\[321\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[34\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[278\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[36\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[36\] sky130_fd_sc_hd__buf_4
+XFILLER_0_8_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[3\].cc_clkbuf ct.oc.trig_chain\[3\] VGND VGND VPWR VPWR ct.oc.trig_chain\[4\]
++ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_2_95 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[5\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[46\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_18_186 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_15_167 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[27\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[218\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[10\].bits\[3\].rs_cbuf net31 VGND VGND VPWR VPWR ct.oc.capture_buffer\[83\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_29_Right_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_38_Right_38 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_20_245 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.ic.frame\[1\].bits\[0\].cc_flop ct.ic.trig_chain\[2\] ct.ic.data_chain\[6\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[3\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[30\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[243\]
++ sky130_fd_sc_hd__clkbuf_1
+X_11_ _04_ VGND VGND VPWR VPWR ct.ro.gate sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_7_228 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[41\].bits\[1\].cc_scanflop ct.oc.trig_chain\[42\] ct.oc.data_chain\[337\]
++ ct.oc.capture_buffer\[329\] ct.oc.mode_buffer\[41\] VGND VGND VPWR VPWR ct.oc.data_chain\[329\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_26_229 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_34_273 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_34_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[1\].bits\[3\].rs_cbuf net29 VGND VGND VPWR VPWR ct.oc.capture_buffer\[11\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[12\].bits\[0\].cc_scanflop ct.oc.trig_chain\[13\] ct.oc.data_chain\[104\]
++ ct.oc.capture_buffer\[96\] ct.oc.mode_buffer\[12\] VGND VGND VPWR VPWR ct.oc.data_chain\[96\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[42\].bits\[3\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[347\]
++ ct.oc.capture_buffer\[339\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[339\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[40\].cc_clkbuf ct.oc.trig_chain\[40\] VGND VGND VPWR VPWR ct.oc.trig_chain\[41\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[36\].bits\[1\].cc_scanflop ct.oc.trig_chain\[37\] ct.oc.data_chain\[297\]
++ ct.oc.capture_buffer\[289\] ct.oc.mode_buffer\[36\] VGND VGND VPWR VPWR ct.oc.data_chain\[289\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_16_304 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_31_254 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[43\].bits\[5\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[5\]
++ ct.oc.capture_buffer\[349\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[349\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[2\].cc_scanflop ct.oc.trig_chain\[14\] ct.oc.data_chain\[114\]
++ ct.oc.capture_buffer\[106\] ct.oc.mode_buffer\[13\] VGND VGND VPWR VPWR ct.oc.data_chain\[106\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[6\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[174\]
++ ct.oc.capture_buffer\[166\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[166\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[3\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[307\]
++ ct.oc.capture_buffer\[299\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[299\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_19_164 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[14\].bits\[4\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[124\]
++ ct.oc.capture_buffer\[116\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[116\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[17\].bits\[4\].rs_cbuf net24 VGND VGND VPWR VPWR ct.oc.capture_buffer\[140\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[38\].bits\[5\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[317\]
++ ct.oc.capture_buffer\[309\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[309\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[9\].cc_clkbuf ct.ic.trig_chain\[9\] VGND VGND VPWR VPWR ct.ic.trig_chain\[10\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[15\].bits\[6\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[134\]
++ ct.oc.capture_buffer\[126\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[126\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.ic.frame\[8\].bits\[1\].cc_flop ct.ic.trig_chain\[9\] ct.ic.data_chain\[28\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[25\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[37\].bits\[4\].rs_cbuf net22 VGND VGND VPWR VPWR ct.oc.capture_buffer\[300\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[39\].bits\[7\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[327\]
++ ct.oc.capture_buffer\[319\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[319\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[20\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[165\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[9\].bits\[0\].cc_scanflop ct.oc.trig_chain\[10\] ct.oc.data_chain\[80\]
++ ct.oc.capture_buffer\[72\] ct.oc.mode_buffer\[9\] VGND VGND VPWR VPWR ct.oc.data_chain\[72\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].cc_clkbuf ct.oc.trig_chain\[2\] VGND VGND VPWR VPWR ct.oc.trig_chain\[3\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_30_170 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[8\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[68\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_6_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_13_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[40\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[325\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_2_307 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_2_96 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_18_187 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[13\].bits\[1\].rs_cbuf net43 VGND VGND VPWR VPWR ct.oc.capture_buffer\[105\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_9_133 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_2_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_15_168 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[33\].bits\[1\].rs_cbuf net40 VGND VGND VPWR VPWR ct.oc.capture_buffer\[265\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_3_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[27\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[222\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[10\].bits\[7\].rs_cbuf net9 VGND VGND VPWR VPWR ct.oc.capture_buffer\[87\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[4\].bits\[1\].rs_cbuf net39 VGND VGND VPWR VPWR ct.oc.capture_buffer\[33\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_12_149 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_193 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_10_ ui_in[4] net54 VGND VGND VPWR VPWR _04_ sky130_fd_sc_hd__and2_1
+Xct.oc.frame\[30\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[247\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_34_274 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[1\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[15\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_37_143 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_20_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_29_Left_68 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.ic.frame\[8\].cc_clkbuf ct.ic.trig_chain\[8\] VGND VGND VPWR VPWR ct.ic.trig_chain\[9\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_9_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_31_255 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_287 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[1\].cc_clkbuf ct.oc.trig_chain\[1\] VGND VGND VPWR VPWR ct.oc.trig_chain\[2\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[23\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[187\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_25_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_179 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_16_168 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[43\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[347\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[32\].bits\[1\].cc_scanflop ct.oc.trig_chain\[33\] ct.oc.data_chain\[265\]
++ ct.oc.capture_buffer\[257\] ct.oc.mode_buffer\[32\] VGND VGND VPWR VPWR ct.oc.data_chain\[257\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[33\].bits\[3\].cc_scanflop ct.oc.trig_chain\[34\] ct.oc.data_chain\[275\]
++ ct.oc.capture_buffer\[267\] ct.oc.mode_buffer\[33\] VGND VGND VPWR VPWR ct.oc.data_chain\[267\]
++ sky130_fd_sc_hd__sdfxtp_4
+XANTENNA_1 ct.cw.target\[5\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[27\].bits\[1\].cc_scanflop ct.oc.trig_chain\[28\] ct.oc.data_chain\[225\]
++ ct.oc.capture_buffer\[217\] ct.oc.mode_buffer\[27\] VGND VGND VPWR VPWR ct.oc.data_chain\[217\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_16_Left_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[10\].bits\[4\].cc_scanflop ct.oc.trig_chain\[11\] ct.oc.data_chain\[92\]
++ ct.oc.capture_buffer\[84\] ct.oc.mode_buffer\[10\] VGND VGND VPWR VPWR ct.oc.data_chain\[84\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[40\].bits\[7\].cc_scanflop ct.oc.trig_chain\[41\] ct.oc.data_chain\[335\]
++ ct.oc.capture_buffer\[327\] ct.oc.mode_buffer\[40\] VGND VGND VPWR VPWR ct.oc.data_chain\[327\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[34\].bits\[5\].cc_scanflop ct.oc.trig_chain\[35\] ct.oc.data_chain\[285\]
++ ct.oc.capture_buffer\[277\] ct.oc.mode_buffer\[34\] VGND VGND VPWR VPWR ct.oc.data_chain\[277\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[28\].bits\[3\].cc_scanflop ct.oc.trig_chain\[29\] ct.oc.data_chain\[235\]
++ ct.oc.capture_buffer\[227\] ct.oc.mode_buffer\[28\] VGND VGND VPWR VPWR ct.oc.data_chain\[227\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[11\].bits\[6\].cc_scanflop ct.oc.trig_chain\[12\] ct.oc.data_chain\[102\]
++ ct.oc.capture_buffer\[94\] ct.oc.mode_buffer\[11\] VGND VGND VPWR VPWR ct.oc.data_chain\[94\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_2_97 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[35\].bits\[7\].cc_scanflop ct.oc.trig_chain\[36\] ct.oc.data_chain\[295\]
++ ct.oc.capture_buffer\[287\] ct.oc.mode_buffer\[35\] VGND VGND VPWR VPWR ct.oc.data_chain\[287\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[29\].bits\[5\].cc_scanflop ct.oc.trig_chain\[30\] ct.oc.data_chain\[245\]
++ ct.oc.capture_buffer\[237\] ct.oc.mode_buffer\[29\] VGND VGND VPWR VPWR ct.oc.data_chain\[237\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_5_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[5\].bits\[0\].cc_scanflop ct.oc.trig_chain\[6\] ct.oc.data_chain\[48\]
++ ct.oc.capture_buffer\[40\] ct.oc.mode_buffer\[5\] VGND VGND VPWR VPWR ct.oc.data_chain\[40\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[13\].bits\[5\].rs_cbuf net20 VGND VGND VPWR VPWR ct.oc.capture_buffer\[109\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_9_134 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[6\].bits\[2\].cc_scanflop ct.oc.trig_chain\[7\] ct.oc.data_chain\[58\]
++ ct.oc.capture_buffer\[50\] ct.oc.mode_buffer\[6\] VGND VGND VPWR VPWR ct.oc.data_chain\[50\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_15_169 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[22\].rs_mbuf net54 VGND VGND VPWR VPWR ct.oc.mode_buffer\[22\] sky130_fd_sc_hd__buf_4
+Xct.ic.frame\[4\].bits\[2\].cc_flop ct.ic.trig_chain\[5\] ct.ic.data_chain\[17\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[14\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[33\].bits\[5\].rs_cbuf net15 VGND VGND VPWR VPWR ct.oc.capture_buffer\[269\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_3_36 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[7\].bits\[4\].cc_scanflop ct.oc.trig_chain\[8\] ct.oc.data_chain\[68\]
++ ct.oc.capture_buffer\[60\] ct.oc.mode_buffer\[7\] VGND VGND VPWR VPWR ct.oc.data_chain\[60\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_14_277 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[8\].bits\[6\].cc_scanflop ct.oc.trig_chain\[9\] ct.oc.data_chain\[78\]
++ ct.oc.capture_buffer\[70\] ct.oc.mode_buffer\[8\] VGND VGND VPWR VPWR ct.oc.data_chain\[70\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_20_194 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[4\].bits\[5\].rs_cbuf net17 VGND VGND VPWR VPWR ct.oc.capture_buffer\[37\]
++ sky130_fd_sc_hd__buf_1
+Xct.ic.frame\[7\].cc_clkbuf ct.ic.trig_chain\[7\] VGND VGND VPWR VPWR ct.ic.trig_chain\[8\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_11_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[0\].cc_clkbuf ui_in[4] VGND VGND VPWR VPWR ct.oc.trig_chain\[1\] sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_34_275 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_4_Left_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[26\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[209\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_28_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_31_256 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_255 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_36_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_30_Left_69 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[23\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[191\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[0\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[2\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[43\].bits\[7\].rs_cbuf net5 VGND VGND VPWR VPWR ct.oc.capture_buffer\[351\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_30_150 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_26_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_2 ct.oc.capture_buffer\[170\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+XFILLER_0_21_172 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[16\].bits\[3\].rs_cbuf net30 VGND VGND VPWR VPWR ct.oc.capture_buffer\[131\]
++ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_33_Left_72 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_2_98 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[7\].bits\[0\].cc_flop ct.ic.trig_chain\[8\] ct.ic.data_chain\[24\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[21\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[36\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[291\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_32_245 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_32_256 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_9_135 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[7\].bits\[3\].rs_cbuf net28 VGND VGND VPWR VPWR ct.oc.capture_buffer\[59\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[6\].cc_clkbuf ct.ic.trig_chain\[6\] VGND VGND VPWR VPWR ct.ic.trig_chain\[7\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[23\].bits\[1\].cc_scanflop ct.oc.trig_chain\[24\] ct.oc.data_chain\[193\]
++ ct.oc.capture_buffer\[185\] ct.oc.mode_buffer\[23\] VGND VGND VPWR VPWR ct.oc.data_chain\[185\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[26\].rs_mbuf net53 VGND VGND VPWR VPWR ct.oc.mode_buffer\[26\] sky130_fd_sc_hd__buf_4
+XFILLER_0_23_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_3_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xct.oc.frame\[30\].bits\[5\].cc_scanflop ct.oc.trig_chain\[31\] ct.oc.data_chain\[253\]
++ ct.oc.capture_buffer\[245\] ct.oc.mode_buffer\[30\] VGND VGND VPWR VPWR ct.oc.data_chain\[245\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[24\].bits\[3\].cc_scanflop ct.oc.trig_chain\[25\] ct.oc.data_chain\[203\]
++ ct.oc.capture_buffer\[195\] ct.oc.mode_buffer\[24\] VGND VGND VPWR VPWR ct.oc.data_chain\[195\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_6_116 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_37_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[31\].bits\[7\].cc_scanflop ct.oc.trig_chain\[32\] ct.oc.data_chain\[263\]
++ ct.oc.capture_buffer\[255\] ct.oc.mode_buffer\[31\] VGND VGND VPWR VPWR ct.oc.data_chain\[255\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[18\].bits\[1\].cc_scanflop ct.oc.trig_chain\[19\] ct.oc.data_chain\[153\]
++ ct.oc.capture_buffer\[145\] ct.oc.mode_buffer\[18\] VGND VGND VPWR VPWR ct.oc.data_chain\[145\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_20_195 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[1\].bits\[0\].cc_scanflop ct.oc.trig_chain\[2\] ct.oc.data_chain\[16\]
++ ct.oc.capture_buffer\[8\] ct.oc.mode_buffer\[1\] VGND VGND VPWR VPWR ct.oc.data_chain\[8\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[25\].bits\[5\].cc_scanflop ct.oc.trig_chain\[26\] ct.oc.data_chain\[213\]
++ ct.oc.capture_buffer\[205\] ct.oc.mode_buffer\[25\] VGND VGND VPWR VPWR ct.oc.data_chain\[205\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_16_Right_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_28_240 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[19\].bits\[3\].cc_scanflop ct.oc.trig_chain\[20\] ct.oc.data_chain\[163\]
++ ct.oc.capture_buffer\[155\] ct.oc.mode_buffer\[19\] VGND VGND VPWR VPWR ct.oc.data_chain\[155\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_25_Right_25 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[12\].bits\[0\].rs_cbuf net49 VGND VGND VPWR VPWR ct.oc.capture_buffer\[96\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[26\].bits\[7\].cc_scanflop ct.oc.trig_chain\[27\] ct.oc.data_chain\[223\]
++ ct.oc.capture_buffer\[215\] ct.oc.mode_buffer\[26\] VGND VGND VPWR VPWR ct.oc.data_chain\[215\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[2\].bits\[2\].cc_scanflop ct.oc.trig_chain\[3\] ct.oc.data_chain\[26\]
++ ct.oc.capture_buffer\[18\] ct.oc.mode_buffer\[2\] VGND VGND VPWR VPWR ct.oc.data_chain\[18\]
++ sky130_fd_sc_hd__sdfxtp_4
+XPHY_EDGE_ROW_34_Right_34 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_19_326 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_253 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_4_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_25_221 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[3\].bits\[4\].cc_scanflop ct.oc.trig_chain\[4\] ct.oc.data_chain\[36\]
++ ct.oc.capture_buffer\[28\] ct.oc.mode_buffer\[3\] VGND VGND VPWR VPWR ct.oc.data_chain\[28\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[32\].bits\[0\].rs_cbuf net47 VGND VGND VPWR VPWR ct.oc.capture_buffer\[256\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[26\].bits\[5\].rs_cbuf net19 VGND VGND VPWR VPWR ct.oc.capture_buffer\[213\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_31_257 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[4\].bits\[6\].cc_scanflop ct.oc.trig_chain\[5\] ct.oc.data_chain\[46\]
++ ct.oc.capture_buffer\[38\] ct.oc.mode_buffer\[4\] VGND VGND VPWR VPWR ct.oc.data_chain\[38\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_19_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_29_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[3\].bits\[0\].rs_cbuf net45 VGND VGND VPWR VPWR ct.oc.capture_buffer\[24\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_8_315 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
+Xct.oc.frame\[0\].bits\[6\].rs_cbuf net12 VGND VGND VPWR VPWR ct.oc.capture_buffer\[6\]
++ sky130_fd_sc_hd__clkbuf_1
+Xfanout5 net7 VGND VGND VPWR VPWR net5 sky130_fd_sc_hd__buf_2
+XFILLER_0_21_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_2_Right_2 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xct.oc.frame\[19\].bits\[1\].rs_cbuf net42 VGND VGND VPWR VPWR ct.oc.capture_buffer\[153\]
++ sky130_fd_sc_hd__clkbuf_1
+XANTENNA_3 ct.oc.data_chain\[298\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[39\].bits\[1\].rs_cbuf net41 VGND VGND VPWR VPWR ct.oc.capture_buffer\[313\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[22\].bits\[2\].rs_cbuf net36 VGND VGND VPWR VPWR ct.oc.capture_buffer\[178\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[16\].bits\[7\].rs_cbuf net8 VGND VGND VPWR VPWR ct.oc.capture_buffer\[135\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.ic.frame\[5\].cc_clkbuf ct.ic.trig_chain\[5\] VGND VGND VPWR VPWR ct.ic.trig_chain\[6\]
++ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_12_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_2_99 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[42\].bits\[2\].rs_cbuf net33 VGND VGND VPWR VPWR ct.oc.capture_buffer\[338\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[36\].bits\[7\].rs_cbuf net6 VGND VGND VPWR VPWR ct.oc.capture_buffer\[295\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_17_210 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_9_136 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[11\].bits\[0\].cc_flop ct.ic.trig_chain\[12\] ui_in[0] VGND VGND VPWR
++ VPWR ct.ic.data_chain\[33\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[7\].bits\[7\].rs_cbuf net7 VGND VGND VPWR VPWR ct.oc.capture_buffer\[63\]
++ sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_14_160 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_6_117 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_196 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_28_241 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.oc.frame\[29\].bits\[3\].rs_cbuf net27 VGND VGND VPWR VPWR ct.oc.capture_buffer\[235\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[41\].rs_mbuf net51 VGND VGND VPWR VPWR ct.oc.mode_buffer\[41\] sky130_fd_sc_hd__buf_4
+Xct.oc.frame\[12\].bits\[4\].rs_cbuf net26 VGND VGND VPWR VPWR ct.oc.capture_buffer\[100\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[42\].bits\[0\].cc_scanflop ct.oc.trig_chain\[43\] ct.oc.data_chain\[344\]
++ ct.oc.capture_buffer\[336\] ct.oc.mode_buffer\[42\] VGND VGND VPWR VPWR ct.oc.data_chain\[336\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_25_222 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xct.ic.frame\[3\].bits\[1\].cc_flop ct.ic.trig_chain\[4\] ct.ic.data_chain\[13\] VGND
++ VGND VPWR VPWR ct.ic.data_chain\[10\] sky130_fd_sc_hd__dfxtp_4
+Xct.oc.frame\[43\].bits\[2\].cc_scanflop ct.oc.trig_chain\[44\] ct.cw.target\[2\]
++ ct.oc.capture_buffer\[346\] ct.oc.mode_buffer\[43\] VGND VGND VPWR VPWR ct.oc.data_chain\[346\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[32\].bits\[4\].rs_cbuf net21 VGND VGND VPWR VPWR ct.oc.capture_buffer\[260\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[20\].bits\[3\].cc_scanflop ct.oc.trig_chain\[21\] ct.oc.data_chain\[171\]
++ ct.oc.capture_buffer\[163\] ct.oc.mode_buffer\[20\] VGND VGND VPWR VPWR ct.oc.data_chain\[163\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[37\].bits\[0\].cc_scanflop ct.oc.trig_chain\[38\] ct.oc.data_chain\[304\]
++ ct.oc.capture_buffer\[296\] ct.oc.mode_buffer\[37\] VGND VGND VPWR VPWR ct.oc.data_chain\[296\]
++ sky130_fd_sc_hd__sdfxtp_4
+XTAP_TAPCELL_ROW_31_258 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_9_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[14\].bits\[1\].cc_scanflop ct.oc.trig_chain\[15\] ct.oc.data_chain\[121\]
++ ct.oc.capture_buffer\[113\] ct.oc.mode_buffer\[14\] VGND VGND VPWR VPWR ct.oc.data_chain\[113\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[21\].bits\[5\].cc_scanflop ct.oc.trig_chain\[22\] ct.oc.data_chain\[181\]
++ ct.oc.capture_buffer\[173\] ct.oc.mode_buffer\[21\] VGND VGND VPWR VPWR ct.oc.data_chain\[173\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[38\].bits\[2\].cc_scanflop ct.oc.trig_chain\[39\] ct.oc.data_chain\[314\]
++ ct.oc.capture_buffer\[306\] ct.oc.mode_buffer\[38\] VGND VGND VPWR VPWR ct.oc.data_chain\[306\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[3\].bits\[4\].rs_cbuf net23 VGND VGND VPWR VPWR ct.oc.capture_buffer\[28\]
++ sky130_fd_sc_hd__buf_1
+XFILLER_0_35_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xct.oc.frame\[15\].bits\[3\].cc_scanflop ct.oc.trig_chain\[16\] ct.oc.data_chain\[131\]
++ ct.oc.capture_buffer\[123\] ct.oc.mode_buffer\[15\] VGND VGND VPWR VPWR ct.oc.data_chain\[123\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[22\].bits\[7\].cc_scanflop ct.oc.trig_chain\[23\] ct.oc.data_chain\[191\]
++ ct.oc.capture_buffer\[183\] ct.oc.mode_buffer\[22\] VGND VGND VPWR VPWR ct.oc.data_chain\[183\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[39\].bits\[4\].cc_scanflop ct.oc.trig_chain\[40\] ct.oc.data_chain\[324\]
++ ct.oc.capture_buffer\[316\] ct.oc.mode_buffer\[39\] VGND VGND VPWR VPWR ct.oc.data_chain\[316\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_25_105 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[16\].bits\[5\].cc_scanflop ct.oc.trig_chain\[17\] ct.oc.data_chain\[141\]
++ ct.oc.capture_buffer\[133\] ct.oc.mode_buffer\[16\] VGND VGND VPWR VPWR ct.oc.data_chain\[133\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xfanout6 net7 VGND VGND VPWR VPWR net6 sky130_fd_sc_hd__clkbuf_2
+Xct.oc.frame\[3\].rs_mbuf net52 VGND VGND VPWR VPWR ct.oc.mode_buffer\[3\] sky130_fd_sc_hd__buf_4
+Xct.ic.frame\[4\].cc_clkbuf ct.ic.trig_chain\[4\] VGND VGND VPWR VPWR ct.ic.trig_chain\[5\]
++ sky130_fd_sc_hd__clkbuf_4
+Xct.oc.frame\[17\].bits\[7\].cc_scanflop ct.oc.trig_chain\[18\] ct.oc.data_chain\[151\]
++ ct.oc.capture_buffer\[143\] ct.oc.mode_buffer\[17\] VGND VGND VPWR VPWR ct.oc.data_chain\[143\]
++ sky130_fd_sc_hd__sdfxtp_4
+Xct.oc.frame\[25\].bits\[0\].rs_cbuf net48 VGND VGND VPWR VPWR ct.oc.capture_buffer\[200\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[19\].bits\[5\].rs_cbuf net18 VGND VGND VPWR VPWR ct.oc.capture_buffer\[157\]
++ sky130_fd_sc_hd__clkbuf_1
+Xct.oc.frame\[0\].bits\[6\].cc_scanflop ct.oc.trig_chain\[1\] ct.oc.data_chain\[14\]
++ ct.oc.capture_buffer\[6\] ct.oc.mode_buffer\[0\] VGND VGND VPWR VPWR ct.oc.data_chain\[6\]
++ sky130_fd_sc_hd__sdfxtp_4
+XFILLER_0_13_119 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_4 ct.cw.target\[6\] VGND VGND VPWR VPWR sky130_fd_sc_hd__diode_2
+Xct.oc.frame\[39\].bits\[5\].rs_cbuf net16 VGND VGND VPWR VPWR ct.oc.capture_buffer\[317\]
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_12_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xct.oc.frame\[22\].bits\[6\].rs_cbuf net13 VGND VGND VPWR VPWR ct.oc.capture_buffer\[182\]
++ sky130_fd_sc_hd__buf_1
+Xct.oc.frame\[42\].bits\[6\].rs_cbuf net10 VGND VGND VPWR VPWR ct.oc.capture_buffer\[342\]
++ sky130_fd_sc_hd__clkbuf_1
+.ends
+
