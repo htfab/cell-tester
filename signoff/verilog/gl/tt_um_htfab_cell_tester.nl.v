@@ -16,6 +16,7 @@ module tt_um_htfab_cell_tester (clk,
  output [7:0] uio_out;
  output [7:0] uo_out;
 
+ wire net55;
  wire net56;
  wire net57;
  wire net58;
@@ -23,7 +24,6 @@ module tt_um_htfab_cell_tester (clk,
  wire net60;
  wire net61;
  wire net62;
- wire net63;
  wire _00_;
  wire _01_;
  wire _02_;
@@ -948,400 +948,400 @@ module tt_um_htfab_cell_tester (clk,
  wire net52;
  wire net53;
  wire net54;
- wire net55;
  wire net6;
  wire net7;
  wire net8;
  wire net9;
 
  sky130_fd_sc_hd__diode_2 ANTENNA_1 (.DIODE(\ct.cw.target[5] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_10 (.DIODE(\ct.oc.capture_buffer[170] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_11 (.DIODE(\ct.oc.data_chain[298] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_12 (.DIODE(\ct.oc.capture_buffer[275] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_13 (.DIODE(\ct.oc.capture_buffer[39] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_14 (.DIODE(\ct.oc.trig_chain[22] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_15 (.DIODE(\ct.oc.trig_chain[23] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_16 (.DIODE(\ct.oc.trig_chain[23] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_17 (.DIODE(net7));
- sky130_fd_sc_hd__diode_2 ANTENNA_18 (.DIODE(\ct.cw.target[5] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_19 (.DIODE(\ct.oc.capture_buffer[249] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_2 (.DIODE(\ct.oc.capture_buffer[170] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_20 (.DIODE(\ct.cw.target[6] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_21 (.DIODE(\ct.oc.capture_buffer[39] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_3 (.DIODE(\ct.oc.data_chain[298] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_4 (.DIODE(\ct.cw.target[6] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_5 (.DIODE(\ct.ic.trig_chain[2] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_6 (.DIODE(\ct.oc.capture_buffer[39] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_7 (.DIODE(\ct.oc.data_chain[162] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_8 (.DIODE(\ct.oc.trig_chain[22] ));
- sky130_fd_sc_hd__diode_2 ANTENNA_9 (.DIODE(\ct.oc.data_chain[162] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_10 (.DIODE(net19));
+ sky130_fd_sc_hd__diode_2 ANTENNA_11 (.DIODE(net46));
+ sky130_fd_sc_hd__diode_2 ANTENNA_12 (.DIODE(\ct.cw.target[3] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_13 (.DIODE(\ct.ic.trig_chain[1] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_14 (.DIODE(\ct.oc.capture_buffer[31] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_15 (.DIODE(\ct.cw.target[5] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_16 (.DIODE(\ct.cw.target[7] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_17 (.DIODE(\ct.oc.capture_buffer[264] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_18 (.DIODE(\ct.oc.capture_buffer[279] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_19 (.DIODE(net19));
+ sky130_fd_sc_hd__diode_2 ANTENNA_2 (.DIODE(\ct.oc.capture_buffer[168] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_20 (.DIODE(\ct.ic.trig_chain[1] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_21 (.DIODE(\ct.oc.capture_buffer[182] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_22 (.DIODE(\ct.oc.capture_buffer[271] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_23 (.DIODE(\ct.oc.capture_buffer[31] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_24 (.DIODE(\ct.oc.data_chain[161] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_25 (.DIODE(\ct.oc.capture_buffer[264] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_3 (.DIODE(\ct.oc.capture_buffer[256] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_4 (.DIODE(\ct.oc.data_chain[160] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_5 (.DIODE(\ct.ic.data_chain[10] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_6 (.DIODE(\ct.ic.trig_chain[1] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_7 (.DIODE(\ct.oc.capture_buffer[271] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_8 (.DIODE(\ct.oc.capture_buffer[279] ));
+ sky130_fd_sc_hd__diode_2 ANTENNA_9 (.DIODE(\ct.oc.data_chain[161] ));
  sky130_fd_sc_hd__fill_2 FILLER_0_0_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_0_3 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_0_309 (.VPB(VPWR),
-    .VNB(VGND));
- sky130_fd_sc_hd__decap_6 FILLER_0_0_321 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_0_36 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_0_40 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_0_44 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_10_121 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_10_195 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_10_200 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_10_235 ();
- sky130_fd_sc_hd__decap_6 FILLER_0_10_245 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_10_251 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_10_253 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_0_312 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_0_316 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_0_324 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_0_33 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_0_37 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_0_41 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_0_49 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_10_118 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_10_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_10_191 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_10_209 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_10_246 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_10_250 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_10_253 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_10_279 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_10_283 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_10_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_10_3 ();
  sky130_ef_sc_hd__decap_12 FILLER_0_10_312 (.VPB(VPWR),
     .VNB(VGND));
  sky130_fd_sc_hd__decap_3 FILLER_0_10_324 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_11_125 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_150 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_11_167 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_169 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_174 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_225 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_229 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_11_255 ();
- sky130_fd_sc_hd__decap_8 FILLER_0_11_281 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_11_30 ();
- sky130_fd_sc_hd__decap_8 FILLER_0_11_319 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_11_155 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_11_164 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_11_220 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_11_231 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_11_284 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_11_318 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_11_326 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_11_54 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_11_63 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_12_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_12_221 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_12_225 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_12_251 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_12_283 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_12_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_12_3 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_12_315 (.VPB(VPWR),
-    .VNB(VGND));
- sky130_fd_sc_hd__fill_1 FILLER_0_12_85 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_12_307 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_12_318 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_12_326 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_12_59 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_12_91 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_13_119 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_13_220 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_13_223 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_13_279 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_13_281 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_13_288 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_13_3 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_13_284 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_13_31 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_13_322 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_13_326 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_13_321 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_13_6 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_13_63 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_14_126 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_14_139 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_14_123 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_14_141 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_14_194 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_14_221 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_14_277 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_14_280 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_14_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_14_307 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_14_321 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_14_53 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_14_94 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_101 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_14_91 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_15_104 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_15_113 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_15_139 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_15_167 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_169 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_173 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_216 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_15_143 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_15_175 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_15_213 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_15_217 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_15_223 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_15_279 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_15_305 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_15_325 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_15_63 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_15_324 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_15_42 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_15_60 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_15_73 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_16_139 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_16_168 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_16_245 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_16_259 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_16_285 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_16_29 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_16_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_16_167 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_16_245 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_16_250 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_16_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_16_3 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_16_304 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_16_309 (.VPB(VPWR),
+ sky130_fd_sc_hd__fill_1 FILLER_0_16_307 ();
+ sky130_ef_sc_hd__decap_12 FILLER_0_16_315 (.VPB(VPWR),
     .VNB(VGND));
- sky130_fd_sc_hd__decap_6 FILLER_0_16_321 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_16_89 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_17_113 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_17_139 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_17_175 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_17_210 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_17_214 ();
- sky130_fd_sc_hd__decap_6 FILLER_0_17_249 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_17_255 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_17_3 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_17_143 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_17_169 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_17_200 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_17_205 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_17_213 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_17_249 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_17_274 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_17_324 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_17_54 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_17_57 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_18_169 ();
- sky130_fd_sc_hd__decap_8 FILLER_0_18_203 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_18_211 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_18_240 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_18_247 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_18_251 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_18_277 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_18_171 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_18_200 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_18_204 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_18_208 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_18_235 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_18_239 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_18_244 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_18_248 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_18_277 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_18_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_18_306 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_18_323 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_18_321 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_18_53 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_18_85 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_18_96 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_19_160 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_19_164 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_19_169 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_19_173 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_19_207 (.VPB(VPWR),
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_103 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_19_110 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_19_163 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_167 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_19_169 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_19_208 ();
+ sky130_ef_sc_hd__decap_12 FILLER_0_19_212 (.VPB(VPWR),
     .VNB(VGND));
- sky130_fd_sc_hd__decap_4 FILLER_0_19_219 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_19_223 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_19_279 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_19_228 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_236 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_261 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_266 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_273 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_19_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_19_326 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_19_324 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_19_55 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_19_81 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_19_87 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_1_167 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_19_57 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_19_65 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_1_113 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_1_223 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_1_279 ();
- sky130_fd_sc_hd__decap_8 FILLER_0_1_317 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_1_325 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_1_6 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_1_3 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_1_320 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_1_326 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_1_63 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_20_131 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_20_165 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_20_169 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_20_245 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_20_253 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_20_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_20_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_20_319 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_20_59 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_20_91 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_21_125 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_21_166 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_21_172 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_21_211 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_20_318 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_20_326 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_20_91 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_21_161 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_21_165 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_21_169 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_21_173 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_21_214 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_21_279 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_21_297 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_21_3 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_21_323 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_21_60 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_22_189 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_22_195 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_22_251 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_22_283 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_22_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_22_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_22_325 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_22_35 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_23_113 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_23_163 ();
- sky130_fd_sc_hd__decap_6 FILLER_0_23_217 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_23_223 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_23_225 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_22_307 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_23_103 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_110 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_128 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_154 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_23_169 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_23_175 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_179 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_183 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_23_191 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_23_217 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_23_225 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_23_3 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_23_60 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_24_115 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_24_141 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_24_203 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_24_207 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_24_147 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_24_200 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_24_204 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_24_253 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_24_279 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_24_282 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_24_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_24_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_24_326 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_24_59 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_25_105 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_24_33 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_24_58 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_24_91 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_25_111 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_25_113 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_25_179 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_25_210 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_25_220 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_25_279 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_25_281 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_25_298 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_25_178 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_25_206 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_25_223 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_25_249 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_25_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_25_40 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_25_51 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_25_31 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_26_111 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_26_147 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_26_209 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_26_234 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_26_247 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_26_3 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_26_307 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_26_319 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_26_59 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_26_85 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_27_111 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_27_119 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_27_175 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_27_204 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_27_273 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_27_3 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_27_3 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_27_7 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_28_111 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_28_150 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_28_141 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_28_149 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_28_227 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_28_3 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_28_307 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_28_325 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_28_59 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_28_85 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_29_111 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_29_113 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_29_120 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_29_124 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_29_143 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_29_178 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_29_204 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_29_169 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_29_173 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_29_177 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_29_203 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_29_279 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_29_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_29_31 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_29_281 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_29_295 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_29_3 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_29_326 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_2_141 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_2_251 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_2_277 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_2_256 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_2_282 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_2_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_2_307 ();
  sky130_ef_sc_hd__decap_12 FILLER_0_2_312 (.VPB(VPWR),
     .VNB(VGND));
  sky130_fd_sc_hd__decap_3 FILLER_0_2_324 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_2_56 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_2_85 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_30_150 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_30_170 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_30_216 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_30_251 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_30_256 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_2_56 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_2_82 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_2_91 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_30_147 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_30_197 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_30_250 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_30_256 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_30_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_30_307 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_30_306 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_30_326 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_30_35 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_31_143 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_31_147 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_31_204 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_31_252 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_31_254 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_31_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_31_300 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_31_326 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_31_63 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_32_111 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_32_175 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_32_216 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_32_245 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_32_256 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_32_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_32_148 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_32_216 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_32_287 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_32_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_32_307 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_32_35 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_32_85 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_33_147 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_32_322 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_32_53 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_32_85 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_33_222 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_33_249 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_33_281 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_33_284 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_33_3 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_33_32 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_33_42 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_33_57 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_33_83 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_109 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_138 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_34_141 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_34_195 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_241 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_253 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_29 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_33_51 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_33_57 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_34_109 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_34_165 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_34_253 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_34_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_34_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_34_326 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_34_76 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_34_320 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_35_110 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_35_123 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_35_222 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_35_234 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_35_278 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_35_28 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_35_3 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_35_30 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_35_300 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_35_326 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_35_81 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_36_139 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_36_141 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_36_194 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_36_202 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_36_227 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_36_283 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_36_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_36_3 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_36_326 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_36_35 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_36_85 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_37_143 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_37_169 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_37_105 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_37_113 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_37_145 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_37_199 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_37_279 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_37_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_37_300 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_37_326 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_37_81 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_38_113 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_38_139 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_37_300 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_37_325 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_37_54 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_38_103 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_38_147 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_38_175 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_38_203 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_38_225 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_38_3 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_38_306 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_102 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_167 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_217 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_38_315 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_38_323 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_38_57 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_3_113 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_3_223 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_3_255 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_3_287 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_3_295 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_3_32 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_3_324 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_3_36 (.VPB(VPWR),
+ sky130_ef_sc_hd__decap_12 FILLER_0_3_314 (.VPB(VPWR),
     .VNB(VGND));
- sky130_fd_sc_hd__decap_8 FILLER_0_3_48 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_3_57 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_7 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_3_74 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_4_141 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_3_326 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_3_6 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_3_63 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_4_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_4_194 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_4_251 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_4_277 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_4_29 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_4_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_4_3 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_4_306 ();
- sky130_ef_sc_hd__decap_12 FILLER_0_4_309 (.VPB(VPWR),
+ sky130_ef_sc_hd__decap_12 FILLER_0_4_315 (.VPB(VPWR),
     .VNB(VGND));
- sky130_fd_sc_hd__decap_6 FILLER_0_4_321 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_4_33 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_4_58 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_4_91 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_5_113 ();
- sky130_fd_sc_hd__decap_6 FILLER_0_5_14 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_5_119 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_5_223 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_5_26 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_5_279 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_5_290 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_5_3 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_5_30 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_5_281 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_5_295 ();
  sky130_fd_sc_hd__decap_6 FILLER_0_5_321 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_5_57 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_6_168 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_6_197 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_6_234 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_6_248 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_5_6 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_5_60 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_5_68 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_6_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_6_209 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_6_235 ();
+ sky130_fd_sc_hd__decap_3 FILLER_0_6_249 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_6_253 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_6_29 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_6_3 ();
  sky130_fd_sc_hd__decap_4 FILLER_0_6_303 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_6_307 ();
  sky130_ef_sc_hd__decap_12 FILLER_0_6_309 (.VPB(VPWR),
     .VNB(VGND));
  sky130_fd_sc_hd__decap_6 FILLER_0_6_321 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_6_56 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_6_82 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_6_88 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_7_113 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_6_91 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_7_116 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_7_223 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_7_228 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_7_279 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_7_281 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_7_289 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_7_3 ();
- sky130_fd_sc_hd__decap_8 FILLER_0_7_317 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_7_325 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_7_63 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_7_7 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_8_141 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_8_245 ();
- sky130_fd_sc_hd__decap_3 FILLER_0_8_249 ();
- sky130_fd_sc_hd__decap_4 FILLER_0_8_280 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_7_231 ();
+ sky130_fd_sc_hd__decap_8 FILLER_0_7_272 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_7_284 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_7_291 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_7_295 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_7_30 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_7_320 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_7_326 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_7_57 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_8_141 ();
+ sky130_fd_sc_hd__fill_2 FILLER_0_8_191 ();
+ sky130_fd_sc_hd__decap_4 FILLER_0_8_248 ();
+ sky130_fd_sc_hd__decap_6 FILLER_0_8_277 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_8_283 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_8_3 ();
  sky130_ef_sc_hd__decap_12 FILLER_0_8_315 (.VPB(VPWR),
     .VNB(VGND));
- sky130_fd_sc_hd__decap_4 FILLER_0_8_56 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_8_35 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_8_91 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_9_113 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_9_223 ();
- sky130_fd_sc_hd__fill_1 FILLER_0_9_228 ();
+ sky130_fd_sc_hd__fill_1 FILLER_0_9_231 ();
  sky130_fd_sc_hd__decap_8 FILLER_0_9_317 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_9_32 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_9_325 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_9_48 ();
- sky130_fd_sc_hd__fill_2 FILLER_0_9_52 ();
  sky130_fd_sc_hd__fill_2 FILLER_0_9_6 ();
  sky130_fd_sc_hd__fill_1 FILLER_0_9_78 ();
  sky130_fd_sc_hd__decap_3 PHY_EDGE_ROW_0_Left_39 ();
@@ -1647,7 +1647,7 @@ module tt_um_htfab_cell_tester (clk,
  sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_TAPCELL_ROW_9_135 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_TAPCELL_ROW_9_136 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_TAPCELL_ROW_9_137 ();
- sky130_fd_sc_hd__inv_2 _05_ (.A(net54),
+ sky130_fd_sc_hd__inv_2 _05_ (.A(net53),
     .Y(_00_));
  sky130_fd_sc_hd__mux4_1 _06_ (.A0(\ct.ro.counter[0] ),
     .A1(\ct.ro.counter[1] ),
@@ -1672,7 +1672,7 @@ module tt_um_htfab_cell_tester (clk,
     .B1(_03_),
     .X(\ct.ic.trig_chain[0] ));
  sky130_fd_sc_hd__and2_1 _10_ (.A(ui_in[4]),
-    .B(net54),
+    .B(net53),
     .X(_04_));
  sky130_fd_sc_hd__clkbuf_1 _11_ (.A(_04_),
     .X(\ct.ro.gate ));
@@ -1682,7 +1682,7 @@ module tt_um_htfab_cell_tester (clk,
     .X(uio_out[1]));
  sky130_fd_sc_hd__clkbuf_4 _22_ (.A(\ct.oc.data_chain[2] ),
     .X(uio_out[2]));
- sky130_fd_sc_hd__buf_2 _23_ (.A(\ct.oc.data_chain[3] ),
+ sky130_fd_sc_hd__clkbuf_4 _23_ (.A(\ct.oc.data_chain[3] ),
     .X(uio_out[3]));
  sky130_fd_sc_hd__clkbuf_4 _24_ (.A(\ct.oc.data_chain[4] ),
     .X(uio_out[4]));
@@ -1861,35 +1861,35 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[0] ),
     .SCE(\ct.oc.mode_buffer[0] ),
     .Q(\ct.oc.data_chain[0] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[0].rs_cbuf  (.A(net46),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[0].rs_cbuf  (.A(net44),
     .X(\ct.oc.capture_buffer[0] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[0].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[1] ),
     .D(\ct.oc.data_chain[9] ),
     .SCD(\ct.oc.capture_buffer[1] ),
     .SCE(\ct.oc.mode_buffer[0] ),
     .Q(\ct.oc.data_chain[1] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[1].rs_cbuf  (.A(net41),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[1].rs_cbuf  (.A(net39),
     .X(\ct.oc.capture_buffer[1] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[0].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[1] ),
     .D(\ct.oc.data_chain[10] ),
     .SCD(\ct.oc.capture_buffer[2] ),
     .SCE(\ct.oc.mode_buffer[0] ),
     .Q(\ct.oc.data_chain[2] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[2] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[0].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[1] ),
     .D(\ct.oc.data_chain[11] ),
     .SCD(\ct.oc.capture_buffer[3] ),
     .SCE(\ct.oc.mode_buffer[0] ),
     .Q(\ct.oc.data_chain[3] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[3].rs_cbuf  (.A(net29),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[3].rs_cbuf  (.A(net27),
     .X(\ct.oc.capture_buffer[3] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[0].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[1] ),
     .D(\ct.oc.data_chain[12] ),
     .SCD(\ct.oc.capture_buffer[4] ),
     .SCE(\ct.oc.mode_buffer[0] ),
     .Q(\ct.oc.data_chain[4] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[0].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[4] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[0].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[1] ),
     .D(\ct.oc.data_chain[13] ),
@@ -1914,49 +1914,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[7] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[0].cc_clkbuf  (.A(ui_in[4]),
     .X(\ct.oc.trig_chain[1] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[0].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[0].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[0] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[88] ),
     .SCD(\ct.oc.capture_buffer[80] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[80] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[80] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[89] ),
     .SCD(\ct.oc.capture_buffer[81] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[81] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[81] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[90] ),
     .SCD(\ct.oc.capture_buffer[82] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[82] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[82] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[91] ),
     .SCD(\ct.oc.capture_buffer[83] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[83] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[83] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[92] ),
     .SCD(\ct.oc.capture_buffer[84] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[84] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[4].rs_cbuf  (.A(net26),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[84] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[93] ),
     .SCD(\ct.oc.capture_buffer[85] ),
     .SCE(\ct.oc.mode_buffer[10] ),
     .Q(\ct.oc.data_chain[85] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[5].rs_cbuf  (.A(net20),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[10].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[85] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[10].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[11] ),
     .D(\ct.oc.data_chain[94] ),
@@ -1974,49 +1974,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[87] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[10].cc_clkbuf  (.A(\ct.oc.trig_chain[10] ),
     .X(\ct.oc.trig_chain[11] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[10].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[10].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[10] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[96] ),
     .SCD(\ct.oc.capture_buffer[88] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[88] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[88] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[97] ),
     .SCD(\ct.oc.capture_buffer[89] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[89] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[89] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[98] ),
     .SCD(\ct.oc.capture_buffer[90] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[90] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[90] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[99] ),
     .SCD(\ct.oc.capture_buffer[91] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[91] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[91] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[100] ),
     .SCD(\ct.oc.capture_buffer[92] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[92] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[4].rs_cbuf  (.A(net26),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[92] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[101] ),
     .SCD(\ct.oc.capture_buffer[93] ),
     .SCE(\ct.oc.mode_buffer[11] ),
     .Q(\ct.oc.data_chain[93] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[5].rs_cbuf  (.A(net20),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[11].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[93] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[11].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[12] ),
     .D(\ct.oc.data_chain[102] ),
@@ -2034,49 +2034,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[95] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[11].cc_clkbuf  (.A(\ct.oc.trig_chain[11] ),
     .X(\ct.oc.trig_chain[12] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[11].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[11].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[11] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[104] ),
     .SCD(\ct.oc.capture_buffer[96] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[96] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[96] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[105] ),
     .SCD(\ct.oc.capture_buffer[97] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[97] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[97] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[106] ),
     .SCD(\ct.oc.capture_buffer[98] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[98] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[98] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[107] ),
     .SCD(\ct.oc.capture_buffer[99] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[99] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[99] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[108] ),
     .SCD(\ct.oc.capture_buffer[100] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[100] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[4].rs_cbuf  (.A(net26),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[100] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[109] ),
     .SCD(\ct.oc.capture_buffer[101] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[101] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[5].rs_cbuf  (.A(net20),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[101] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[12].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[13] ),
     .D(\ct.oc.data_chain[110] ),
@@ -2090,53 +2090,53 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[103] ),
     .SCE(\ct.oc.mode_buffer[12] ),
     .Q(\ct.oc.data_chain[103] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[12].bits[7].rs_cbuf  (.A(net9),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[12].bits[7].rs_cbuf  (.A(net9),
     .X(\ct.oc.capture_buffer[103] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[12].cc_clkbuf  (.A(\ct.oc.trig_chain[12] ),
     .X(\ct.oc.trig_chain[13] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[12].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[12].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[12] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[112] ),
     .SCD(\ct.oc.capture_buffer[104] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[104] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[104] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[113] ),
     .SCD(\ct.oc.capture_buffer[105] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[105] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[105] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[114] ),
     .SCD(\ct.oc.capture_buffer[106] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[106] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[106] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[115] ),
     .SCD(\ct.oc.capture_buffer[107] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[107] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[107] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[116] ),
     .SCD(\ct.oc.capture_buffer[108] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[108] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[4].rs_cbuf  (.A(net26),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[108] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[117] ),
     .SCD(\ct.oc.capture_buffer[109] ),
     .SCE(\ct.oc.mode_buffer[13] ),
     .Q(\ct.oc.data_chain[109] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[5].rs_cbuf  (.A(net20),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[13].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[109] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[13].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[14] ),
     .D(\ct.oc.data_chain[118] ),
@@ -2154,42 +2154,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[111] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[13].cc_clkbuf  (.A(\ct.oc.trig_chain[13] ),
     .X(\ct.oc.trig_chain[14] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[13].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[13].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[13] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[120] ),
     .SCD(\ct.oc.capture_buffer[112] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[112] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[112] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[121] ),
     .SCD(\ct.oc.capture_buffer[113] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[113] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[113] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[122] ),
     .SCD(\ct.oc.capture_buffer[114] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[114] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[114] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[123] ),
     .SCD(\ct.oc.capture_buffer[115] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[115] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[115] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[124] ),
     .SCD(\ct.oc.capture_buffer[116] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[116] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[4].rs_cbuf  (.A(net25),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[116] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[14].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[15] ),
     .D(\ct.oc.data_chain[125] ),
@@ -2210,39 +2210,39 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[119] ),
     .SCE(\ct.oc.mode_buffer[14] ),
     .Q(\ct.oc.data_chain[119] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[7].rs_cbuf  (.A(net9),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[14].bits[7].rs_cbuf  (.A(net8),
     .X(\ct.oc.capture_buffer[119] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[14].cc_clkbuf  (.A(\ct.oc.trig_chain[14] ),
     .X(\ct.oc.trig_chain[15] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[14].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[14].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[14] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[15].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[16] ),
     .D(\ct.oc.data_chain[128] ),
     .SCD(\ct.oc.capture_buffer[120] ),
     .SCE(\ct.oc.mode_buffer[15] ),
     .Q(\ct.oc.data_chain[120] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[0].rs_cbuf  (.A(net50),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[0].rs_cbuf  (.A(net48),
     .X(\ct.oc.capture_buffer[120] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[15].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[16] ),
     .D(\ct.oc.data_chain[129] ),
     .SCD(\ct.oc.capture_buffer[121] ),
     .SCE(\ct.oc.mode_buffer[15] ),
     .Q(\ct.oc.data_chain[121] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[1].rs_cbuf  (.A(net44),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[1].rs_cbuf  (.A(net42),
     .X(\ct.oc.capture_buffer[121] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[15].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[16] ),
     .D(\ct.oc.data_chain[130] ),
     .SCD(\ct.oc.capture_buffer[122] ),
     .SCE(\ct.oc.mode_buffer[15] ),
     .Q(\ct.oc.data_chain[122] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[2].rs_cbuf  (.A(net38),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[2].rs_cbuf  (.A(net36),
     .X(\ct.oc.capture_buffer[122] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[15].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[16] ),
     .D(\ct.oc.data_chain[131] ),
     .SCD(\ct.oc.capture_buffer[123] ),
     .SCE(\ct.oc.mode_buffer[15] ),
     .Q(\ct.oc.data_chain[123] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[15].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[123] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[15].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[16] ),
     .D(\ct.oc.data_chain[132] ),
@@ -2274,42 +2274,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[127] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[15].cc_clkbuf  (.A(\ct.oc.trig_chain[15] ),
     .X(\ct.oc.trig_chain[16] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[15].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[15].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[15] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[136] ),
     .SCD(\ct.oc.capture_buffer[128] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[128] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[128] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[137] ),
     .SCD(\ct.oc.capture_buffer[129] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[129] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[129] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[138] ),
     .SCD(\ct.oc.capture_buffer[130] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[130] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[130] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[139] ),
     .SCD(\ct.oc.capture_buffer[131] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[131] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[131] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[140] ),
     .SCD(\ct.oc.capture_buffer[132] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[132] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[132] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[141] ),
@@ -2323,7 +2323,7 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[134] ),
     .SCE(\ct.oc.mode_buffer[16] ),
     .Q(\ct.oc.data_chain[134] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[6].rs_cbuf  (.A(net14),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[16].bits[6].rs_cbuf  (.A(net13),
     .X(\ct.oc.capture_buffer[134] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[16].bits[7].cc_scanflop  (.CLK(\ct.oc.trig_chain[17] ),
     .D(\ct.oc.data_chain[143] ),
@@ -2334,42 +2334,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[135] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[16].cc_clkbuf  (.A(\ct.oc.trig_chain[16] ),
     .X(\ct.oc.trig_chain[17] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[16].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[16].rs_mbuf  (.A(net54),
     .X(\ct.oc.mode_buffer[16] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[144] ),
     .SCD(\ct.oc.capture_buffer[136] ),
     .SCE(\ct.oc.mode_buffer[17] ),
     .Q(\ct.oc.data_chain[136] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[136] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[145] ),
     .SCD(\ct.oc.capture_buffer[137] ),
     .SCE(\ct.oc.mode_buffer[17] ),
     .Q(\ct.oc.data_chain[137] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[137] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[146] ),
     .SCD(\ct.oc.capture_buffer[138] ),
     .SCE(\ct.oc.mode_buffer[17] ),
     .Q(\ct.oc.data_chain[138] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[138] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[147] ),
     .SCD(\ct.oc.capture_buffer[139] ),
     .SCE(\ct.oc.mode_buffer[17] ),
     .Q(\ct.oc.data_chain[139] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[139] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[148] ),
     .SCD(\ct.oc.capture_buffer[140] ),
     .SCE(\ct.oc.mode_buffer[17] ),
     .Q(\ct.oc.data_chain[140] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[17].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[140] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[17].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[18] ),
     .D(\ct.oc.data_chain[149] ),
@@ -2394,42 +2394,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[143] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[17].cc_clkbuf  (.A(\ct.oc.trig_chain[17] ),
     .X(\ct.oc.trig_chain[18] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[17].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[17].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[17] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[152] ),
     .SCD(\ct.oc.capture_buffer[144] ),
     .SCE(\ct.oc.mode_buffer[18] ),
     .Q(\ct.oc.data_chain[144] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[144] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[153] ),
     .SCD(\ct.oc.capture_buffer[145] ),
     .SCE(\ct.oc.mode_buffer[18] ),
     .Q(\ct.oc.data_chain[145] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[145] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[154] ),
     .SCD(\ct.oc.capture_buffer[146] ),
     .SCE(\ct.oc.mode_buffer[18] ),
     .Q(\ct.oc.data_chain[146] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[146] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[155] ),
     .SCD(\ct.oc.capture_buffer[147] ),
     .SCE(\ct.oc.mode_buffer[18] ),
     .Q(\ct.oc.data_chain[147] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[147] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[156] ),
     .SCD(\ct.oc.capture_buffer[148] ),
     .SCE(\ct.oc.mode_buffer[18] ),
     .Q(\ct.oc.data_chain[148] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[18].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[148] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[18].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[19] ),
     .D(\ct.oc.data_chain[157] ),
@@ -2454,42 +2454,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[151] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[18].cc_clkbuf  (.A(\ct.oc.trig_chain[18] ),
     .X(\ct.oc.trig_chain[19] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[18].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[18].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[18] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[160] ),
     .SCD(\ct.oc.capture_buffer[152] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[152] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[152] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[161] ),
     .SCD(\ct.oc.capture_buffer[153] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[153] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[153] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[162] ),
     .SCD(\ct.oc.capture_buffer[154] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[154] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[154] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[163] ),
     .SCD(\ct.oc.capture_buffer[155] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[155] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[155] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[164] ),
     .SCD(\ct.oc.capture_buffer[156] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[156] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[156] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[19].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[20] ),
     .D(\ct.oc.data_chain[165] ),
@@ -2510,46 +2510,46 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[159] ),
     .SCE(\ct.oc.mode_buffer[19] ),
     .Q(\ct.oc.data_chain[159] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[7].rs_cbuf  (.A(net9),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[19].bits[7].rs_cbuf  (.A(net8),
     .X(\ct.oc.capture_buffer[159] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[19].cc_clkbuf  (.A(\ct.oc.trig_chain[19] ),
     .X(\ct.oc.trig_chain[20] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[19].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[19].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[19] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[16] ),
     .SCD(\ct.oc.capture_buffer[8] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[8] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[8] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[17] ),
     .SCD(\ct.oc.capture_buffer[9] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[9] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[9] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[18] ),
     .SCD(\ct.oc.capture_buffer[10] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[10] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[2].rs_cbuf  (.A(net35),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[2].rs_cbuf  (.A(net33),
     .X(\ct.oc.capture_buffer[10] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[19] ),
     .SCD(\ct.oc.capture_buffer[11] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[11] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[3].rs_cbuf  (.A(net29),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[3].rs_cbuf  (.A(net27),
     .X(\ct.oc.capture_buffer[11] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[20] ),
     .SCD(\ct.oc.capture_buffer[12] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[12] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[12] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[1].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[2] ),
     .D(\ct.oc.data_chain[21] ),
@@ -2570,46 +2570,46 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[15] ),
     .SCE(\ct.oc.mode_buffer[1] ),
     .Q(\ct.oc.data_chain[15] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[1].bits[7].rs_cbuf  (.A(net7),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[1].bits[7].rs_cbuf  (.A(net7),
     .X(\ct.oc.capture_buffer[15] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[1].cc_clkbuf  (.A(\ct.oc.trig_chain[1] ),
     .X(\ct.oc.trig_chain[2] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[1].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[1].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[1] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[168] ),
     .SCD(\ct.oc.capture_buffer[160] ),
     .SCE(\ct.oc.mode_buffer[20] ),
     .Q(\ct.oc.data_chain[160] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[160] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[169] ),
     .SCD(\ct.oc.capture_buffer[161] ),
     .SCE(\ct.oc.mode_buffer[20] ),
     .Q(\ct.oc.data_chain[161] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[161] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[170] ),
     .SCD(\ct.oc.capture_buffer[162] ),
     .SCE(\ct.oc.mode_buffer[20] ),
     .Q(\ct.oc.data_chain[162] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[162] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[171] ),
     .SCD(\ct.oc.capture_buffer[163] ),
     .SCE(\ct.oc.mode_buffer[20] ),
     .Q(\ct.oc.data_chain[163] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[163] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[172] ),
     .SCD(\ct.oc.capture_buffer[164] ),
     .SCE(\ct.oc.mode_buffer[20] ),
     .Q(\ct.oc.data_chain[164] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[20].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[164] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[20].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[21] ),
     .D(\ct.oc.data_chain[173] ),
@@ -2634,49 +2634,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[167] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[20].cc_clkbuf  (.A(\ct.oc.trig_chain[20] ),
     .X(\ct.oc.trig_chain[21] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[20].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[20].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[20] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[176] ),
     .SCD(\ct.oc.capture_buffer[168] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[168] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[168] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[177] ),
     .SCD(\ct.oc.capture_buffer[169] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[169] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[169] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[178] ),
     .SCD(\ct.oc.capture_buffer[170] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[170] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[170] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[179] ),
     .SCD(\ct.oc.capture_buffer[171] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[171] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[171] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[180] ),
     .SCD(\ct.oc.capture_buffer[172] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[172] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[172] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[181] ),
     .SCD(\ct.oc.capture_buffer[173] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[173] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[5].rs_cbuf  (.A(net18),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[21].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[173] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[21].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[22] ),
     .D(\ct.oc.data_chain[182] ),
@@ -2690,39 +2690,39 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[175] ),
     .SCE(\ct.oc.mode_buffer[21] ),
     .Q(\ct.oc.data_chain[175] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[7].rs_cbuf  (.A(net8),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[21].bits[7].rs_cbuf  (.A(net9),
     .X(\ct.oc.capture_buffer[175] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[21].cc_clkbuf  (.A(\ct.oc.trig_chain[21] ),
     .X(\ct.oc.trig_chain[22] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[21].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[21].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[21] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[184] ),
     .SCD(\ct.oc.capture_buffer[176] ),
     .SCE(\ct.oc.mode_buffer[22] ),
     .Q(\ct.oc.data_chain[176] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[22].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[22].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[176] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[185] ),
     .SCD(\ct.oc.capture_buffer[177] ),
     .SCE(\ct.oc.mode_buffer[22] ),
     .Q(\ct.oc.data_chain[177] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[22].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[22].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[177] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[186] ),
     .SCD(\ct.oc.capture_buffer[178] ),
     .SCE(\ct.oc.mode_buffer[22] ),
     .Q(\ct.oc.data_chain[178] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[22].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[22].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[178] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[187] ),
     .SCD(\ct.oc.capture_buffer[179] ),
     .SCE(\ct.oc.mode_buffer[22] ),
     .Q(\ct.oc.data_chain[179] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[22].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[22].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[179] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[188] ),
@@ -2736,7 +2736,7 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[181] ),
     .SCE(\ct.oc.mode_buffer[22] ),
     .Q(\ct.oc.data_chain[181] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[22].bits[5].rs_cbuf  (.A(net18),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[22].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[181] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[22].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[23] ),
     .D(\ct.oc.data_chain[190] ),
@@ -2754,35 +2754,35 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[183] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[22].cc_clkbuf  (.A(\ct.oc.trig_chain[22] ),
     .X(\ct.oc.trig_chain[23] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[22].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[22].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[22] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[192] ),
     .SCD(\ct.oc.capture_buffer[184] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[184] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[23].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[23].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[184] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[193] ),
     .SCD(\ct.oc.capture_buffer[185] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[185] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[23].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[185] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[194] ),
     .SCD(\ct.oc.capture_buffer[186] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[186] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[186] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[195] ),
     .SCD(\ct.oc.capture_buffer[187] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[187] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[187] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[196] ),
@@ -2796,60 +2796,60 @@ module tt_um_htfab_cell_tester (clk,
     .SCD(\ct.oc.capture_buffer[189] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[189] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[5].rs_cbuf  (.A(net18),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[189] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[198] ),
     .SCD(\ct.oc.capture_buffer[190] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[190] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[23].bits[6].rs_cbuf  (.A(net13),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[23].bits[6].rs_cbuf  (.A(net14),
     .X(\ct.oc.capture_buffer[190] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[23].bits[7].cc_scanflop  (.CLK(\ct.oc.trig_chain[24] ),
     .D(\ct.oc.data_chain[199] ),
     .SCD(\ct.oc.capture_buffer[191] ),
     .SCE(\ct.oc.mode_buffer[23] ),
     .Q(\ct.oc.data_chain[191] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[7].rs_cbuf  (.A(net8),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[23].bits[7].rs_cbuf  (.A(net9),
     .X(\ct.oc.capture_buffer[191] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[23].cc_clkbuf  (.A(\ct.oc.trig_chain[23] ),
     .X(\ct.oc.trig_chain[24] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[23].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[23].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[23] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[200] ),
     .SCD(\ct.oc.capture_buffer[192] ),
     .SCE(\ct.oc.mode_buffer[24] ),
     .Q(\ct.oc.data_chain[192] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[192] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[201] ),
     .SCD(\ct.oc.capture_buffer[193] ),
     .SCE(\ct.oc.mode_buffer[24] ),
     .Q(\ct.oc.data_chain[193] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[193] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[202] ),
     .SCD(\ct.oc.capture_buffer[194] ),
     .SCE(\ct.oc.mode_buffer[24] ),
     .Q(\ct.oc.data_chain[194] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[194] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[203] ),
     .SCD(\ct.oc.capture_buffer[195] ),
     .SCE(\ct.oc.mode_buffer[24] ),
     .Q(\ct.oc.data_chain[195] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[195] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[204] ),
     .SCD(\ct.oc.capture_buffer[196] ),
     .SCE(\ct.oc.mode_buffer[24] ),
     .Q(\ct.oc.data_chain[196] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[4].rs_cbuf  (.A(net24),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[24].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[196] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[24].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[25] ),
     .D(\ct.oc.data_chain[205] ),
@@ -2874,49 +2874,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[199] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[24].cc_clkbuf  (.A(\ct.oc.trig_chain[24] ),
     .X(\ct.oc.trig_chain[25] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[24].rs_mbuf  (.A(net54),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[24].rs_mbuf  (.A(net53),
     .X(\ct.oc.mode_buffer[24] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[208] ),
     .SCD(\ct.oc.capture_buffer[200] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[200] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[200] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[209] ),
     .SCD(\ct.oc.capture_buffer[201] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[201] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[201] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[210] ),
     .SCD(\ct.oc.capture_buffer[202] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[202] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[202] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[211] ),
     .SCD(\ct.oc.capture_buffer[203] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[203] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[203] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[212] ),
     .SCD(\ct.oc.capture_buffer[204] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[204] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[4].rs_cbuf  (.A(net25),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[204] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[213] ),
     .SCD(\ct.oc.capture_buffer[205] ),
     .SCE(\ct.oc.mode_buffer[25] ),
     .Q(\ct.oc.data_chain[205] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[5].rs_cbuf  (.A(net19),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[25].bits[5].rs_cbuf  (.A(net18),
     .X(\ct.oc.capture_buffer[205] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[25].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[26] ),
     .D(\ct.oc.data_chain[214] ),
@@ -2934,49 +2934,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[207] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[25].cc_clkbuf  (.A(\ct.oc.trig_chain[25] ),
     .X(\ct.oc.trig_chain[26] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[25].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[25].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[25] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[216] ),
     .SCD(\ct.oc.capture_buffer[208] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[208] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[208] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[217] ),
     .SCD(\ct.oc.capture_buffer[209] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[209] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[209] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[218] ),
     .SCD(\ct.oc.capture_buffer[210] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[210] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[210] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[219] ),
     .SCD(\ct.oc.capture_buffer[211] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[211] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[211] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[220] ),
     .SCD(\ct.oc.capture_buffer[212] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[212] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[4].rs_cbuf  (.A(net25),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[212] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[221] ),
     .SCD(\ct.oc.capture_buffer[213] ),
     .SCE(\ct.oc.mode_buffer[26] ),
     .Q(\ct.oc.data_chain[213] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[5].rs_cbuf  (.A(net19),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[26].bits[5].rs_cbuf  (.A(net18),
     .X(\ct.oc.capture_buffer[213] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[26].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[27] ),
     .D(\ct.oc.data_chain[222] ),
@@ -2994,49 +2994,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[215] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[26].cc_clkbuf  (.A(\ct.oc.trig_chain[26] ),
     .X(\ct.oc.trig_chain[27] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[26].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[26].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[26] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[224] ),
     .SCD(\ct.oc.capture_buffer[216] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[216] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[216] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[225] ),
     .SCD(\ct.oc.capture_buffer[217] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[217] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[217] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[226] ),
     .SCD(\ct.oc.capture_buffer[218] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[218] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[218] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[227] ),
     .SCD(\ct.oc.capture_buffer[219] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[219] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[3].rs_cbuf  (.A(net30),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[3].rs_cbuf  (.A(net28),
     .X(\ct.oc.capture_buffer[219] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[228] ),
     .SCD(\ct.oc.capture_buffer[220] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[220] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[4].rs_cbuf  (.A(net25),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[4].rs_cbuf  (.A(net23),
     .X(\ct.oc.capture_buffer[220] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[229] ),
     .SCD(\ct.oc.capture_buffer[221] ),
     .SCE(\ct.oc.mode_buffer[27] ),
     .Q(\ct.oc.data_chain[221] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[5].rs_cbuf  (.A(net19),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[27].bits[5].rs_cbuf  (.A(net18),
     .X(\ct.oc.capture_buffer[221] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[27].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[28] ),
     .D(\ct.oc.data_chain[230] ),
@@ -3054,42 +3054,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[223] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[27].cc_clkbuf  (.A(\ct.oc.trig_chain[27] ),
     .X(\ct.oc.trig_chain[28] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[27].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[27].rs_mbuf  (.A(net52),
     .X(\ct.oc.mode_buffer[27] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[232] ),
     .SCD(\ct.oc.capture_buffer[224] ),
     .SCE(\ct.oc.mode_buffer[28] ),
     .Q(\ct.oc.data_chain[224] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[224] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[233] ),
     .SCD(\ct.oc.capture_buffer[225] ),
     .SCE(\ct.oc.mode_buffer[28] ),
     .Q(\ct.oc.data_chain[225] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[225] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[234] ),
     .SCD(\ct.oc.capture_buffer[226] ),
     .SCE(\ct.oc.mode_buffer[28] ),
     .Q(\ct.oc.data_chain[226] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[226] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[235] ),
     .SCD(\ct.oc.capture_buffer[227] ),
     .SCE(\ct.oc.mode_buffer[28] ),
     .Q(\ct.oc.data_chain[227] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[227] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[236] ),
     .SCD(\ct.oc.capture_buffer[228] ),
     .SCE(\ct.oc.mode_buffer[28] ),
     .Q(\ct.oc.data_chain[228] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[28].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[228] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[28].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[29] ),
     .D(\ct.oc.data_chain[237] ),
@@ -3114,42 +3114,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[231] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[28].cc_clkbuf  (.A(\ct.oc.trig_chain[28] ),
     .X(\ct.oc.trig_chain[29] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[28].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[28].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[28] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[240] ),
     .SCD(\ct.oc.capture_buffer[232] ),
     .SCE(\ct.oc.mode_buffer[29] ),
     .Q(\ct.oc.data_chain[232] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[232] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[241] ),
     .SCD(\ct.oc.capture_buffer[233] ),
     .SCE(\ct.oc.mode_buffer[29] ),
     .Q(\ct.oc.data_chain[233] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[233] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[242] ),
     .SCD(\ct.oc.capture_buffer[234] ),
     .SCE(\ct.oc.mode_buffer[29] ),
     .Q(\ct.oc.data_chain[234] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[234] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[243] ),
     .SCD(\ct.oc.capture_buffer[235] ),
     .SCE(\ct.oc.mode_buffer[29] ),
     .Q(\ct.oc.data_chain[235] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[235] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[244] ),
     .SCD(\ct.oc.capture_buffer[236] ),
     .SCE(\ct.oc.mode_buffer[29] ),
     .Q(\ct.oc.data_chain[236] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[29].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[236] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[29].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[30] ),
     .D(\ct.oc.data_chain[245] ),
@@ -3174,42 +3174,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[239] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[29].cc_clkbuf  (.A(\ct.oc.trig_chain[29] ),
     .X(\ct.oc.trig_chain[30] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[29].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[29].rs_mbuf  (.A(net50),
     .X(\ct.oc.mode_buffer[29] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[24] ),
     .SCD(\ct.oc.capture_buffer[16] ),
     .SCE(\ct.oc.mode_buffer[2] ),
     .Q(\ct.oc.data_chain[16] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[16] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[25] ),
     .SCD(\ct.oc.capture_buffer[17] ),
     .SCE(\ct.oc.mode_buffer[2] ),
     .Q(\ct.oc.data_chain[17] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[17] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[26] ),
     .SCD(\ct.oc.capture_buffer[18] ),
     .SCE(\ct.oc.mode_buffer[2] ),
     .Q(\ct.oc.data_chain[18] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[2].rs_cbuf  (.A(net35),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[2].rs_cbuf  (.A(net33),
     .X(\ct.oc.capture_buffer[18] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[27] ),
     .SCD(\ct.oc.capture_buffer[19] ),
     .SCE(\ct.oc.mode_buffer[2] ),
     .Q(\ct.oc.data_chain[19] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[3].rs_cbuf  (.A(net29),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[2].bits[3].rs_cbuf  (.A(net27),
     .X(\ct.oc.capture_buffer[19] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[28] ),
     .SCD(\ct.oc.capture_buffer[20] ),
     .SCE(\ct.oc.mode_buffer[2] ),
     .Q(\ct.oc.data_chain[20] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[2].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[2].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[20] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[2].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[3] ),
     .D(\ct.oc.data_chain[29] ),
@@ -3234,42 +3234,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[23] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[2].cc_clkbuf  (.A(\ct.oc.trig_chain[2] ),
     .X(\ct.oc.trig_chain[3] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[2].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[2].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[2] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[248] ),
     .SCD(\ct.oc.capture_buffer[240] ),
     .SCE(\ct.oc.mode_buffer[30] ),
     .Q(\ct.oc.data_chain[240] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[240] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[249] ),
     .SCD(\ct.oc.capture_buffer[241] ),
     .SCE(\ct.oc.mode_buffer[30] ),
     .Q(\ct.oc.data_chain[241] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[241] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[250] ),
     .SCD(\ct.oc.capture_buffer[242] ),
     .SCE(\ct.oc.mode_buffer[30] ),
     .Q(\ct.oc.data_chain[242] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[242] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[251] ),
     .SCD(\ct.oc.capture_buffer[243] ),
     .SCE(\ct.oc.mode_buffer[30] ),
     .Q(\ct.oc.data_chain[243] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[243] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[252] ),
     .SCD(\ct.oc.capture_buffer[244] ),
     .SCE(\ct.oc.mode_buffer[30] ),
     .Q(\ct.oc.data_chain[244] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[30].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[244] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[30].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[31] ),
     .D(\ct.oc.data_chain[253] ),
@@ -3294,42 +3294,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[247] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[30].cc_clkbuf  (.A(\ct.oc.trig_chain[30] ),
     .X(\ct.oc.trig_chain[31] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[30].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[30].rs_mbuf  (.A(net50),
     .X(\ct.oc.mode_buffer[30] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[256] ),
     .SCD(\ct.oc.capture_buffer[248] ),
     .SCE(\ct.oc.mode_buffer[31] ),
     .Q(\ct.oc.data_chain[248] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[248] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[257] ),
     .SCD(\ct.oc.capture_buffer[249] ),
     .SCE(\ct.oc.mode_buffer[31] ),
     .Q(\ct.oc.data_chain[249] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[249] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[258] ),
     .SCD(\ct.oc.capture_buffer[250] ),
     .SCE(\ct.oc.mode_buffer[31] ),
     .Q(\ct.oc.data_chain[250] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[250] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[259] ),
     .SCD(\ct.oc.capture_buffer[251] ),
     .SCE(\ct.oc.mode_buffer[31] ),
     .Q(\ct.oc.data_chain[251] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[251] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[260] ),
     .SCD(\ct.oc.capture_buffer[252] ),
     .SCE(\ct.oc.mode_buffer[31] ),
     .Q(\ct.oc.data_chain[252] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[31].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[252] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[31].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[32] ),
     .D(\ct.oc.data_chain[261] ),
@@ -3354,42 +3354,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[255] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[31].cc_clkbuf  (.A(\ct.oc.trig_chain[31] ),
     .X(\ct.oc.trig_chain[32] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[31].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[31].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[31] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[264] ),
     .SCD(\ct.oc.capture_buffer[256] ),
     .SCE(\ct.oc.mode_buffer[32] ),
     .Q(\ct.oc.data_chain[256] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[32].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[32].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[256] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[265] ),
     .SCD(\ct.oc.capture_buffer[257] ),
     .SCE(\ct.oc.mode_buffer[32] ),
     .Q(\ct.oc.data_chain[257] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[32].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[32].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[257] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[266] ),
     .SCD(\ct.oc.capture_buffer[258] ),
     .SCE(\ct.oc.mode_buffer[32] ),
     .Q(\ct.oc.data_chain[258] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[258] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[267] ),
     .SCD(\ct.oc.capture_buffer[259] ),
     .SCE(\ct.oc.mode_buffer[32] ),
     .Q(\ct.oc.data_chain[259] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[259] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[268] ),
     .SCD(\ct.oc.capture_buffer[260] ),
     .SCE(\ct.oc.mode_buffer[32] ),
     .Q(\ct.oc.data_chain[260] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[32].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[260] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[32].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[33] ),
     .D(\ct.oc.data_chain[269] ),
@@ -3414,42 +3414,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[263] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[32].cc_clkbuf  (.A(\ct.oc.trig_chain[32] ),
     .X(\ct.oc.trig_chain[33] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[32].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[32].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[32] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[272] ),
     .SCD(\ct.oc.capture_buffer[264] ),
     .SCE(\ct.oc.mode_buffer[33] ),
     .Q(\ct.oc.data_chain[264] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[33].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[33].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[264] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[273] ),
     .SCD(\ct.oc.capture_buffer[265] ),
     .SCE(\ct.oc.mode_buffer[33] ),
     .Q(\ct.oc.data_chain[265] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[33].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[33].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[265] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[274] ),
     .SCD(\ct.oc.capture_buffer[266] ),
     .SCE(\ct.oc.mode_buffer[33] ),
     .Q(\ct.oc.data_chain[266] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[33].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[33].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[266] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[275] ),
     .SCD(\ct.oc.capture_buffer[267] ),
     .SCE(\ct.oc.mode_buffer[33] ),
     .Q(\ct.oc.data_chain[267] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[33].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[33].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[267] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[276] ),
     .SCD(\ct.oc.capture_buffer[268] ),
     .SCE(\ct.oc.mode_buffer[33] ),
     .Q(\ct.oc.data_chain[268] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[33].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[33].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[268] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[33].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[34] ),
     .D(\ct.oc.data_chain[277] ),
@@ -3474,42 +3474,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[271] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[33].cc_clkbuf  (.A(\ct.oc.trig_chain[33] ),
     .X(\ct.oc.trig_chain[34] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[33].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[33].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[33] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[280] ),
     .SCD(\ct.oc.capture_buffer[272] ),
     .SCE(\ct.oc.mode_buffer[34] ),
     .Q(\ct.oc.data_chain[272] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[34].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[272] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[281] ),
     .SCD(\ct.oc.capture_buffer[273] ),
     .SCE(\ct.oc.mode_buffer[34] ),
     .Q(\ct.oc.data_chain[273] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[273] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[282] ),
     .SCD(\ct.oc.capture_buffer[274] ),
     .SCE(\ct.oc.mode_buffer[34] ),
     .Q(\ct.oc.data_chain[274] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[274] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[283] ),
     .SCD(\ct.oc.capture_buffer[275] ),
     .SCE(\ct.oc.mode_buffer[34] ),
     .Q(\ct.oc.data_chain[275] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[275] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[284] ),
     .SCD(\ct.oc.capture_buffer[276] ),
     .SCE(\ct.oc.mode_buffer[34] ),
     .Q(\ct.oc.data_chain[276] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[34].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[276] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[34].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[35] ),
     .D(\ct.oc.data_chain[285] ),
@@ -3534,42 +3534,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[279] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[34].cc_clkbuf  (.A(\ct.oc.trig_chain[34] ),
     .X(\ct.oc.trig_chain[35] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[34].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[34].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[34] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[288] ),
     .SCD(\ct.oc.capture_buffer[280] ),
     .SCE(\ct.oc.mode_buffer[35] ),
     .Q(\ct.oc.data_chain[280] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[280] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[289] ),
     .SCD(\ct.oc.capture_buffer[281] ),
     .SCE(\ct.oc.mode_buffer[35] ),
     .Q(\ct.oc.data_chain[281] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[281] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[290] ),
     .SCD(\ct.oc.capture_buffer[282] ),
     .SCE(\ct.oc.mode_buffer[35] ),
     .Q(\ct.oc.data_chain[282] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[282] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[291] ),
     .SCD(\ct.oc.capture_buffer[283] ),
     .SCE(\ct.oc.mode_buffer[35] ),
     .Q(\ct.oc.data_chain[283] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[283] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[292] ),
     .SCD(\ct.oc.capture_buffer[284] ),
     .SCE(\ct.oc.mode_buffer[35] ),
     .Q(\ct.oc.data_chain[284] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[35].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[284] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[35].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[36] ),
     .D(\ct.oc.data_chain[293] ),
@@ -3594,42 +3594,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[287] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[35].cc_clkbuf  (.A(\ct.oc.trig_chain[35] ),
     .X(\ct.oc.trig_chain[36] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[35].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[35].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[35] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[296] ),
     .SCD(\ct.oc.capture_buffer[288] ),
     .SCE(\ct.oc.mode_buffer[36] ),
     .Q(\ct.oc.data_chain[288] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[0].rs_cbuf  (.A(net47),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[0].rs_cbuf  (.A(net45),
     .X(\ct.oc.capture_buffer[288] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[297] ),
     .SCD(\ct.oc.capture_buffer[289] ),
     .SCE(\ct.oc.mode_buffer[36] ),
     .Q(\ct.oc.data_chain[289] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[289] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[298] ),
     .SCD(\ct.oc.capture_buffer[290] ),
     .SCE(\ct.oc.mode_buffer[36] ),
     .Q(\ct.oc.data_chain[290] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[290] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[299] ),
     .SCD(\ct.oc.capture_buffer[291] ),
     .SCE(\ct.oc.mode_buffer[36] ),
     .Q(\ct.oc.data_chain[291] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[291] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[300] ),
     .SCD(\ct.oc.capture_buffer[292] ),
     .SCE(\ct.oc.mode_buffer[36] ),
     .Q(\ct.oc.data_chain[292] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[36].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[292] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[36].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[37] ),
     .D(\ct.oc.data_chain[301] ),
@@ -3654,42 +3654,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[295] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[36].cc_clkbuf  (.A(\ct.oc.trig_chain[36] ),
     .X(\ct.oc.trig_chain[37] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[36].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[36].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[36] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[304] ),
     .SCD(\ct.oc.capture_buffer[296] ),
     .SCE(\ct.oc.mode_buffer[37] ),
     .Q(\ct.oc.data_chain[296] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[0].rs_cbuf  (.A(net48),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[0].rs_cbuf  (.A(net46),
     .X(\ct.oc.capture_buffer[296] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[305] ),
     .SCD(\ct.oc.capture_buffer[297] ),
     .SCE(\ct.oc.mode_buffer[37] ),
     .Q(\ct.oc.data_chain[297] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[1].rs_cbuf  (.A(net42),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[1].rs_cbuf  (.A(net40),
     .X(\ct.oc.capture_buffer[297] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[306] ),
     .SCD(\ct.oc.capture_buffer[298] ),
     .SCE(\ct.oc.mode_buffer[37] ),
     .Q(\ct.oc.data_chain[298] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[2].rs_cbuf  (.A(net36),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[2].rs_cbuf  (.A(net34),
     .X(\ct.oc.capture_buffer[298] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[307] ),
     .SCD(\ct.oc.capture_buffer[299] ),
     .SCE(\ct.oc.mode_buffer[37] ),
     .Q(\ct.oc.data_chain[299] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[3].rs_cbuf  (.A(net27),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[3].rs_cbuf  (.A(net25),
     .X(\ct.oc.capture_buffer[299] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[308] ),
     .SCD(\ct.oc.capture_buffer[300] ),
     .SCE(\ct.oc.mode_buffer[37] ),
     .Q(\ct.oc.data_chain[300] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[37].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[300] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[37].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[38] ),
     .D(\ct.oc.data_chain[309] ),
@@ -3714,42 +3714,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[303] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[37].cc_clkbuf  (.A(\ct.oc.trig_chain[37] ),
     .X(\ct.oc.trig_chain[38] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[37].rs_mbuf  (.A(net53),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[37].rs_mbuf  (.A(net50),
     .X(\ct.oc.mode_buffer[37] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[312] ),
     .SCD(\ct.oc.capture_buffer[304] ),
     .SCE(\ct.oc.mode_buffer[38] ),
     .Q(\ct.oc.data_chain[304] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[0].rs_cbuf  (.A(net46),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[0].rs_cbuf  (.A(net44),
     .X(\ct.oc.capture_buffer[304] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[313] ),
     .SCD(\ct.oc.capture_buffer[305] ),
     .SCE(\ct.oc.mode_buffer[38] ),
     .Q(\ct.oc.data_chain[305] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[1].rs_cbuf  (.A(net40),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[1].rs_cbuf  (.A(net38),
     .X(\ct.oc.capture_buffer[305] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[314] ),
     .SCD(\ct.oc.capture_buffer[306] ),
     .SCE(\ct.oc.mode_buffer[38] ),
     .Q(\ct.oc.data_chain[306] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[2].rs_cbuf  (.A(net34),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[2].rs_cbuf  (.A(net32),
     .X(\ct.oc.capture_buffer[306] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[315] ),
     .SCD(\ct.oc.capture_buffer[307] ),
     .SCE(\ct.oc.mode_buffer[38] ),
     .Q(\ct.oc.data_chain[307] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[3].rs_cbuf  (.A(net32),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[3].rs_cbuf  (.A(net30),
     .X(\ct.oc.capture_buffer[307] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[316] ),
     .SCD(\ct.oc.capture_buffer[308] ),
     .SCE(\ct.oc.mode_buffer[38] ),
     .Q(\ct.oc.data_chain[308] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[38].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[308] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[38].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[39] ),
     .D(\ct.oc.data_chain[317] ),
@@ -3774,42 +3774,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[311] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[38].cc_clkbuf  (.A(\ct.oc.trig_chain[38] ),
     .X(\ct.oc.trig_chain[39] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[38].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[38].rs_mbuf  (.A(net50),
     .X(\ct.oc.mode_buffer[38] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[320] ),
     .SCD(\ct.oc.capture_buffer[312] ),
     .SCE(\ct.oc.mode_buffer[39] ),
     .Q(\ct.oc.data_chain[312] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[0].rs_cbuf  (.A(net46),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[0].rs_cbuf  (.A(net44),
     .X(\ct.oc.capture_buffer[312] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[321] ),
     .SCD(\ct.oc.capture_buffer[313] ),
     .SCE(\ct.oc.mode_buffer[39] ),
     .Q(\ct.oc.data_chain[313] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[1].rs_cbuf  (.A(net41),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[1].rs_cbuf  (.A(net39),
     .X(\ct.oc.capture_buffer[313] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[322] ),
     .SCD(\ct.oc.capture_buffer[314] ),
     .SCE(\ct.oc.mode_buffer[39] ),
     .Q(\ct.oc.data_chain[314] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[314] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[323] ),
     .SCD(\ct.oc.capture_buffer[315] ),
     .SCE(\ct.oc.mode_buffer[39] ),
     .Q(\ct.oc.data_chain[315] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[3].rs_cbuf  (.A(net29),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[3].rs_cbuf  (.A(net27),
     .X(\ct.oc.capture_buffer[315] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[324] ),
     .SCD(\ct.oc.capture_buffer[316] ),
     .SCE(\ct.oc.mode_buffer[39] ),
     .Q(\ct.oc.data_chain[316] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[39].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[316] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[39].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[40] ),
     .D(\ct.oc.data_chain[325] ),
@@ -3834,42 +3834,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[319] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[39].cc_clkbuf  (.A(\ct.oc.trig_chain[39] ),
     .X(\ct.oc.trig_chain[40] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[39].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[39].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[39] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[32] ),
     .SCD(\ct.oc.capture_buffer[24] ),
     .SCE(\ct.oc.mode_buffer[3] ),
     .Q(\ct.oc.data_chain[24] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[24] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[33] ),
     .SCD(\ct.oc.capture_buffer[25] ),
     .SCE(\ct.oc.mode_buffer[3] ),
     .Q(\ct.oc.data_chain[25] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[25] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[34] ),
     .SCD(\ct.oc.capture_buffer[26] ),
     .SCE(\ct.oc.mode_buffer[3] ),
     .Q(\ct.oc.data_chain[26] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[26] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[35] ),
     .SCD(\ct.oc.capture_buffer[27] ),
     .SCE(\ct.oc.mode_buffer[3] ),
     .Q(\ct.oc.data_chain[27] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[3].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[27] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[36] ),
     .SCD(\ct.oc.capture_buffer[28] ),
     .SCE(\ct.oc.mode_buffer[3] ),
     .Q(\ct.oc.data_chain[28] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[3].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[3].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[28] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[3].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[4] ),
     .D(\ct.oc.data_chain[37] ),
@@ -3894,42 +3894,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[31] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[3].cc_clkbuf  (.A(\ct.oc.trig_chain[3] ),
     .X(\ct.oc.trig_chain[4] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[3].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[3].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[3] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[328] ),
     .SCD(\ct.oc.capture_buffer[320] ),
     .SCE(\ct.oc.mode_buffer[40] ),
     .Q(\ct.oc.data_chain[320] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[0].rs_cbuf  (.A(net46),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[0].rs_cbuf  (.A(net44),
     .X(\ct.oc.capture_buffer[320] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[329] ),
     .SCD(\ct.oc.capture_buffer[321] ),
     .SCE(\ct.oc.mode_buffer[40] ),
     .Q(\ct.oc.data_chain[321] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[1].rs_cbuf  (.A(net41),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[1].rs_cbuf  (.A(net39),
     .X(\ct.oc.capture_buffer[321] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[330] ),
     .SCD(\ct.oc.capture_buffer[322] ),
     .SCE(\ct.oc.mode_buffer[40] ),
     .Q(\ct.oc.data_chain[322] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[2].rs_cbuf  (.A(net35),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[2].rs_cbuf  (.A(net33),
     .X(\ct.oc.capture_buffer[322] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[331] ),
     .SCD(\ct.oc.capture_buffer[323] ),
     .SCE(\ct.oc.mode_buffer[40] ),
     .Q(\ct.oc.data_chain[323] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[3].rs_cbuf  (.A(net29),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[3].rs_cbuf  (.A(net27),
     .X(\ct.oc.capture_buffer[323] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[332] ),
     .SCD(\ct.oc.capture_buffer[324] ),
     .SCE(\ct.oc.mode_buffer[40] ),
     .Q(\ct.oc.data_chain[324] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[4].rs_cbuf  (.A(net22),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[40].bits[4].rs_cbuf  (.A(net21),
     .X(\ct.oc.capture_buffer[324] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[40].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[41] ),
     .D(\ct.oc.data_chain[333] ),
@@ -3954,42 +3954,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[327] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[40].cc_clkbuf  (.A(\ct.oc.trig_chain[40] ),
     .X(\ct.oc.trig_chain[41] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[40].rs_mbuf  (.A(net52),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[40].rs_mbuf  (.A(net50),
     .X(\ct.oc.mode_buffer[40] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[336] ),
     .SCD(\ct.oc.capture_buffer[328] ),
     .SCE(\ct.oc.mode_buffer[41] ),
     .Q(\ct.oc.data_chain[328] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[328] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[337] ),
     .SCD(\ct.oc.capture_buffer[329] ),
     .SCE(\ct.oc.mode_buffer[41] ),
     .Q(\ct.oc.data_chain[329] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[329] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[338] ),
     .SCD(\ct.oc.capture_buffer[330] ),
     .SCE(\ct.oc.mode_buffer[41] ),
     .Q(\ct.oc.data_chain[330] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[330] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[339] ),
     .SCD(\ct.oc.capture_buffer[331] ),
     .SCE(\ct.oc.mode_buffer[41] ),
     .Q(\ct.oc.data_chain[331] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[331] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[340] ),
     .SCD(\ct.oc.capture_buffer[332] ),
     .SCE(\ct.oc.mode_buffer[41] ),
     .Q(\ct.oc.data_chain[332] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[41].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[332] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[41].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[42] ),
     .D(\ct.oc.data_chain[341] ),
@@ -4014,42 +4014,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[335] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[41].cc_clkbuf  (.A(\ct.oc.trig_chain[41] ),
     .X(\ct.oc.trig_chain[42] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[41].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[41].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[41] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[344] ),
     .SCD(\ct.oc.capture_buffer[336] ),
     .SCE(\ct.oc.mode_buffer[42] ),
     .Q(\ct.oc.data_chain[336] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[336] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[345] ),
     .SCD(\ct.oc.capture_buffer[337] ),
     .SCE(\ct.oc.mode_buffer[42] ),
     .Q(\ct.oc.data_chain[337] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[337] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[346] ),
     .SCD(\ct.oc.capture_buffer[338] ),
     .SCE(\ct.oc.mode_buffer[42] ),
     .Q(\ct.oc.data_chain[338] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[338] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[347] ),
     .SCD(\ct.oc.capture_buffer[339] ),
     .SCE(\ct.oc.mode_buffer[42] ),
     .Q(\ct.oc.data_chain[339] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[339] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[348] ),
     .SCD(\ct.oc.capture_buffer[340] ),
     .SCE(\ct.oc.mode_buffer[42] ),
     .Q(\ct.oc.data_chain[340] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[42].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[340] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[42].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[43] ),
     .D(\ct.oc.data_chain[349] ),
@@ -4074,42 +4074,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[343] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[42].cc_clkbuf  (.A(\ct.oc.trig_chain[42] ),
     .X(\ct.oc.trig_chain[43] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[42].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[42].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[42] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[0] ),
     .SCD(\ct.oc.capture_buffer[344] ),
     .SCE(\ct.oc.mode_buffer[43] ),
     .Q(\ct.oc.data_chain[344] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[344] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[1] ),
     .SCD(\ct.oc.capture_buffer[345] ),
     .SCE(\ct.oc.mode_buffer[43] ),
     .Q(\ct.oc.data_chain[345] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[345] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[2] ),
     .SCD(\ct.oc.capture_buffer[346] ),
     .SCE(\ct.oc.mode_buffer[43] ),
     .Q(\ct.oc.data_chain[346] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[346] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[3] ),
     .SCD(\ct.oc.capture_buffer[347] ),
     .SCE(\ct.oc.mode_buffer[43] ),
     .Q(\ct.oc.data_chain[347] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[347] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[4] ),
     .SCD(\ct.oc.capture_buffer[348] ),
     .SCE(\ct.oc.mode_buffer[43] ),
     .Q(\ct.oc.data_chain[348] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[4].rs_cbuf  (.A(net21),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[43].bits[4].rs_cbuf  (.A(net20),
     .X(\ct.oc.capture_buffer[348] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[43].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[44] ),
     .D(\ct.cw.target[5] ),
@@ -4134,42 +4134,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[351] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[43].cc_clkbuf  (.A(\ct.oc.trig_chain[43] ),
     .X(\ct.oc.trig_chain[44] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[43].rs_mbuf  (.A(net51),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[43].rs_mbuf  (.A(net49),
     .X(\ct.oc.mode_buffer[43] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[40] ),
     .SCD(\ct.oc.capture_buffer[32] ),
     .SCE(\ct.oc.mode_buffer[4] ),
     .Q(\ct.oc.data_chain[32] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[32] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[41] ),
     .SCD(\ct.oc.capture_buffer[33] ),
     .SCE(\ct.oc.mode_buffer[4] ),
     .Q(\ct.oc.data_chain[33] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[33] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[42] ),
     .SCD(\ct.oc.capture_buffer[34] ),
     .SCE(\ct.oc.mode_buffer[4] ),
     .Q(\ct.oc.data_chain[34] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[34] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[43] ),
     .SCD(\ct.oc.capture_buffer[35] ),
     .SCE(\ct.oc.mode_buffer[4] ),
     .Q(\ct.oc.data_chain[35] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[4].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[35] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[44] ),
     .SCD(\ct.oc.capture_buffer[36] ),
     .SCE(\ct.oc.mode_buffer[4] ),
     .Q(\ct.oc.data_chain[36] ));
- sky130_fd_sc_hd__buf_1 \ct.oc.frame[4].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__buf_1 \ct.oc.frame[4].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[36] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[4].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[5] ),
     .D(\ct.oc.data_chain[45] ),
@@ -4194,35 +4194,35 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[39] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[4].cc_clkbuf  (.A(\ct.oc.trig_chain[4] ),
     .X(\ct.oc.trig_chain[5] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[4].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[4].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[4] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[5].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[6] ),
     .D(\ct.oc.data_chain[48] ),
     .SCD(\ct.oc.capture_buffer[40] ),
     .SCE(\ct.oc.mode_buffer[5] ),
     .Q(\ct.oc.data_chain[40] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[40] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[5].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[6] ),
     .D(\ct.oc.data_chain[49] ),
     .SCD(\ct.oc.capture_buffer[41] ),
     .SCE(\ct.oc.mode_buffer[5] ),
     .Q(\ct.oc.data_chain[41] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[41] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[5].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[6] ),
     .D(\ct.oc.data_chain[50] ),
     .SCD(\ct.oc.capture_buffer[42] ),
     .SCE(\ct.oc.mode_buffer[5] ),
     .Q(\ct.oc.data_chain[42] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[42] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[5].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[6] ),
     .D(\ct.oc.data_chain[51] ),
     .SCD(\ct.oc.capture_buffer[43] ),
     .SCE(\ct.oc.mode_buffer[5] ),
     .Q(\ct.oc.data_chain[43] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[5].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[43] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[5].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[6] ),
     .D(\ct.oc.data_chain[52] ),
@@ -4254,42 +4254,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[47] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[5].cc_clkbuf  (.A(\ct.oc.trig_chain[5] ),
     .X(\ct.oc.trig_chain[6] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[5].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[5].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[5] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[56] ),
     .SCD(\ct.oc.capture_buffer[48] ),
     .SCE(\ct.oc.mode_buffer[6] ),
     .Q(\ct.oc.data_chain[48] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[0].rs_cbuf  (.A(net45),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[0].rs_cbuf  (.A(net43),
     .X(\ct.oc.capture_buffer[48] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[57] ),
     .SCD(\ct.oc.capture_buffer[49] ),
     .SCE(\ct.oc.mode_buffer[6] ),
     .Q(\ct.oc.data_chain[49] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[1].rs_cbuf  (.A(net39),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[1].rs_cbuf  (.A(net37),
     .X(\ct.oc.capture_buffer[49] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[58] ),
     .SCD(\ct.oc.capture_buffer[50] ),
     .SCE(\ct.oc.mode_buffer[6] ),
     .Q(\ct.oc.data_chain[50] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[2].rs_cbuf  (.A(net33),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[2].rs_cbuf  (.A(net31),
     .X(\ct.oc.capture_buffer[50] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[59] ),
     .SCD(\ct.oc.capture_buffer[51] ),
     .SCE(\ct.oc.mode_buffer[6] ),
     .Q(\ct.oc.data_chain[51] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[51] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[60] ),
     .SCD(\ct.oc.capture_buffer[52] ),
     .SCE(\ct.oc.mode_buffer[6] ),
     .Q(\ct.oc.data_chain[52] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[6].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[52] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[6].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[7] ),
     .D(\ct.oc.data_chain[61] ),
@@ -4314,42 +4314,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[55] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[6].cc_clkbuf  (.A(\ct.oc.trig_chain[6] ),
     .X(\ct.oc.trig_chain[7] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[6].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[6].rs_mbuf  (.A(net51),
     .X(\ct.oc.mode_buffer[6] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[64] ),
     .SCD(\ct.oc.capture_buffer[56] ),
     .SCE(\ct.oc.mode_buffer[7] ),
     .Q(\ct.oc.data_chain[56] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[0].rs_cbuf  (.A(net46),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[0].rs_cbuf  (.A(net44),
     .X(\ct.oc.capture_buffer[56] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[65] ),
     .SCD(\ct.oc.capture_buffer[57] ),
     .SCE(\ct.oc.mode_buffer[7] ),
     .Q(\ct.oc.data_chain[57] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[1].rs_cbuf  (.A(net41),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[1].rs_cbuf  (.A(net39),
     .X(\ct.oc.capture_buffer[57] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[66] ),
     .SCD(\ct.oc.capture_buffer[58] ),
     .SCE(\ct.oc.mode_buffer[7] ),
     .Q(\ct.oc.data_chain[58] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[2].rs_cbuf  (.A(net35),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[2].rs_cbuf  (.A(net33),
     .X(\ct.oc.capture_buffer[58] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[67] ),
     .SCD(\ct.oc.capture_buffer[59] ),
     .SCE(\ct.oc.mode_buffer[7] ),
     .Q(\ct.oc.data_chain[59] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[59] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[68] ),
     .SCD(\ct.oc.capture_buffer[60] ),
     .SCE(\ct.oc.mode_buffer[7] ),
     .Q(\ct.oc.data_chain[60] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[7].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[60] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[7].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[8] ),
     .D(\ct.oc.data_chain[69] ),
@@ -4374,42 +4374,42 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[63] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[7].cc_clkbuf  (.A(\ct.oc.trig_chain[7] ),
     .X(\ct.oc.trig_chain[8] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[7].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[7].rs_mbuf  (.A(net54),
     .X(\ct.oc.mode_buffer[7] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[72] ),
     .SCD(\ct.oc.capture_buffer[64] ),
     .SCE(\ct.oc.mode_buffer[8] ),
     .Q(\ct.oc.data_chain[64] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[0].rs_cbuf  (.A(net49),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[0].rs_cbuf  (.A(net47),
     .X(\ct.oc.capture_buffer[64] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[73] ),
     .SCD(\ct.oc.capture_buffer[65] ),
     .SCE(\ct.oc.mode_buffer[8] ),
     .Q(\ct.oc.data_chain[65] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[1].rs_cbuf  (.A(net43),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[1].rs_cbuf  (.A(net41),
     .X(\ct.oc.capture_buffer[65] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[74] ),
     .SCD(\ct.oc.capture_buffer[66] ),
     .SCE(\ct.oc.mode_buffer[8] ),
     .Q(\ct.oc.data_chain[66] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[2].rs_cbuf  (.A(net37),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[2].rs_cbuf  (.A(net35),
     .X(\ct.oc.capture_buffer[66] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[75] ),
     .SCD(\ct.oc.capture_buffer[67] ),
     .SCE(\ct.oc.mode_buffer[8] ),
     .Q(\ct.oc.data_chain[67] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[3].rs_cbuf  (.A(net28),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[3].rs_cbuf  (.A(net26),
     .X(\ct.oc.capture_buffer[67] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[76] ),
     .SCD(\ct.oc.capture_buffer[68] ),
     .SCE(\ct.oc.mode_buffer[8] ),
     .Q(\ct.oc.data_chain[68] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[4].rs_cbuf  (.A(net23),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[8].bits[4].rs_cbuf  (.A(net22),
     .X(\ct.oc.capture_buffer[68] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[8].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[9] ),
     .D(\ct.oc.data_chain[77] ),
@@ -4434,49 +4434,49 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[71] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[8].cc_clkbuf  (.A(\ct.oc.trig_chain[8] ),
     .X(\ct.oc.trig_chain[9] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[8].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[8].rs_mbuf  (.A(net54),
     .X(\ct.oc.mode_buffer[8] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[0].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[80] ),
     .SCD(\ct.oc.capture_buffer[72] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[72] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[0].rs_cbuf  (.A(net50),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[0].rs_cbuf  (.A(net48),
     .X(\ct.oc.capture_buffer[72] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[1].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[81] ),
     .SCD(\ct.oc.capture_buffer[73] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[73] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[1].rs_cbuf  (.A(net44),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[1].rs_cbuf  (.A(net42),
     .X(\ct.oc.capture_buffer[73] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[2].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[82] ),
     .SCD(\ct.oc.capture_buffer[74] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[74] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[2].rs_cbuf  (.A(net38),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[2].rs_cbuf  (.A(net36),
     .X(\ct.oc.capture_buffer[74] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[3].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[83] ),
     .SCD(\ct.oc.capture_buffer[75] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[75] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[3].rs_cbuf  (.A(net31),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[3].rs_cbuf  (.A(net29),
     .X(\ct.oc.capture_buffer[75] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[4].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[84] ),
     .SCD(\ct.oc.capture_buffer[76] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[76] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[4].rs_cbuf  (.A(net26),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[4].rs_cbuf  (.A(net24),
     .X(\ct.oc.capture_buffer[76] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[5].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[85] ),
     .SCD(\ct.oc.capture_buffer[77] ),
     .SCE(\ct.oc.mode_buffer[9] ),
     .Q(\ct.oc.data_chain[77] ));
- sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[5].rs_cbuf  (.A(net20),
+ sky130_fd_sc_hd__clkbuf_1 \ct.oc.frame[9].bits[5].rs_cbuf  (.A(net19),
     .X(\ct.oc.capture_buffer[77] ));
  sky130_fd_sc_hd__sdfxtp_4 \ct.oc.frame[9].bits[6].cc_scanflop  (.CLK(\ct.oc.trig_chain[10] ),
     .D(\ct.oc.data_chain[86] ),
@@ -4494,7 +4494,7 @@ module tt_um_htfab_cell_tester (clk,
     .X(\ct.oc.capture_buffer[79] ));
  sky130_fd_sc_hd__clkbuf_4 \ct.oc.frame[9].cc_clkbuf  (.A(\ct.oc.trig_chain[9] ),
     .X(\ct.oc.trig_chain[10] ));
- sky130_fd_sc_hd__buf_4 \ct.oc.frame[9].rs_mbuf  (.A(net55),
+ sky130_fd_sc_hd__buf_4 \ct.oc.frame[9].rs_mbuf  (.A(net54),
     .X(\ct.oc.mode_buffer[9] ));
  sky130_fd_sc_hd__dlclkp_4 \ct.ro.cc_clock_gate  (.CLK(\ct.ro.ring[0] ),
     .GATE(\ct.ro.gate ),
@@ -4577,7 +4577,7 @@ module tt_um_htfab_cell_tester (clk,
     .Q(uo_out[7]));
  sky130_fd_sc_hd__buf_2 fanout10 (.A(net12),
     .X(net10));
- sky130_fd_sc_hd__clkbuf_2 fanout11 (.A(net12),
+ sky130_fd_sc_hd__buf_2 fanout11 (.A(net12),
     .X(net11));
  sky130_fd_sc_hd__clkbuf_4 fanout12 (.A(\ct.cw.target[6] ),
     .X(net12));
@@ -4593,82 +4593,80 @@ module tt_um_htfab_cell_tester (clk,
     .X(net17));
  sky130_fd_sc_hd__buf_2 fanout18 (.A(net19),
     .X(net18));
- sky130_fd_sc_hd__clkbuf_2 fanout19 (.A(net20),
+ sky130_fd_sc_hd__clkbuf_4 fanout19 (.A(\ct.cw.target[5] ),
     .X(net19));
- sky130_fd_sc_hd__clkbuf_2 fanout20 (.A(\ct.cw.target[5] ),
+ sky130_fd_sc_hd__buf_2 fanout20 (.A(net22),
     .X(net20));
- sky130_fd_sc_hd__buf_2 fanout21 (.A(net23),
+ sky130_fd_sc_hd__clkbuf_2 fanout21 (.A(net22),
     .X(net21));
- sky130_fd_sc_hd__clkbuf_2 fanout22 (.A(net23),
+ sky130_fd_sc_hd__clkbuf_4 fanout22 (.A(\ct.cw.target[4] ),
     .X(net22));
- sky130_fd_sc_hd__clkbuf_4 fanout23 (.A(\ct.cw.target[4] ),
+ sky130_fd_sc_hd__buf_2 fanout23 (.A(net24),
     .X(net23));
- sky130_fd_sc_hd__buf_2 fanout24 (.A(net25),
+ sky130_fd_sc_hd__clkbuf_4 fanout24 (.A(\ct.cw.target[4] ),
     .X(net24));
- sky130_fd_sc_hd__clkbuf_2 fanout25 (.A(net26),
+ sky130_fd_sc_hd__buf_2 fanout25 (.A(net30),
     .X(net25));
- sky130_fd_sc_hd__clkbuf_2 fanout26 (.A(\ct.cw.target[4] ),
+ sky130_fd_sc_hd__clkbuf_4 fanout26 (.A(net30),
     .X(net26));
- sky130_fd_sc_hd__clkbuf_4 fanout27 (.A(net32),
+ sky130_fd_sc_hd__clkbuf_2 fanout27 (.A(net30),
     .X(net27));
- sky130_fd_sc_hd__buf_2 fanout28 (.A(net32),
+ sky130_fd_sc_hd__buf_2 fanout28 (.A(net29),
     .X(net28));
- sky130_fd_sc_hd__clkbuf_2 fanout29 (.A(net32),
+ sky130_fd_sc_hd__clkbuf_4 fanout29 (.A(net30),
     .X(net29));
- sky130_fd_sc_hd__buf_2 fanout30 (.A(net31),
+ sky130_fd_sc_hd__clkbuf_2 fanout30 (.A(\ct.cw.target[3] ),
     .X(net30));
- sky130_fd_sc_hd__clkbuf_4 fanout31 (.A(net32),
+ sky130_fd_sc_hd__clkbuf_4 fanout31 (.A(net33),
     .X(net31));
- sky130_fd_sc_hd__clkbuf_2 fanout32 (.A(\ct.cw.target[3] ),
+ sky130_fd_sc_hd__clkbuf_4 fanout32 (.A(net36),
     .X(net32));
- sky130_fd_sc_hd__buf_2 fanout33 (.A(net35),
+ sky130_fd_sc_hd__clkbuf_2 fanout33 (.A(net36),
     .X(net33));
- sky130_fd_sc_hd__clkbuf_4 fanout34 (.A(net38),
+ sky130_fd_sc_hd__clkbuf_4 fanout34 (.A(net35),
     .X(net34));
- sky130_fd_sc_hd__clkbuf_2 fanout35 (.A(net38),
+ sky130_fd_sc_hd__clkbuf_4 fanout35 (.A(net36),
     .X(net35));
- sky130_fd_sc_hd__clkbuf_4 fanout36 (.A(net37),
+ sky130_fd_sc_hd__buf_2 fanout36 (.A(\ct.cw.target[2] ),
     .X(net36));
- sky130_fd_sc_hd__clkbuf_4 fanout37 (.A(net38),
+ sky130_fd_sc_hd__clkbuf_4 fanout37 (.A(net39),
     .X(net37));
- sky130_fd_sc_hd__buf_2 fanout38 (.A(\ct.cw.target[2] ),
+ sky130_fd_sc_hd__clkbuf_4 fanout38 (.A(net42),
     .X(net38));
- sky130_fd_sc_hd__buf_2 fanout39 (.A(net41),
+ sky130_fd_sc_hd__dlymetal6s2s_1 fanout39 (.A(net42),
     .X(net39));
- sky130_fd_sc_hd__clkbuf_4 fanout40 (.A(net44),
+ sky130_fd_sc_hd__clkbuf_4 fanout40 (.A(net41),
     .X(net40));
- sky130_fd_sc_hd__clkbuf_2 fanout41 (.A(net44),
+ sky130_fd_sc_hd__clkbuf_4 fanout41 (.A(net42),
     .X(net41));
- sky130_fd_sc_hd__clkbuf_4 fanout42 (.A(net43),
+ sky130_fd_sc_hd__buf_2 fanout42 (.A(\ct.cw.target[1] ),
     .X(net42));
- sky130_fd_sc_hd__clkbuf_4 fanout43 (.A(net44),
+ sky130_fd_sc_hd__buf_2 fanout43 (.A(net48),
     .X(net43));
- sky130_fd_sc_hd__buf_2 fanout44 (.A(\ct.cw.target[1] ),
+ sky130_fd_sc_hd__clkbuf_2 fanout44 (.A(net45),
     .X(net44));
- sky130_fd_sc_hd__buf_2 fanout45 (.A(net50),
+ sky130_fd_sc_hd__clkbuf_4 fanout45 (.A(net48),
     .X(net45));
- sky130_fd_sc_hd__clkbuf_2 fanout46 (.A(net47),
+ sky130_fd_sc_hd__clkbuf_4 fanout46 (.A(net47),
     .X(net46));
- sky130_fd_sc_hd__clkbuf_4 fanout47 (.A(net50),
+ sky130_fd_sc_hd__clkbuf_4 fanout47 (.A(net48),
     .X(net47));
- sky130_fd_sc_hd__clkbuf_4 fanout48 (.A(net49),
+ sky130_fd_sc_hd__clkbuf_2 fanout48 (.A(\ct.cw.target[0] ),
     .X(net48));
- sky130_fd_sc_hd__clkbuf_4 fanout49 (.A(net50),
+ sky130_fd_sc_hd__clkbuf_4 fanout49 (.A(net51),
     .X(net49));
  sky130_fd_sc_hd__buf_2 fanout5 (.A(net7),
     .X(net5));
- sky130_fd_sc_hd__clkbuf_2 fanout50 (.A(\ct.cw.target[0] ),
+ sky130_fd_sc_hd__clkbuf_2 fanout50 (.A(net51),
     .X(net50));
- sky130_fd_sc_hd__clkbuf_4 fanout51 (.A(net52),
+ sky130_fd_sc_hd__clkbuf_4 fanout51 (.A(net54),
     .X(net51));
- sky130_fd_sc_hd__buf_4 fanout52 (.A(net55),
+ sky130_fd_sc_hd__clkbuf_4 fanout52 (.A(net53),
     .X(net52));
  sky130_fd_sc_hd__clkbuf_4 fanout53 (.A(net54),
     .X(net53));
- sky130_fd_sc_hd__buf_4 fanout54 (.A(net55),
+ sky130_fd_sc_hd__buf_2 fanout54 (.A(net1),
     .X(net54));
- sky130_fd_sc_hd__clkbuf_4 fanout55 (.A(net1),
-    .X(net55));
  sky130_fd_sc_hd__clkbuf_2 fanout6 (.A(net7),
     .X(net6));
  sky130_fd_sc_hd__clkbuf_4 fanout7 (.A(\ct.cw.target[7] ),
@@ -4683,8 +4681,9 @@ module tt_um_htfab_cell_tester (clk,
     .X(net2));
  sky130_fd_sc_hd__buf_1 input3 (.A(ui_in[6]),
     .X(net3));
- sky130_fd_sc_hd__clkbuf_1 input4 (.A(ui_in[7]),
+ sky130_fd_sc_hd__buf_1 input4 (.A(ui_in[7]),
     .X(net4));
+ sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_55 (.HI(net55));
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_56 (.HI(net56));
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_57 (.HI(net57));
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_58 (.HI(net58));
@@ -4692,14 +4691,13 @@ module tt_um_htfab_cell_tester (clk,
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_60 (.HI(net60));
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_61 (.HI(net61));
  sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_62 (.HI(net62));
- sky130_fd_sc_hd__conb_1 tt_um_htfab_cell_tester_63 (.HI(net63));
- assign uio_oe[0] = net56;
- assign uio_oe[1] = net57;
- assign uio_oe[2] = net58;
- assign uio_oe[3] = net59;
- assign uio_oe[4] = net60;
- assign uio_oe[5] = net61;
- assign uio_oe[6] = net62;
- assign uio_oe[7] = net63;
+ assign uio_oe[0] = net55;
+ assign uio_oe[1] = net56;
+ assign uio_oe[2] = net57;
+ assign uio_oe[3] = net58;
+ assign uio_oe[4] = net59;
+ assign uio_oe[5] = net60;
+ assign uio_oe[6] = net61;
+ assign uio_oe[7] = net62;
 endmodule
 

@@ -188,8 +188,10 @@ class StdCell:
         self.polycells, self.polyhbridges, self.polyvbridges = [], [], []
         for i in range(self.columns-1):
             d1, d2 = self.polyhclasses1[i], self.polyhclasses2[i]
-            hdisp1 = self.hspost[i] + min((ord(d1) - ord('m')) * 20, 60)
-            hdisp2 = self.hspost[i] + max((ord(d2) - ord('m')) * 20, -60)
+            hd1, hd2 = (ord(d1) - ord('m')) * 20, (ord(d2) - ord('m')) * 20
+            if self.polybridges[i] in 'vx':
+                hd1, hd2 = min(hd1, 60), max(hd2, -60)
+            hdisp1, hdisp2 = self.hspost[i] + hd1, self.hspost[i] + hd2
             if self.polybridges[i] in 'vx' or (i > 0 and self.polybridges[i-1] in 'hx') or (i < self.columns-2 and self.polybridges[i] in 'hx'):
                 self.polycells.append((i, 3, hdisp1+75, -195, hdisp2+345, 135))
             if self.polybridges[i] in 'vx':
