@@ -143,7 +143,7 @@ class StdCell:
             'polylicon1vclasses', 'polylicon1hclasses', 'polylicon1orient',
             'li1vclasses1', 'li1vclasses2', 'li1hclasses1', 'li1hclasses2', 'li1bridges',
             'polyli1vclasses1', 'polyli1vclasses2', 'polyli1hclasses1', 'polyli1hclasses2', 'polyli1bridges',
-            'mcontypes', 'met1types', 'met1bridges', 'inputpins', 'outputpins')
+            'mcontypes', 'met1types', 'met1bridges', 'inputpins', 'outputpins', 'portorder')
         for a in argnames:
             self.__dict__[a] = args[a]
 
@@ -166,7 +166,7 @@ class StdCell:
  
         self.hspre, self.hspost = [(ord(s) - ord('a')) * 10 for s in self.spacepre], [(ord(s) - ord('a')) * 10 for s in self.spacepost]
         extraspace = [self.hspre[i] + (self.hspost[i-1] if i > 0 else 0) for i in range(self.columns)]
-        self.displacements = [extraspace[i] + (0 if i == 0 or self.polybridges[i-1] in 'vx' else (-80 if self.diffbridges[i-1] == 'h' else 100)) for i in range(self.columns)]
+        self.displacements = [extraspace[i] + (0 if i == 0 or self.polybridges[i-1] in 'vudxsb' else (-80 if self.diffbridges[i-1] == 'h' else 100)) for i in range(self.columns)]
         self.cumulative_disp = list(itertools.accumulate(self.displacements))
         self.licongrid = [260 + 420*i + self.cumulative_disp[i] for i in range(self.columns)]
         self.mcongrid = [230 + 460*i for i in range(self.widthblocks)]
@@ -178,9 +178,13 @@ class StdCell:
                 self.diffcells.append((i, j, -125, -275, 125, 35))
             for j in (4, 5, 6):
                 self.diffcells.append((i, j, -125, -45, 125, 275))
-            if i < self.columns-1 and self.diffbridges[i] == 'h':
-                for j in (1, 2, 4, 5, 6):
-                    self.diffhbridges.append((i, j))
+            if i < self.columns-1:
+                if self.diffbridges[i] in 'hd':
+                    for j in (1, 2):
+                        self.diffhbridges.append((i, j))
+                if self.diffbridges[i] in 'hu':
+                    for j in (4, 5, 6):
+                        self.diffhbridges.append((i, j))
             for j in (1, 4, 5):
                 self.diffvbridges.append((i, j))
         self.difflist = renderpoly('diff', ((self.licongrid, self.vgrid, self.diffcells, self.diffhbridges, self.diffvbridges),), [])
@@ -189,20 +193,24 @@ class StdCell:
         for i in range(self.columns-1):
             d1, d2 = self.polyhclasses1[i], self.polyhclasses2[i]
             hd1, hd2 = (ord(d1) - ord('m')) * 20, (ord(d2) - ord('m')) * 20
-            if self.polybridges[i] in 'vx':
+            if self.polybridges[i] in 'vudxsb':
                 hd1, hd2 = min(hd1, 60), max(hd2, -60)
             hdisp1, hdisp2 = self.hspost[i] + hd1, self.hspost[i] + hd2
-            if self.polybridges[i] in 'vx' or (i > 0 and self.polybridges[i-1] in 'hx') or (i < self.columns-2 and self.polybridges[i] in 'hx'):
+            if self.polybridges[i] in 'vudxsb' or (i > 0 and self.polybridges[i-1] in 'hx') or (i < self.columns-2 and self.polybridges[i] in 'hx'):
                 self.polycells.append((i, 3, hdisp1+75, -195, hdisp2+345, 135))
-            if self.polybridges[i] in 'vx':
-                assert self.diffbridges[i] == 'h'
+            if self.polybridges[i] in 'vdxb':
+                assert self.diffbridges[i] in 'hd'
                 for j in (1, 2):
                     self.polycells.append((i, j, self.hspost[i]+135, -405, self.hspost[i]+285, -125))
+                for j in (1, 2):
+                    self.polyvbridges.append((i, j))
+            if self.polybridges[i] in 'vuxs':
+                assert self.diffbridges[i] in 'hu'
                 for j in (4, 5, 6):
                     self.polycells.append((i, j, self.hspost[i]+135, 125, self.hspost[i]+285, 405))
-                for j in (1, 2, 3, 4, 5):
+                for j in (3, 4, 5):
                     self.polyvbridges.append((i, j))
-            if i < self.columns-2 and self.polybridges[i] in 'hx':
+            if i < self.columns-2 and self.polybridges[i] in 'hxsb':
                 self.polyhbridges.append((i, 3))
         self.polylist = renderpoly('poly', ((self.licongrid, self.vgrid, self.polycells, self.polyhbridges, self.polyvbridges),), [])
 
@@ -319,6 +327,8 @@ class StdCell:
             for (rx1, ry1), (rx2, ry2) in polyrects(polysel):
                 polyarea += (rx2-rx1)*(ry2-ry1)
             self.pinpolyarea.append(polyarea)
+
+        self.portnum = {name: index+1 for index, name in enumerate(self.portorder.split())}
 
 
     def generate_gdstk_cell(self):
@@ -465,6 +475,7 @@ class StdCell:
         writemagrects(f, mag_nwell)
         f.write('<< pwell >>\n')
         writemagrects(f, mag_pwell)
+        vnbport, vpbport, vgndport, vpwrport = (self.portnum[i] for i in ('VNB', 'VPB', 'VGND', 'VPWR'))
         if abstract:
             f.write('<< locali >>\n')
             writemagrects(f, maglef_locali)
@@ -480,17 +491,17 @@ class StdCell:
             for pinnum, (pindir, pinname, pijlist) in enumerate(self.pins):
                 for (rx1, ry1), (rx2, ry2) in self.pinpolyrects[pinnum]:
                     f.write(f'rlabel locali s {rx1*magscale:.0f} {ry1*magscale:.0f} {rx2*magscale:.0f} {ry2*magscale:.0f} 6 {pinname}\n')
-                    f.write(f'port {pinnum+5} nsew signal {pindir.lower()}\n')
+                    f.write(f'port {self.portnum[pinname]} nsew signal {pindir.lower()}\n')
             f.write('rlabel pwell s 30 -17 64 21 6 VNB\n')
-            f.write('port 1 nsew ground bidirectional\n')
+            f.write(f'port {vnbport} nsew ground bidirectional\n')
             f.write(f'rlabel pwell s 1 21 {(self.width-5)*magscale:.0f} 203 6 VNB\n')
-            f.write('port 1 nsew ground bidirectional\n')
+            f.write(f'port {vnbport} nsew ground bidirectional\n')
             f.write(f'rlabel nwell s -38 261 {(self.width+190)*magscale:.0f} 582 6 VPB\n')
-            f.write('port 2 nsew power bidirectional\n')
+            f.write(f'port {vpbport} nsew power bidirectional\n')
             f.write(f'rlabel metal1 s 0 -48 {self.width*magscale:.0f} 48 8 VGND\n')
-            f.write('port 3 nsew ground bidirectional abutment\n')
+            f.write(f'port {vgndport} nsew ground bidirectional abutment\n')
             f.write(f'rlabel metal1 s 0 496 {self.width*magscale:.0f} 592 6 VPWR\n')
-            f.write('port 4 nsew power bidirectional abutment\n')
+            f.write(f'port {vpwrport} nsew power bidirectional abutment\n')
         else:
             f.write('<< scnmos >>\n')
             writemagrects(f, mag_scnmos)
@@ -520,19 +531,19 @@ class StdCell:
                 for px, py in pxylist:
                     rx1, ry1, rx2, ry2 = px-85, py-85, px+85, py+85
                     f.write(f'flabel locali s {rx1*magscale:.0f} {ry1*magscale:.0f} {rx2*magscale:.0f} {ry2*magscale:.0f} 0 FreeSans 200 0 0 0 {pinname}\n')
-                    f.write(f'port {pinnum+5} nsew signal {pindir.lower()}\n')
+                    f.write(f'port {self.portnum[pinname]} nsew signal {pindir.lower()}\n')
             f.write('flabel pwell s 30 -17 64 17 0 FreeSans 200 0 0 0 VNB\n')
-            f.write('port 1 nsew ground bidirectional\n')
+            f.write(f'port {vnbport} nsew ground bidirectional\n')
             f.write('flabel nwell s 30 527 64 561 0 FreeSans 200 0 0 0 VPB\n')
-            f.write('port 2 nsew power bidirectional\n')
+            f.write(f'port {vpbport} nsew power bidirectional\n')
             f.write('flabel metal1 s 30 -17 64 17 0 FreeSans 200 0 0 0 VGND\n')
-            f.write('port 3 nsew ground bidirectional abutment\n')
+            f.write(f'port {vgndport} nsew ground bidirectional abutment\n')
             f.write('flabel metal1 s 30 527 64 561 0 FreeSans 200 0 0 0 VPWR\n')
-            f.write('port 4 nsew power bidirectional abutment\n')
+            f.write(f'port {vpwrport} nsew power bidirectional abutment\n')
             f.write(f'rlabel metal1 s 0 -48 {self.width*magscale:.0f} 48 1 VGND\n')
-            f.write('port 3 nsew ground bidirectional abutment\n')
+            f.write(f'port {vgndport} nsew ground bidirectional abutment\n')
             f.write(f'rlabel metal1 s 0 496 {self.width*magscale:.0f} 592 1 VPWR\n')
-            f.write('port 4 nsew power bidirectional abutment\n')
+            f.write(f'port {vpwrport} nsew power bidirectional abutment\n')
             f.write(f'rlabel comment s 0 0 0 0 4 {self.cellname}\n')
         f.write('<< properties >>\n')
         f.write(f'string FIXED_BBOX 0 0 {self.width*magscale:.0f} 544\n')

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698890999
+timestamp 1699029708
 << nwell >>
 rect -38 261 1050 582
 << pwell >>
@@ -396,33 +396,33 @@ rect 983 -17 1012 17
 rect 0 17 1012 48
 << labels >>
 flabel locali s 489 221 523 255 0 FreeSans 200 0 0 0 A0
-port 5 nsew signal input
+port 1 nsew signal input
 flabel locali s 581 221 615 255 0 FreeSans 200 0 0 0 A0
-port 5 nsew signal input
+port 1 nsew signal input
 flabel locali s 673 221 707 255 0 FreeSans 200 0 0 0 A0
-port 5 nsew signal input
+port 1 nsew signal input
 flabel locali s 857 221 891 255 0 FreeSans 200 0 0 0 A1
-port 6 nsew signal input
+port 2 nsew signal input
 flabel locali s 857 289 891 323 0 FreeSans 200 0 0 0 A1
-port 6 nsew signal input
+port 2 nsew signal input
 flabel locali s 121 221 155 255 0 FreeSans 200 0 0 0 S
-port 7 nsew signal input
+port 3 nsew signal input
 flabel locali s 949 357 983 391 0 FreeSans 200 0 0 0 Y
 port 8 nsew signal output
 flabel locali s 949 425 983 459 0 FreeSans 200 0 0 0 Y
 port 8 nsew signal output
 flabel pwell s 30 -17 64 17 0 FreeSans 200 0 0 0 VNB
-port 1 nsew ground bidirectional
+port 5 nsew ground bidirectional
 flabel nwell s 30 527 64 561 0 FreeSans 200 0 0 0 VPB
-port 2 nsew power bidirectional
+port 6 nsew power bidirectional
 flabel metal1 s 30 -17 64 17 0 FreeSans 200 0 0 0 VGND
-port 3 nsew ground bidirectional abutment
+port 4 nsew ground bidirectional abutment
 flabel metal1 s 30 527 64 561 0 FreeSans 200 0 0 0 VPWR
-port 4 nsew power bidirectional abutment
+port 7 nsew power bidirectional abutment
 rlabel metal1 s 0 -48 1012 48 1 VGND
-port 3 nsew ground bidirectional abutment
+port 4 nsew ground bidirectional abutment
 rlabel metal1 s 0 496 1012 592 1 VPWR
-port 4 nsew power bidirectional abutment
+port 7 nsew power bidirectional abutment
 rlabel comment s 0 0 0 0 4 mux2i_2
 << properties >>
 string FIXED_BBOX 0 0 1012 544

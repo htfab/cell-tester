@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698890999
+timestamp 1699029708
 << nwell >>
 rect -38 261 866 582
 << pwell >>
@@ -111,31 +111,31 @@ rect 0 17 828 48
 << obsm1 >>
 << labels >>
 rlabel locali s 211 199 245 221 6 A
-port 5 nsew signal input
+port 1 nsew signal input
 rlabel locali s 211 221 339 255 6 A
-port 5 nsew signal input
+port 1 nsew signal input
 rlabel locali s 211 255 245 265 6 A
-port 5 nsew signal input
+port 1 nsew signal input
 rlabel locali s 379 199 413 221 6 B
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 379 221 431 255 6 B
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 379 255 413 265 6 B
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 87 199 149 221 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 507 199 541 221 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 87 221 155 265 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 489 221 541 265 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 121 265 155 315 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 489 265 523 315 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 121 315 523 349 6 C
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 657 59 723 161 6 X
 port 8 nsew signal output
 rlabel locali s 689 161 723 315 6 X
@@ -143,15 +143,15 @@ port 8 nsew signal output
 rlabel locali s 657 315 723 485 6 X
 port 8 nsew signal output
 rlabel pwell s 30 -17 64 21 6 VNB
-port 1 nsew ground bidirectional
+port 5 nsew ground bidirectional
 rlabel pwell s 1 21 827 203 6 VNB
-port 1 nsew ground bidirectional
+port 5 nsew ground bidirectional
 rlabel nwell s -38 261 866 582 6 VPB
-port 2 nsew power bidirectional
+port 6 nsew power bidirectional
 rlabel metal1 s 0 -48 828 48 8 VGND
-port 3 nsew ground bidirectional abutment
+port 4 nsew ground bidirectional abutment
 rlabel metal1 s 0 496 828 592 6 VPWR
-port 4 nsew power bidirectional abutment
+port 7 nsew power bidirectional abutment
 << properties >>
 string FIXED_BBOX 0 0 828 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_ht_sc_tt05.gds

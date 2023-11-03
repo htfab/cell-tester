@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698890999
+timestamp 1699029708
 << nwell >>
 rect -38 261 1050 582
 << pwell >>
@@ -140,19 +140,19 @@ rect 201 184 259 193
 rect 753 184 811 193
 << labels >>
 rlabel locali s 489 215 707 255 6 A0
-port 5 nsew signal input
+port 1 nsew signal input
 rlabel locali s 851 199 885 221 6 A1
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 851 221 895 265 6 A1
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 857 265 895 323 6 A1
-port 6 nsew signal input
+port 2 nsew signal input
 rlabel locali s 119 153 157 199 6 S
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 89 199 157 255 6 S
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 89 255 123 265 6 S
-port 7 nsew signal input
+port 3 nsew signal input
 rlabel locali s 543 59 993 93 6 Y
 port 8 nsew signal output
 rlabel locali s 959 93 993 357 6 Y
@@ -162,15 +162,15 @@ port 8 nsew signal output
 rlabel locali s 543 451 993 485 6 Y
 port 8 nsew signal output
 rlabel pwell s 30 -17 64 21 6 VNB
-port 1 nsew ground bidirectional
+port 5 nsew ground bidirectional
 rlabel pwell s 1 21 1011 203 6 VNB
-port 1 nsew ground bidirectional
+port 5 nsew ground bidirectional
 rlabel nwell s -38 261 1050 582 6 VPB
-port 2 nsew power bidirectional
+port 6 nsew power bidirectional
 rlabel metal1 s 0 -48 1012 48 8 VGND
-port 3 nsew ground bidirectional abutment
+port 4 nsew ground bidirectional abutment
 rlabel metal1 s 0 496 1012 592 6 VPWR
-port 4 nsew power bidirectional abutment
+port 7 nsew power bidirectional abutment
 << properties >>
 string FIXED_BBOX 0 0 1012 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_ht_sc_tt05.gds
