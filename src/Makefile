@@ -17,7 +17,7 @@ VERILOG_SOURCES += $(PWD)/ring_osc.v $(PWD)/cell_wrapper.v $(PWD)/cell_tester.v
 VERILOG_SOURCES += $(PWD)/tt_um_htfab_cell_tester.v
 VERILOG_SOURCES += $(PWD)/sky130_primitives.v
 VERILOG_SOURCES += $(PWD)/sky130_fd_sc_hd.v
-VERILOG_SOURCES += $(PWD)/sky130_ht_sc_tt05_alt.v
+VERILOG_SOURCES += $(PWD)/sky130_ht_sc_tt05.v
 
 else
 
