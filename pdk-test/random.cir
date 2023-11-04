@@ -1,0 +1,42 @@
+.lib sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include ../pdk/spice/sky130_ht_sc_tt05.spice
+
+X0 A0 A1 S VGND VNB VPB VPWR Y_f sky130_fd_sc_hd__mux2i_2
+X1 A0 A1 S VGND VPWR Y_h VNB VPB sky130_ht_sc_tt05__mux2i_2
+
+X2 A B C VGND VNB VPB VPWR X_f sky130_fd_sc_hd__maj3_2
+X3 A B C VGND VPWR X_h VNB VPB sky130_ht_sc_tt05__maj3_2
+
+X4 D GATE RESET_B VGND VNB VPB VPWR Ql_f sky130_fd_sc_hd__dlrtp_1
+X5 D GATE RESET_B VGND VPWR Ql_h VNB VPB sky130_ht_sc_tt05__dlrtp_1
+
+X6 CLK D RESET_B VGND VNB VPB VPWR Qf_f sky130_fd_sc_hd__dfrtp_1
+X7 CLK D RESET_B VGND VPWR Qf_h VNB VPB sky130_ht_sc_tt05__dfrtp_1
+
+V1 VGND 0 0
+V2 VPWR 0 1.8
+V3 VNB 0 0
+V4 VPB 0 1.8
+
+V5 CLK IN0 0
+V6 RESET_B IN1 0
+V7 A0 IN2 0
+V8 A1 IN3 0
+V9 S IN4 0
+V10 A IN2 0
+V11 B IN3 0
+V12 C IN4 0
+V13 D IN2 0
+V14 GATE IN3 0
+
+A1 [IN0 IN1 IN2 IN3 IN4] input_vec
+.model input_vec filesource(file="random.stim" amploffset=[0 0 0 0 0] amplscale=[1.8 1.8 1.8 1.8 1.8] timeoffset=0 timescale=0.01u)
+
+.tran 0.1u 1000u
+
+.control
+  run
+  write random.raw v(A0) v(A1) v(S) v(Y_f) v(Y_h) v(A) v(B) v(C) v(X_f) v(X_h) v(D) v(GATE) v(RESET_B) v(Ql_f) v(Ql_h) v(CLK) v(D) v(RESET_B) v(Qf_f) v(Qf_h)
+.endc
+.end
