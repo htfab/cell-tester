@@ -138,7 +138,7 @@ class StdCell:
 
     def __init__(self, **args):
         argnames = ('libname', 'cellname', 'widthblocks', 'columns', 'spacepre', 'spacepost',
-            'diffbridges', 'polyhclasses1', 'polyhclasses2', 'polybridges',
+            'diffnclasses', 'diffpclasses', 'diffbridges', 'polyhclasses1', 'polyhclasses2', 'polybridges',
             'licon1vclasses', 'licon1hclasses', 'licon1orient',
             'polylicon1vclasses', 'polylicon1hclasses', 'polylicon1orient',
             'li1vclasses1', 'li1vclasses2', 'li1hclasses1', 'li1hclasses2', 'li1bridges',
@@ -171,23 +171,29 @@ class StdCell:
         self.licongrid = [260 + 420*i + self.cumulative_disp[i] for i in range(self.columns)]
         self.mcongrid = [230 + 460*i for i in range(self.widthblocks)]
         self.vgrid = [0] + [510 + 340*i for i in range(6)] + [2720]
+        self.diffvgrid = [235, 2485]
 
-        self.diffcells, self.diffhbridges, self.diffvbridges = [], [], []
+        tlmap = {'a': 1000, 'b': 840, 'c': 640, 'd': 420, 'e': 360}
+        self.diffcells, self.diffhbridges = [], []
         for i in range(self.columns):
-            for j in (1, 2):
-                self.diffcells.append((i, j, -125, -275, 125, 35))
-            for j in (4, 5, 6):
-                self.diffcells.append((i, j, -125, -45, 125, 275))
-            if i < self.columns-1:
-                if self.diffbridges[i] in 'hd':
-                    for j in (1, 2):
-                        self.diffhbridges.append((i, j))
-                if self.diffbridges[i] in 'hu':
-                    for j in (4, 5, 6):
-                        self.diffhbridges.append((i, j))
-            for j in (1, 4, 5):
-                self.diffvbridges.append((i, j))
-        self.difflist = renderpoly('diff', ((self.licongrid, self.vgrid, self.diffcells, self.diffhbridges, self.diffvbridges),), [])
+            br_dl = i > 0 and self.diffbridges[i-1] in 'hd'
+            br_ul = i > 0 and self.diffbridges[i-1] in 'hu'
+            br_dr = i < self.columns-1 and self.diffbridges[i] in 'hd'
+            br_ur = i < self.columns-1 and self.diffbridges[i] in 'hu'
+            dc = self.diffnclasses[i]
+            if dc == 'Z':
+                print(self.hspre[i], self.hspost[i])
+                exit()
+            dlen = min(tlmap[dc], 650)
+            uc = self.diffpclasses[i]
+            ulen = min(tlmap[uc], 1000)
+            self.diffcells.append((i, 0, -self.hspre[i]-60 if br_dl else -125, 0, self.hspost[i]+60 if br_dr else 125, dlen))
+            self.diffcells.append((i, 1, -self.hspre[i]-60 if br_ul else -125, -ulen, self.hspost[i]+60 if br_ur else 125, 0))
+            if br_dr:
+                self.diffhbridges.append((i, 0))
+            if br_ur:
+                self.diffhbridges.append((i, 1))
+        self.difflist = renderpoly('diff', ((self.licongrid, self.diffvgrid, self.diffcells, self.diffhbridges, []),), [])
 
         self.polycells, self.polyhbridges, self.polyvbridges = [], [], []
         for i in range(self.columns-1):

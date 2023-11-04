@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1699029708
+timestamp 1699069426
 << nwell >>
 rect -38 261 1418 582
 << pwell >>
@@ -19,38 +19,39 @@ rect 1133 215 1201 249
 rect 1133 249 1167 255
 rect 303 215 369 255
 << obsli1 >>
-rect 105 451 171 527
+rect 121 435 155 527
 rect 63 527 121 561
 rect 155 527 213 561
 rect 1259 527 1317 561
 rect 1351 527 1380 561
-rect 309 51 343 143
-rect 309 143 439 177
-rect 405 177 439 199
-rect 405 199 481 265
-rect 405 265 439 289
-rect 309 289 439 323
-rect 309 323 343 493
-rect 21 127 155 161
+rect 37 51 71 127
+rect 37 127 155 161
 rect 121 161 155 199
 rect 121 199 197 265
 rect 121 265 159 323
-rect 121 323 155 375
-rect 21 375 155 409
-rect 37 409 71 493
-rect 205 351 251 493
-rect 605 59 671 143
-rect 605 143 891 177
+rect 121 323 155 367
+rect 21 367 155 401
+rect 21 401 87 485
+rect 1093 451 1159 485
+rect 621 51 655 143
+rect 621 143 891 177
 rect 857 177 891 289
 rect 857 289 895 323
 rect 857 323 891 357
 rect 841 357 891 391
 rect 841 391 875 451
 rect 713 451 875 485
-rect 1093 451 1159 485
-rect 977 59 1063 93
-rect 977 93 1011 143
-rect 941 143 1011 177
+rect 309 51 343 143
+rect 309 143 439 177
+rect 405 177 439 199
+rect 405 199 481 265
+rect 405 265 439 289
+rect 309 289 439 323
+rect 309 323 343 383
+rect 293 383 359 485
+rect 189 357 255 485
+rect 997 59 1063 143
+rect 941 143 1063 177
 rect 941 177 975 199
 rect 939 199 975 215
 rect 1259 199 1293 215
@@ -234,8 +235,8 @@ port 7 nsew power bidirectional abutment
 << properties >>
 string FIXED_BBOX 0 0 1380 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_ht_sc_tt05.gds
-string GDS_START 13210
-string GDS_END 23690
+string GDS_START 13274
+string GDS_END 23802
 string LEFclass CORE
 string LEFsite unithd
 string LEFsymmetry X Y R90
