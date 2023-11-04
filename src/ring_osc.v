@@ -18,8 +18,8 @@ sky130_fd_sc_hd__inv_4 cc_ring_osc_2(.A(ring[2]), .Y(ring[3]));
     reg [7:0] counter_n;
     assign #1 ring[0] = ring[3];
     always @(posedge ring[0], negedge ring[0]) begin
-        counter[0] <= ring[0] & running;
-        counter_n[0] <= ~(ring[0] & running);
+        counter[0] <= ring[0] & gate;
+        counter_n[0] <= ~(ring[0] & gate);
     end
 `else
     wire [7:0] counter;
