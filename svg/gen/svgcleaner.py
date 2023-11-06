@@ -110,7 +110,7 @@ cg[2].attrib.pop('id')
 mg.append(cg[2])
 
 for i in sorted(cg.keys()):
-    if i % 3 != 1 and i > 2:
+    if i % 3 != 1 and i != 2:
         if len(cg[i]) > 0:
             if cg[i].get('transform') is not None:
                 cg[i].attrib.pop('id')
