@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="564"
+   height="280"
+   viewBox="-0.5 -0.5 564 280"
+   id="svg76"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="2"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="none">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         id="path2" />
+    </marker>
+  </defs>
+  <g
+     id="g75"
+     transform="translate(-7.5,-0.5)">
+    <rect
+       x="251.22789"
+       y="13.5"
+       width="80"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect1"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="290.72791"
+       y="37"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text1">DUT</text>
+    <path
+       d="M 11.227895,23.5 H 248.85789"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path1"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 11.227895,33.5 H 248.85789"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path3"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 11.227895,43.5 H 248.85789"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path5"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <rect
+       x="11.227895"
+       y="3.5"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect6" />
+    <text
+       x="30.727896"
+       y="19"
+       fill="rgb(0, 0, 0)"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000">input</text>
+    <path
+       d="m 331.22789,33.5 h 233.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path7"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <rect
+       x="511.22791"
+       y="13.5"
+       width="50"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect8" />
+    <text
+       x="535.72791"
+       y="29"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text8">cw out</text>
+    <rect
+       x="91.22789"
+       y="73.5"
+       width="120"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect9"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="150.72789"
+       y="97"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text9">input shift register</text>
+    <rect
+       x="251.22789"
+       y="73.5"
+       width="80"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect17"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="290.72791"
+       y="97"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text17">DUT</text>
+    <rect
+       x="371.22791"
+       y="73.5"
+       width="140"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect18"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="440.72791"
+       y="97"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text18">output shift register</text>
+    <path
+       d="m 211.22789,83.5 h 37.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path18"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="m 211.22789,93.5 h 37.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path20"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="m 211.22789,103.5 h 37.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path22"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="m 331.22789,86 h 37.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path24"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="m 511.22789,93.5 h 53.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path26"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <rect
+       x="371.22791"
+       y="136"
+       width="140"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect28"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="440.72791"
+       y="159.5"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text28">delay chain</text>
+    <path
+       d="M 381.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path31"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 401.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path33"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 421.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path35"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 441.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path37"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 461.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path39"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 481.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path41"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="M 501.22789,135.63 V 115.5"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path43"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <rect
+       x="121.22789"
+       y="196"
+       width="60"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect44"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="150.72789"
+       y="219.5"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text44">switch</text>
+    <path
+       d="M 151.22789,196 V 115.87"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path45"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <rect
+       x="211.22789"
+       y="196"
+       width="100"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect46"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="260.72791"
+       y="219.5"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text46">clock divider</text>
+    <rect
+       x="341.22791"
+       y="196"
+       width="100"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect47"
+       ry="5"
+       style="fill:#f2f2f2"
+       rx="5" />
+    <text
+       x="390.72791"
+       y="219.5"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text47">ring oscillator</text>
+    <path
+       id="path49"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,180 h 335.00011 a 5,5 135 0 0 5,-5 l 0,-32.5 a 5,5 135 0 1 5,-5 H 364.63"
+       transform="translate(4.2278953,-36.5)" />
+    <path
+       id="path51"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="M 7,200 H 364.63"
+       transform="translate(4.2278953,-36.5)" />
+    <path
+       d="m 211.22789,216 h -27.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path59"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       d="m 341.22789,216 h -27.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path61"
+       style="marker-end:url(#ArrowWideRounded)" />
+    <path
+       id="path66"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,280 h 236.785 a 2.9636377,2.9636377 134.65065 0 0 2.96342,-2.99978 L 246.57,262.37"
+       transform="translate(4.2278953,-24)" />
+    <path
+       id="path68"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,290 h 246.785 a 2.9767466,2.9767466 134.77708 0 0 2.97666,-2.99991 L 256.57,262.37"
+       transform="translate(4.2278953,-24)" />
+    <path
+       id="path70"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,300 h 256.785 a 2.9829084,2.9829084 134.83632 0 0 2.98286,-2.99995 L 266.57,262.37"
+       transform="translate(4.2278953,-24)" />
+    <rect
+       x="521.22791"
+       y="73.5"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect71" />
+    <text
+       x="540.72791"
+       y="89"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text71">ct out</text>
+    <rect
+       x="11.227895"
+       y="133.5"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect72" />
+    <text
+       x="30.727896"
+       y="139"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text72">mode</text>
+    <rect
+       x="11.227895"
+       y="153.5"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect73" />
+    <text
+       x="30.727896"
+       y="159"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text73">trigger</text>
+    <rect
+       x="11.227895"
+       y="236"
+       width="30"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect74" />
+    <text
+       x="25.727896"
+       y="251.5"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       text-anchor="middle"
+       id="text74">div</text>
+    <path
+       id="path78"
+       d="m 7,180 h 57 a 3,3 45 0 1 3,3 v 56.5 a 3,3 45 0 0 3,3 l 44.63,0"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       transform="translate(4.227895,-36.5)" />
+    <path
+       id="path79"
+       d="m 7,200 h 77 a 3,3 45 0 1 3,3 v 56.5 a 3,3 45 0 0 3,3 h 24.63"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       transform="translate(4.227895,-36.5)" />
+    <path
+       id="path81"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,20 h 37 a 3,3 45 0 1 3,3 v 54 a 3,3 45 0 0 3,3 h 34.63"
+       transform="translate(4.2278953,3.5)" />
+    <path
+       id="path82"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,30 h 47 a 3,3 45 0 1 3,3 v 54 a 3,3 45 0 0 3,3 h 24.63"
+       transform="translate(4.2278953,3.5)" />
+    <path
+       id="path83"
+       style="fill:none;stroke:#000000;marker-end:url(#ArrowWideRounded)"
+       d="m 7,40 h 57 a 3,3 45 0 1 3,3 v 54 a 3,3 45 0 0 3,3 h 14.63"
+       transform="translate(4.2278953,3.5)" />
+  </g>
+  <switch
+     id="switch76"
+     transform="translate(-7.5,-0.5)">
+    <g
+       requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+       id="g76" />
+    <a
+       transform="translate(0,-5)"
+       xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems"
+       target="_blank"
+       id="a76">
+      <text
+         text-anchor="middle"
+         font-size="10px"
+         x="50%"
+         y="100%"
+         id="text76">Text is not SVG - cannot display</text>
+    </a>
+  </switch>
+</svg>

@@ -14,7 +14,7 @@ Cells are built from a discrete representation. For each layer, blocks are place
 some tiles of a 6 &times; n grid. These blocks are then shifted and resized in fixed
 increments, and certain pairs of adjacent blocks are connected to each other:
 
-<img src="svg/skygen.svg" alt="steps of cell generation" height="500" />
+<img src="svg/skygen.svg" alt="steps of cell generation" width="800" />
 
 Generated cells are then written to gds, lef, mag & maglef files to allow using them
 in the openlane flow. (Verilog models and liberty characterization data have to be
@@ -88,4 +88,66 @@ directory.
 
 ## TinyTapeout design
 
-TODO
+A test design incorporating the example cells was submitted to [TT05](https://tinytapeout.com/runs/).
+
+It contains 8 copies of the following structure with the 4 foundry cells and
+the 4 custom cells inserted as DUT.
+(The ring oscillator, clock divider and switch are shared between the copies.)
+
+<img src="svg/diagram.svg" alt="" width="800" />
+
+For simple tests, a copy of the cell is directly attached to the inputs and one
+of the outputs.
+
+For advanced tests, a shift register is inserted in the input and output paths
+that can be driven much faster than the chip IO would allow.
+
+When mode is 0, the switch relays the trigger signal and the output shift
+register performs regular rotations. This allows slow rotation from input
+to output through the DUT to check the pipeline as well as preloading inputs
+and reading outputs of the advanced tests.
+
+When mode is 1, the switch gates the divided clock from the ring oscillator
+using the trigger signal, and the output shift register captures the DUT output
+into each of its bits according to the trigger running through a fast delay chain.
+So on a trigger signal the preloaded inputs are played at the pace of the
+divided clock and the DUT output is sampled into the output buffer at times
+indicated by the delay chain.
+
+Pins for the TinyTapeout design are allocated as follows:
+
+Input pins:
+
+- 0: `mux2i.A0` / `maj3.A` / `dlrtp.D` / `dfrtp.D`
+- 1: `mux2i.A1` / `maj3.B` / `dlrtp.GATE` / `dfrtp.CLK`
+- 2: `mux2i.S` / `maj3.C` / `dlrtp.RESET_B` / `dfrtp.RESET_B`
+- 3: `mode`
+- 4: `trigger`
+- 5: `div` bit 0
+- 6: `div` bit 1
+- 7: `div` bit 2
+
+Output pins:
+
+- foundry `mux2i(A0, A1, S)` direct output
+- custom `mux2i(A0, A1, S)` direct output
+- foundry `maj3(A, B, C)` direct output
+- custom `maj3(A, B, C)` direct output
+- foundry `dlrtp(D, GATE, RESET_B)` direct output
+- custom `dlrtp(D, GATE, RESET_B)` direct output
+- foundry `dfrtp(D, CLK, RESET_B)` direct output
+- custom `dfrtp(D, CLK, RESET_B)` direct output
+
+Bidirectional pins, used in output mode:
+
+- foundry `mux2i(A0, A1, S)` through pipeline
+- custom `mux2i(A0, A1, S)` through pipeline
+- foundry `maj3(A, B, C)` through pipeline
+- custom `maj3(A, B, C)` through pipeline
+- foundry `dlrtp(D, GATE, RESET_B)` through pipeline
+- custom `dlrtp(D, GATE, RESET_B)` through pipeline
+- foundry `dfrtp(D, CLK, RESET_B)` through pipeline
+- custom `dfrtp(D, CLK, RESET_B)` through pipeline
+
+Verilog sources for the design are in the [`src`](src) directory,
+along with a cocotb testbench in [`test.py`](src/test.py).
