@@ -5,8 +5,8 @@
 This repository contains
 
 - a standard cell generator for sky130, written in python using the gdstk library
-- four example cells in various formats
-- a TinyTapeout design for testing the example cells in silicon
+- four example cells ready to drop into the openlane flow
+- a TinyTapeout design wrapping the example cells in an instrumentation framework
 
 ## Cell generator
 
@@ -14,7 +14,7 @@ Cells are built from a discrete representation. For each layer, blocks are place
 some tiles of a 6 &times; n grid. These blocks are then shifted and resized in fixed
 increments, and certain pairs of adjacent blocks are connected to each other:
 
-<img src="svg/skygen.svg" alt="steps of cell generation" width="800" />
+<img src="img/skygen.svg" alt="steps of cell generation" width="800" />
 
 Generated cells are then written to gds, lef, mag & maglef files to allow using them
 in the openlane flow. (Verilog models and liberty characterization data have to be
@@ -35,42 +35,42 @@ Four cells from the `sky130_fd_sc_hd` library were recreated using the generator
 
 foundry version `sky130_fd_sc_hd__mux2i_2`:
 
-<img src="svg/sky130_fd_sc_hd__mux2i_2.svg" alt="sky130_fd_sc_hd__mux2i_2" height="250" />
+<img src="img/sky130_fd_sc_hd__mux2i_2.svg" alt="sky130_fd_sc_hd__mux2i_2" height="250" />
 
 custom version `sky130_ht_sc_tt05__mux2i_2`:
 
-<img src="svg/sky130_ht_sc_tt05__mux2i_2.svg" alt="sky130_ht_sc_tt05__mux2i_2" height="250" />
+<img src="img/sky130_ht_sc_tt05__mux2i_2.svg" alt="sky130_ht_sc_tt05__mux2i_2" height="250" />
 
 
 ### [`maj3`](https://skywater-pdk.readthedocs.io/en/main/contents/libraries/sky130_fd_sc_hd/cells/maj3/README.html) (3-input majority vote)
 
 foundry version `sky130_fd_sc_hd__maj3_2`:
 
-<img src="svg/sky130_fd_sc_hd__maj3_2.svg" alt="sky130_fd_sc_hd__maj3_2" height="250" />
+<img src="img/sky130_fd_sc_hd__maj3_2.svg" alt="sky130_fd_sc_hd__maj3_2" height="250" />
 
 custom version `sky130_ht_sc_tt05__maj3_2`:
 
-<img src="svg/sky130_ht_sc_tt05__maj3_2.svg" alt="sky130_ht_sc_tt05__maj3_2" height="250" />
+<img src="img/sky130_ht_sc_tt05__maj3_2.svg" alt="sky130_ht_sc_tt05__maj3_2" height="250" />
 
 ### [`dlrtp`](https://skywater-pdk.readthedocs.io/en/main/contents/libraries/sky130_fd_sc_hd/cells/dlrtp/README.html) (delay latch with inverted reset)
 
 foundry version `sky130_fd_sc_hd__dlrtp_1`:
 
-<img src="svg/sky130_fd_sc_hd__dlrtp_1.svg" alt="sky130_fd_sc_hd__dlrtp_1" height="250" />
+<img src="img/sky130_fd_sc_hd__dlrtp_1.svg" alt="sky130_fd_sc_hd__dlrtp_1" height="250" />
 
 custom version `sky130_ht_sc_tt05__dlrtp_1`:
 
-<img src="svg/sky130_ht_sc_tt05__dlrtp_1.svg" alt="sky130_ht_sc_tt05__dlrtp_1" height="250" />
+<img src="img/sky130_ht_sc_tt05__dlrtp_1.svg" alt="sky130_ht_sc_tt05__dlrtp_1" height="250" />
 
 ### [`dfrtp`](https://skywater-pdk.readthedocs.io/en/main/contents/libraries/sky130_fd_sc_hd/cells/dfrtp/README.html) (delay flop with inverted reset)
 
 foundry version `sky130_fd_sc_hd__dfrtp_1`:
 
-<img src="svg/sky130_fd_sc_hd__dfrtp_1.svg" alt="sky130_fd_sc_hd__dfrtp_1" height="250" />
+<img src="img/sky130_fd_sc_hd__dfrtp_1.svg" alt="sky130_fd_sc_hd__dfrtp_1" height="250" />
 
 custom version `sky130_ht_sc_tt05__dlrtp_1`:
 
-<img src="svg/sky130_ht_sc_tt05__dfrtp_1.svg" alt="sky130_ht_sc_tt05__dfrtp_1" height="250" />
+<img src="img/sky130_ht_sc_tt05__dfrtp_1.svg" alt="sky130_ht_sc_tt05__dfrtp_1" height="250" />
 
 These cells are included in the [`pdk`](pdk) directory, structured in
 the same way as the official sky130 pdk so that you can copy them into
@@ -94,7 +94,7 @@ It contains 8 copies of the following structure with the 4 foundry cells and
 the 4 custom cells inserted as DUT.
 (The ring oscillator, clock divider and switch are shared between the copies.)
 
-<img src="svg/diagram.svg" alt="" width="800" />
+<img src="img/diagram.svg" alt="" width="800" />
 
 For simple tests, a copy of the cell is directly attached to the inputs and one
 of the outputs.
