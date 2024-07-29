@@ -118,8 +118,8 @@ Pins for the TinyTapeout design are allocated as follows:
 
 Input pins:
 
-- 0: `mux2i.A0` / `maj3.A` / `dlrtp.D` / `dfrtp.D`
-- 1: `mux2i.A1` / `maj3.B` / `dlrtp.GATE` / `dfrtp.CLK`
+- 0: `mux2i.A0` / `maj3.A` / `dlrtp.GATE` / `dfrtp.CLK`
+- 1: `mux2i.A1` / `maj3.B` / `dlrtp.D` / `dfrtp.D`
 - 2: `mux2i.S` / `maj3.C` / `dlrtp.RESET_B` / `dfrtp.RESET_B`
 - 3: `mode`
 - 4: `trigger`
@@ -133,10 +133,10 @@ Output pins:
 - custom `mux2i(A0, A1, S)` direct output
 - foundry `maj3(A, B, C)` direct output
 - custom `maj3(A, B, C)` direct output
-- foundry `dlrtp(D, GATE, RESET_B)` direct output
-- custom `dlrtp(D, GATE, RESET_B)` direct output
-- foundry `dfrtp(D, CLK, RESET_B)` direct output
-- custom `dfrtp(D, CLK, RESET_B)` direct output
+- foundry `dlrtp(GATE, D, RESET_B)` direct output
+- custom `dlrtp(GATE, D, RESET_B)` direct output
+- foundry `dfrtp(CLK, D, RESET_B)` direct output
+- custom `dfrtp(CLK, D, RESET_B)` direct output
 
 Bidirectional pins, used in output mode:
 
@@ -144,10 +144,10 @@ Bidirectional pins, used in output mode:
 - custom `mux2i(A0, A1, S)` through pipeline
 - foundry `maj3(A, B, C)` through pipeline
 - custom `maj3(A, B, C)` through pipeline
-- foundry `dlrtp(D, GATE, RESET_B)` through pipeline
-- custom `dlrtp(D, GATE, RESET_B)` through pipeline
-- foundry `dfrtp(D, CLK, RESET_B)` through pipeline
-- custom `dfrtp(D, CLK, RESET_B)` through pipeline
+- foundry `dlrtp(GATE, D, RESET_B)` through pipeline
+- custom `dlrtp(GATE, D, RESET_B)` through pipeline
+- foundry `dfrtp(CLK, D, RESET_B)` through pipeline
+- custom `dfrtp(CLK, D, RESET_B)` through pipeline
 
 Verilog sources for the design are in the [`src`](src) directory,
 along with a cocotb testbench in [`test.py`](src/test.py).
